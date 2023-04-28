@@ -1,0 +1,1345 @@
+chestItem:
+   name: "&e&lTreasure Tropical Chest &7(Right click!)"
+   item: "CHEST"
+   enchanted: false
+   lore:
+      - "&7Open to recieve a random"
+      - "&7cache of &e&nTreasure&7 equipment"
+
+permissionRequired: false
+chestSize: 3
+quickOpen: false
+noDuplicates: false
+
+selectionMenu:
+   name: "Treasure Chest"
+   selectCount: 4
+   icons:
+      notSelected:
+         name: "&e&l???"
+         display: "CHEST"
+         enchanted: false
+         lore:
+            - "&7Choose 4 mystery chests, and"
+            - "&7your loot will be revealed."
+      selected:
+         name: "&e&l???"
+         display: "THIN_GLASS"
+         enchanted: false
+         lore:
+            - "&7You have selected this mystery chest."
+   sounds:
+      select:
+         sound: "ORB_PICKUP"
+         volume: 2.0
+         pitch: 2.0
+
+shufflingMenu:
+   name: "Shuffling..."
+   animation: "DEFAULT"
+   settings:
+      keepRewardsPositions: true
+      animationSpeed: 2
+   sounds:
+      shuffle1:
+         sound: "ORB_PICKUP"
+         volume: 1
+         pitch: 1.0
+      shuffle2:
+         sound: "CLICK"
+         volume: 1
+         pitch: 0.5
+
+rewardsMenu:
+   name: "Rewards"
+   sounds:
+      takereward:
+         sound: "BAT_TAKEOFF"
+         volume: 1
+         pitch: 2.0
+   closeCommands: 
+      - ""
+
+tiers:
+   basic:
+      name: "&bBasic"
+      display: "STAINED_GLASS_PANE 3"
+      enchanted: false
+      chance: 50
+   rare:
+      name: "&aRare"
+      display: "STAINED_GLASS_PANE 5"
+      enchanted: false
+      chance: 25
+   legendary:
+      name: "&6legendary"
+      display: "STAINED_GLASS_PANE 1"
+      enchanted: false
+      chance: 10
+   divine:
+      name: "&cDivine"
+      display: "STAINED_GLASS_PANE 14"
+      enchanted: false
+      chance: 5
+
+rewards:
+   PigmenSpawner:
+      tier: "basic"
+      chance: 10
+      name: "&dZombie Pigmen Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p pigman 1"
+   ZombieSpawner:
+      tier: "basic"
+      chance: 10
+      name: "&aZombie Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p zombie 1"
+   SkeletonSpawner:
+      tier: "basic"
+      chance: 10
+      name: "&fSkeleton Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p skeleton 1"
+   SheepSpawner:
+      tier: "basic"
+      chance: 10
+      name: "&eSheep Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p sheep 1"
+   5000:
+      tier: "basic"
+      chance: 20
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$5000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 5000"
+   10000:
+      tier: "basic"
+      chance: 15
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$10000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 10000"
+   BasicBook:
+      tier: "basic"
+      chance: 20
+      name: "&b&lBasic &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Basic 1"
+   RareBook:
+      tier: "basic"
+      chance: 20
+      name: "&a&lRare &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Rare 1"
+   LegendaryBook:
+      tier: "basic"
+      chance: 20
+      name: "&6&lLegendary &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   DivineBook:
+      tier: "basic"
+      chance: 10
+      name: "&c&lDivine &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Divine 1"
+   KitHero:
+      tier: "basic"
+      chance: 20
+      name: "&a&lKIT '&fHero&a&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Hero kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitHero 1 %p"
+   KitElite:
+      tier: "basic"
+      chance: 17
+      name: "&d&lKIT '&fElite&d&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Elite kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitElite 1 %p"
+   KitTitan:
+      tier: "basic"
+      chance: 15
+      name: "&c&lKIT '&fTitan&c&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Titan kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitTitan 1 %p"
+   Tnt:
+      tier: "basic"
+      chance: 20
+      name: "&fTnt"
+      display: "TNT 32"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p tnt 32"
+   Obsidian:
+      tier: "basic"
+      chance: 20
+      name: "&fObsidian"
+      display: "OBSIDIAN 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p obsidian 16"
+   Hopper:
+      tier: "basic"
+      chance: 15
+      name: "&fHopper"
+      display: "HOPPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 1"
+   PigmsdfggfdjglfhfghkghjdenSpawner:
+      tier: "rare"
+      chance: 10
+      name: "&dZombie Pigmen Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p pigman 1"
+   ZombiegasgsdgaggsjsfgjSpawner:
+      tier: "rare"
+      chance: 10
+      name: "&aZombie Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p zombie 1"
+   SkelegfhdkdglkdghjtonSpawner:
+      tier: "rare"
+      chance: 10
+      name: "&fSkeleton Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p skeleton 1"
+   SheepasfdhsdfhSpawner:
+      tier: "rare"
+      chance: 10
+      name: "&eSheep Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p sheep 1"
+   500hgkfhjldj0:
+      tier: "rare"
+      chance: 20
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$5000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 5000"
+   100lfjkhhgjdfjfdgsj00:
+      tier: "rare"
+      chance: 15
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$10000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 10000"
+   BasicBoasfdfshsfgjsdok:
+      tier: "rare"
+      chance: 20
+      name: "&b&lBasic &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Basic 1"
+   RareBohgjfglhgfjhsok:
+      tier: "rare"
+      chance: 20
+      name: "&a&lRare &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Rare 1"
+   LegendsfdghfgjdfgjdfgjaryBook:
+      tier: "rare"
+      chance: 12
+      name: "&6&lLegendary &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   DivinehkfghkdfgjdfgBook:
+      tier: "rare"
+      chance: 10
+      name: "&c&lDivine &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Divine 1"
+   KitdfgjdfgjfsjgHero:
+      tier: "rare"
+      chance: 20
+      name: "&a&lKIT '&fHero&a&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Hero kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitHero 1 %p"
+   KitElhfgjfghjsfghite:
+      tier: "rare"
+      chance: 17
+      name: "&d&lKIT '&fElite&d&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Elite kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitElite 1 %p"
+   KitTsfdgsdhgfsdfhitan:
+      tier: "rare"
+      chance: 15
+      name: "&c&lKIT '&fTitan&c&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Titan kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitTitan 1 %p"
+   Tndfsgdfhdsfht:
+      tier: "rare"
+      chance: 20
+      name: "&fTnt"
+      display: "TNT 32"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p tnt 32"
+   Obsidadgasdfsadfian:
+      tier: "rare"
+      chance: 20
+      name: "&fObsidian"
+      display: "OBSIDIAN 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p obsidian 16"
+   Hoppesfdgsdfhr:
+      tier: "rare"
+      chance: 15
+      name: "&fHopper"
+      display: "HOPPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 1"
+   PigmsdsfdgsjhsdfhsdfhfggfdjglfhfghkghjdenSpawner:
+      tier: "legendary"
+      chance: 10
+      name: "&dZombie Pigmen Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p pigman 1"
+   ZombisdfghsdfhsdfhegasgsdgaggsjsfgjSpawner:
+      tier: "legendary"
+      chance: 10
+      name: "&aZombie Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p zombie 1"
+   SkelegsdfhfdgjsjfhdkdglkdghjtonSpawner:
+      tier: "legendary"
+      chance: 10
+      name: "&fSkeleton Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p skeleton 1"
+   SheesdafdsfhgsdfhpasfdhsdfhSpawner:
+      tier: "legendary"
+      chance: 10
+      name: "&eSheep Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p sheep 1"
+   500hsdafadfhsdhgkfhjldj0:
+      tier: "legendary"
+      chance: 20
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$5000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 5000"
+   100lfjafdgdjhdfgjkhhgjdfjfdgsj00:
+      tier: "legendary"
+      chance: 15
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$10000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 10000"
+   BasicBogfhfgjsfghasfdfshsfgjsdok:
+      tier: "legendary"
+      chance: 20
+      name: "&b&lBasic &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Basic 1"
+   RareBohgfsdgsdfhdafhjfglhgfjhsok:
+      tier: "legendary"
+      chance: 20
+      name: "&a&lRare &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Rare 1"
+   LegendsfdsdafgfdhgsdhghfgjdfgjdfgjaryBook:
+      tier: "legendary"
+      chance: 15
+      name: "&6&lLegendary &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   DivinehlkhjgghghfjkfghkdfgjdfgBook:
+      tier: "legendary"
+      chance: 12
+      name: "&c&lDivine &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Divine 1"
+   KitdfgasdffsdhdfghjjdfgjfsjgHero:
+      tier: "legendary"
+      chance: 20
+      name: "&a&lKIT '&fHero&a&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Hero kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitHero 1 %p"
+   KitElhsdfggjfgdsfgjfghjsfghite:
+      tier: "legendary"
+      chance: 17
+      name: "&d&lKIT '&fElite&d&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Elite kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitElite 1 %p"
+   KitTshgfdgsfdhdfgjfdgsdhgfsdfhitan:
+      tier: "legendary"
+      chance: 15
+      name: "&c&lKIT '&fTitan&c&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Titan kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitTitan 1 %p"
+   Tndfsgdfhgkfghkdghkghkhdsfht:
+      tier: "legendary"
+      chance: 20
+      name: "&fTnt"
+      display: "TNT 32"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p tnt 32"
+   Obsidadggjdfgjsdjsfgjasdfsadfian:
+      tier: "legendary"
+      chance: 20
+      name: "&fObsidian"
+      display: "OBSIDIAN 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p obsidian 16"
+   Hoppessdfhdfgfdgsdfhr:
+      tier: "legendary"
+      chance: 15
+      name: "&fHopper"
+      display: "HOPPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 1"
+   PigmsdsfdgsdfgsdfgsdfgsdfgsdfgdsfgsjhsdfhsdfhfggfdjglfhfghkghjdenSpawner:
+      tier: "divine"
+      chance: 10
+      name: "&dZombie Pigmen Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p pigman 1"
+   ZombisdsdfgfhsdfhsdfhfghsdfhsdfhegasgsdgaggsjsfgjSpawner:
+      tier: "divine"
+      chance: 10
+      name: "&aZombie Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p zombie 1"
+   SkelesdfgsdfhsdfhsdfhgsdfhfdgjsjfhdkdglkdghjtonSpawner:
+      tier: "divine"
+      chance: 10
+      name: "&fSkeleton Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p skeleton 1"
+   SheesdafsfdhgfddfgsdfgdsfhgsdfhpasfdhsdfhSpawner:
+      tier: "divine"
+      chance: 10
+      name: "&eSheep Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p sheep 1"
+   500hsdadsfghsdfhsdfhsdfhsdfhfadfhsdhgkfhjldj0:
+      tier: "divine"
+      chance: 20
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$5000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 5000"
+   100lfjaffgdhfdghdfghdfghsdfhdgdjhdfgjkhhgjdfjfdgsj00:
+      tier: "divine"
+      chance: 15
+      name: "&b&lArcane Note &7(Right Click)"
+      display: "PAPER 1"
+      lore:
+         - "&dValue &f$10000"
+         - "&dSigner &7Arcane"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "banknotes give %p 10000"
+   BasicBosdfhsdfhfgdhsdfhsdfhgfhfgjsfghasfdfshsfgjsdok:
+      tier: "divine"
+      chance: 20
+      name: "&b&lBasic &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Basic 1"
+   RareBohgffghfdghsdhdfhsdgsdfhdafhjfglhgfjhsok:
+      tier: "divine"
+      chance: 20
+      name: "&a&lRare &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Rare 1"
+   LegendsfdssdfhdgshsdhsdhdafgfdhgsdhghfgjdfgjdfgjaryBook:
+      tier: "divine"
+      chance: 15
+      name: "&6&lLegendary &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   DivinehlksdfgfhsdhgfhjgghghfjkfghkdfgjdfgBook:
+      tier: "divine"
+      chance: 12
+      name: "&c&lDivine &8» &7Enchant Book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Divine 1"
+   KitdfgasdsdfgsdfgasdgffsdhdfghjjdfgjfsjgHero:
+      tier: "divine"
+      chance: 20
+      name: "&a&lKIT '&fHero&a&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Hero kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitHero 1 %p"
+   KitElhsdfhsghsdfhdfshsdfggjfgdsfgjfghjsfghite:
+      tier: "divine"
+      chance: 17
+      name: "&d&lKIT '&fElite&d&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Elite kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitElite 1 %p"
+   KitTshgdfshsdfgsdfgffdgsfdhdfgjfdgsdhgfsdfhitan:
+      tier: "divine"
+      chance: 15
+      name: "&c&lKIT '&fTitan&c&l' &7(Right Click)"
+      display: "NETHER_STAR 1"
+      lore:
+         - '&7Right-click to redeem the Titan kit'
+         - ''
+         - '&c&l(!) &7Make sure you have inventory space!'
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give KitTitan 1 %p"
+   Tndfsgdfhgkfgfhdsdfhdsfhhkdghkghkhdsfht:
+      tier: "divine"
+      chance: 20
+      name: "&fTnt"
+      display: "TNT 32"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p tnt 32"
+   Obsidadggjdfgasdfasdfasdfjsdjsfgjasdfsadfian:
+      tier: "divine"
+      chance: 20
+      name: "&fObsidian"
+      display: "OBSIDIAN 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p obsidian 16"
+   Hoppessdfdsfsghsdfhhdfgfdgsdfhr:
+      tier: "divine"
+      chance: 15
+      name: "&fHopper"
+      display: "HOPPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 1"
+   CookedBeef:
+      tier: "basic"
+      chance: 20
+      name: "&fSteak"
+      display: "COOKED_BEEF 4"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p steak 4"
+   CookedBefsdgsdfgef:
+      tier: "rare"
+      chance: 20
+      name: "&fSteak"
+      display: "COOKED_BEEF 4"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p steak 4"
+   CookedfgdghshsdfhBeef:
+      tier: "legendary"
+      chance: 20
+      name: "&fSteak"
+      display: "COOKED_BEEF 4"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p steak 4"
+   CookedBedhdfhfasdhgsdfhef:
+      tier: "divine"
+      chance: 20
+      name: "&fSteak"
+      display: "COOKED_BEEF 4"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p steak 4"
+   Apple:
+      tier: "basic"
+      chance: 20
+      name: "&fApple"
+      display: "APPLE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p apple 1"
+   Apfdgdfhdhsahple:
+      tier: "rare"
+      chance: 20
+      name: "&fApple"
+      display: "APPLE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p apple 1"
+   Aphdgfjsdfhsdfhe:
+      tier: "legendary"
+      chance: 20
+      name: "&fApple"
+      display: "APPLE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p apple 1"
+   Appgfhgfdhgsfafgafhgfhfdshagasgdfle:
+      tier: "divine"
+      chance: 20
+      name: "&fApple"
+      display: "APPLE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p apple 1"
+   RawChicken:
+      tier: "basic"
+      chance: 20
+      name: "&fRaw Chicken"
+      display: "RAW_CHICKEN 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p rawchicken 1"
+   RawChickdfsgsdhdsfhen:
+      tier: "rare"
+      chance: 20
+      name: "&fRaw Chicken"
+      display: "RAW_CHICKEN 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p rawchicken 1"
+   RawChifdgdgfhsdfhsgjcken:
+      tier: "legendary"
+      chance: 20
+      name: "&fRaw Chicken"
+      display: "RAW_CHICKEN 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p rawchicken 1"
+   RawChgfdhfgjsfgjhsdgicken:
+      tier: "divine"
+      chance: 20
+      name: "&fRaw Chicken"
+      display: "RAW_CHICKEN 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p rawchicken 1"
+   Carrot:
+      tier: "basic"
+      chance: 20
+      name: "&fCarrot"
+      display: "CARROT 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p carrot 1"
+   Carrofdgsfdhsdfhsfgjt:
+      tier: "rare"
+      chance: 20
+      name: "&fCarrot"
+      display: "CARROT 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p carrot 1"
+   Cargsfdhsdfjsfgjadfhafgdafdgasdgasdfdfrot:
+      tier: "legendary"
+      chance: 20
+      name: "&fCarrot"
+      display: "CARROT 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p carrot 1"
+   Carrsfdhfgfgfdasgdfhadfhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fCarrot"
+      display: "CARROT 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p carrot 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdfgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fIron Sword"
+      display: "IRON_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironsword 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdfgjfdgdfhghfjdfgjgfhfgjgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fIron Sword"
+      display: "IRON_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironsword 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdgfhgfdjdfgjhfgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fIron Sword"
+      display: "IRON_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironsword 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdfgjfdgjsghhgjfgdfdjshghhhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fIron Sword"
+      display: "IRON_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironsword 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fIron Axe"
+      display: "IRON_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironaxe 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdfgfdhgfdhghdgfjdhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fIron Axe"
+      display: "IRON_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironaxe 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdfhdgfjdgkjnbngbghsghdhdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fIron Axe"
+      display: "IRON_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironaxe 1"
+   Carrsfdhfgfgfdasgdfhadfgdhgjdfhljhgldfghgfhshdfgjdhfgjgdfjdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fIron Axe"
+      display: "IRON_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironaxe 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fIron Helmet"
+      display: "IRON_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironhelmet 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagdghfgfdjdhjdhjagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fIron Helmet"
+      display: "IRON_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironhelmet 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsffsgdsgsdgasgasgdgfsfdggfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fIron Helmet"
+      display: "IRON_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironhelmet 1"
+   Carrsfdhfgfgfdsfdgsfdhsdfhshfdghgshasgdfhadfgfdshjlfdgagagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fIron Helmet"
+      display: "IRON_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironhelmet 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagagfgdhdgffggfhfdjghhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fIron Chestplate"
+      display: "IRON_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironchestplate 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagagfdgsgfhshdfhfgjhfdgjfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fIron Chestplate"
+      display: "IRON_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironchestplate 1"
+   Carrsfdhfgfgfddffgsggvcgxfdgasgdfhadfgfdshjlfdgagagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fIron Chestplate"
+      display: "IRON_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironchestplate 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshretrtuertyurteuyertujlfdgagagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fIron Chestplate"
+      display: "IRON_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironchestplate 1"
+   Carrsfdhfgfgfdasgdfhadfgffdgdsgfhgshgshdfhsghdshjlfdgagagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fIron Leggings"
+      display: "IRON_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironleggings 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagadfgdfgrterteyuytgfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fIron Leggings"
+      display: "IRON_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironleggings 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjghghjrtwerwerwerwerlfdgagagfgdhdgfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fIron Leggings"
+      display: "IRON_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironleggings 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagagfgdhdgfhhfbdfsaljsdfgdfgs;dfgshdfgjdsbfgsdfgdsgaggfdgsdfgjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fIron Leggings"
+      display: "IRON_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironleggings 1"
+   Carrsfdhfgfgfdasgdfhadfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fIron Boots"
+      display: "IRON_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironboots 1"
+   Carrsfdhfgfgfdasgdfhadsdfgdsfasdfesrewrfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fIron Boots"
+      display: "IRON_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironboots 1"
+   Carrsfdhfgfgfdasgdfha;sdfgjdsfghsdgsdgasdgdsfgagdfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fIron Boots"
+      display: "IRON_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironboots 1"
+   Carrsfdhfgfgfdasgdfhaddfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fIron Boots"
+      display: "IRON_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p ironboots 1"
+   Carrsfdhfgfgfdasgdfhadfggsfdghdfghdgsfhdsafhsdfhfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fEnder Pearl"
+      display: "ENDER_PEARL 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p enderpearl 1"
+   Carrsfdhfgfgfdasgdfhadfggsfdgsfhdsafhsdfhfdshfgsdghfsdhdfsdfhsgfsgfsfdgjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fEnder Pearl"
+      display: "ENDER_PEARL 4"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p enderpearl 4"
+   Carrsfdhfgfgfdasgdfhadfggsfdgsfhdsafhsdfhfdshjlfhfjgljhfkfhkdhjsdgsfhfgdhfgdjfdgjgfhkfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fEnder Pearl"
+      display: "ENDER_PEARL 12"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p enderpearl 12"
+   Carrsfdhfgfgfdasgdfhadfggsfdgsfhdsafhdasffgghgdfhsfdhagagassdfhdfhasdfdgjfgjfggjkghkghkhjkl;fghjfgjfsdgghafsdfhfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fEnder Pearl"
+      display: "ENDER_PEARL 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p enderpearl 16"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fDiamond Sword"
+      display: "DIAMOND_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondsword 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuegfdhgfjghjhdktdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fDiamond Sword"
+      display: "DIAMOND_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondsword 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdfdgdhhsdfhdghshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fDiamond Sword"
+      display: "DIAMOND_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondsword 1"
+   Carrsfdhfsdffdsgfdhsghsgfhsfghsghdgfjgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fDiamond Sword"
+      display: "DIAMOND_SWORD 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondsword 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfhadsbgkhuyrgsdfggasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fDiamond Axe"
+      display: "DIAMOND_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondaxe 1"
+   Carfdgfsfhshshsfhshrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fDiamond Axe"
+      display: "DIAMOND_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondaxe 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhfdgsfdhsfdhsdfhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fDiamond Axe"
+      display: "DIAMOND_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondaxe 1"
+   Carrsfdhfgsdgdfhsgfjfsgjsdhfdhshfsdfhsfdghahafdhdfhsghfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fDiamond Axe"
+      display: "DIAMOND_AXE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondaxe 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgdfhfgjddfjgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fDiamond Helmet"
+      display: "DIAMOND_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondhelmet 1"
+   Carrsfdhfgfgyweagrtuywtadgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fDiamond Helmet"
+      display: "DIAMOND_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondhelmet 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgwtyegiuyqwehksdfgjsdgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fDiamond Helmet"
+      display: "DIAMOND_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondhelmet 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagaghjsdfgkhbdfghgsfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fDiamond Helmet"
+      display: "DIAMOND_HELMET 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondhelmet 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgjhsagkhbvysudrgsrdgfdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fDiamond Chestplate"
+      display: "DIAMOND_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondchestplate 1"
+   Carrsfdhfgfgfdasgdfhaddyrgtabkhdfbhbgfgadfgweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fDiamond Chestplate"
+      display: "DIAMOND_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondchestplate 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgashdfbgrdgbdfhjgbldsfgsdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fDiamond Chestplate"
+      display: "DIAMOND_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondchestplate 1"
+   CarrsfdhyrgoaBRBDFSBGLUSYDGFAGfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fDiamond Chestplate"
+      display: "DIAMOND_CHESTPLATE 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondchestplate 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fDiamond Leggings"
+      display: "DIAMOND_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondleggings 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgkhsjdfbgdbfgdfgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fDiamond Leggings"
+      display: "DIAMOND_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondleggings 1"
+   Carrsfdhfgfgftuasgygqrnqrihlefksdjfsdgvdfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fDiamond Leggings"
+      display: "DIAMOND_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondleggings 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdfgsgfagfdyurthongshjfbguyasdgfsisurlgtbffdgdfgsdfgsdfgdfgsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fDiamond Leggings"
+      display: "DIAMOND_LEGGINGS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondleggings 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdyukesrgtusgkhdfbgdfgdfhsdhfgsgfagfdsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "basic"
+      chance: 20
+      name: "&fDiamond Boots"
+      display: "DIAMOND_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondboots 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteyrthetbuyewsvrtuseybgjdfgdgdhuueruirrtyuetdyukesrgtusgkhdfbgdfgdfhsdhfgsgfagfdsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "rare"
+      chance: 20
+      name: "&fDiamond Boots"
+      display: "DIAMOND_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondboots 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdyukesrgtusgkhdfbgdfgdfhsdlsuidrhtidfhgbfdhjbghdjsfgdfghfgsgfagfdsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "legendary"
+      chance: 20
+      name: "&fDiamond Boots"
+      display: "DIAMOND_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondboots 1"
+   Carrsfdhfgfgfdasgdfhaddweqrertrtygsrtewryrteuueruirrtyuetdyukesrgtusgkhdfbgdfgdfhsdhfgsgfagfsayurgetyuegriytwryquwrgbrhjqkrubsdfblsdgdsfmfdsgdfgasgasdglusrhgbhjgbsdufvuylsdagasgasdgasdgfgfdshjlfdgagagfgdhdfggfhhgjl;hkgfhghssfggfhhfjfgdhgjdfhdgfjdgkjdfjsghshsfgfdgsfhsfhgjfdgjshhggjdfgjhjhasfdhot:
+      tier: "divine"
+      chance: 20
+      name: "&fDiamond Boots"
+      display: "DIAMOND_BOOTS 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p diamondboots 1"

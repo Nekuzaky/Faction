@@ -1,0 +1,8 @@
+prefix: '&a'
+saveLocation: true
+saveInventory: true
+inInterfaceBlockPlace: false
+inInterfaceBlockBreak: false
+inInterfaceItemPickup: false
+inInterfaceItemDrop: false
+hcfMode: true

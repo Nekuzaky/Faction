@@ -1,0 +1,98 @@
+permissionnode: tradeplus.trade
+permissionrequired: false
+requestcooldownseconds: 20
+blocked:
+  blacklist:
+  - bedrock
+  - '97:3'
+  named-items: false
+action: crouchrightclick
+ranges:
+  sameworld: 1.0E9
+  crossworld: 1.0E11
+  allowcrossworld: true
+  blocked-worlds:
+  - ThisWorldDoesntExistButItsBlocked
+  - NeitherDoesThisOneButItIsToo
+antiscam:
+  countdown: 5
+  cancelonchange: true
+  preventchangeonaccept: true
+gui:
+  title: Vous                     Lui
+  spectator-title: Joueur 1 <|          |> Joueur 2
+  head: '&7Vous échangez avec: &3&l%PLAYER%'
+  showhead: false
+  accept: '&a&lCliquez pour accepter l''échange'
+  cancel: '&c&lCliquez pour annuler l''échange'
+  showaccept: true
+  theyaccept: ' '
+  theycancel: ' '
+  acceptid: '160:14'
+  cancelid: '160:5'
+  separatorid: '160'
+  force:
+    enabled: false
+    type: watch
+    name: '&4&lForce Trade'
+    lore:
+    - '&cClick here to force'
+    - '&cacceptance.'
+    - ''
+    - '&cThis shows only for admins.'
+extras:
+  economy:
+    enabled: false
+    material: '266'
+    display: '&7Your current money offer is &e%AMOUNT%'
+    theirdisplay: '&7Their current money offer is &e%AMOUNT%'
+    lore:
+    - '&aLeft Click to &clower &ayour offer by %PLAYERINCREMENT%'
+    - '&aRight Click to &braise &ayour offer by %PLAYERINCREMENT%'
+    - '&aShift + Left Click to &clower &ayour increment by %INCREMENT%'
+    - '&aShift + Right Click to &braise &ayour increment by %INCREMENT%'
+    increment: 10.0
+    taxpercent: 0
+  experience:
+    enabled: false
+    material: exp_bottle
+    display: '&7Your current XP offer is &e%AMOUNT%'
+    theirdisplay: '&7Their current XP offer is &e%AMOUNT%'
+    lore:
+    - '&aLeft Click to &clower &ayour offer by %PLAYERINCREMENT%'
+    - '&aRight Click to &braise &ayour offer by %PLAYERINCREMENT%'
+    - '&aShift + Left Click to &clower &ayour increment by %INCREMENT%'
+    - '&aShift + Right Click to &braise &ayour increment by %INCREMENT%'
+    increment: 5
+    taxpercent: 0
+  playerpoints:
+    enabled: false
+    material: diamond
+    display: '&7Your current PlayerPoints offer is &b%AMOUNT%'
+    theirdisplay: '&7Their current PlayerPoints offer is &b%AMOUNT%'
+    lore:
+    - '&aLeft Click to &clower &ayour offer by %PLAYERINCREMENT%'
+    - '&aRight Click to &braise &ayour offer by %PLAYERINCREMENT%'
+    - '&aShift + Left Click to &clower &ayour increment by %INCREMENT%'
+    - '&aShift + Right Click to &braise &ayour increment by %INCREMENT%'
+    increment: 5
+    taxpercent: 0
+  griefprevention:
+    enabled: false
+    material: diamond_pickaxe
+    display: '&7Your current GriefPrevention offer is &b%AMOUNT%'
+    theirdisplay: '&7Their current GriefPrevention offer is &b%AMOUNT%'
+    lore:
+    - '&aLeft Click to &clower &ayour offer by %PLAYERINCREMENT%'
+    - '&aRight Click to &braise &ayour offer by %PLAYERINCREMENT%'
+    - '&aShift + Left Click to &clower &ayour increment by %INCREMENT%'
+    - '&aShift + Right Click to &braise &ayour increment by %INCREMENT%'
+    increment: 1
+    taxperecent: 0
+soundeffects:
+  enabled: true
+  onchange: false
+  onaccept: true
+  oncomplete: true
+  oncountdown: true
+configversion: 2.33

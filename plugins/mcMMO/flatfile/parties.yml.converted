@@ -1,0 +1,16 @@
+Thib38_S:
+  Leader: 2f714854-0499-3091-b57b-2b4ca3ea2af8|Thib38_S
+  Locked: true
+  Level: 2
+  Xp: 1044
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - 2f714854-0499-3091-b57b-2b4ca3ea2af8|Thib38_S

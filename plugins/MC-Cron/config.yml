@@ -1,0 +1,16 @@
+jobs:
+  save:
+    time: every 1 hour
+    commands:
+    - say Saving world!
+    - save-all
+    - say Save Complete!
+  restart:
+    time: every 1 day of week at 5:30
+    commands:
+    - say Redémarrage dans 10 secondes !
+    - timer 10 stop
+  tps:
+    time: every 30 minutes
+    commands:
+    - tps

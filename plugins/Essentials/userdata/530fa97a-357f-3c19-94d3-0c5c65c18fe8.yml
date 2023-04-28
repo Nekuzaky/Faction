@@ -1,0 +1,21 @@
+lastAccountName: test
+timestamps:
+  login: 1682611309917
+  lastteleport: 1682611602372
+  logout: 1682612623735
+ipAddress: 213.49.44.179
+lastlocation:
+  world: world
+  x: 308.1956861877906
+  y: 85.0
+  z: -2779.6584584576003
+  yaw: 32.48523
+  pitch: 31.499918
+logoutlocation:
+  world: McShop
+  x: 269.3689386855812
+  y: 113.0
+  z: 286.1264134116556
+  yaw: 215.84106
+  pitch: -16.649912
+money: '0.0'

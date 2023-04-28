@@ -1,0 +1,66 @@
+Groups:
+  Fondateur:
+    Permission: nte.fondateur
+    Prefix: '&cFondateur '
+    Suffix: ''
+    SortPriority: 1
+  RespTech:
+    Permission: nte.tech
+    Prefix: '&cResp. Tech. '
+    Suffix: ''
+    SortPriority: 3
+  RespStaff:
+    Permission: nte.staff
+    Prefix: '&cResp. Staff. '
+    Suffix: ''
+    SortPriority: 4
+  Admin:
+    Permission: nte.admin
+    Prefix: '&4Admin '
+    Suffix: ''
+    SortPriority: 5
+  Moderateur:
+    Permission: nte.moderateur
+    Prefix: '&2Modérateur '
+    Suffix: ''
+    SortPriority: 6
+  ytb:
+    Permission: nte.ytb
+    Prefix: 'You&ctuber '
+    Suffix: ''
+    SortPriority: 7
+  Supreme:
+    Permission: nte.supreme
+    Prefix: '&aEmpereur '
+    Suffix: ''
+    SortPriority: 8
+  Rubis:
+    Permission: nte.rubis
+    Prefix: '&6Prince '
+    Suffix: ''
+    SortPriority: 9
+  Emeraude:
+    Permission: nte.emeraude
+    Prefix: '&cRoi '
+    Suffix: ''
+    SortPriority: 10
+  Saphir:
+    Permission: nte.saphir
+    Prefix: '&3Mornarque '
+    Suffix: ''
+    SortPriority: 11
+  Cuivre:
+    Permission: nte.cuivre
+    Prefix: '&dTemplier '
+    Suffix: ''
+    SortPriority: 12
+  Joueur:
+    Permission: nte.joueur
+    Prefix: '&9Gladiateur '
+    Suffix: ''
+    SortPriority: 13
+  Guerrier:
+    Permission: nte.guerrier
+    Prefix: '&7Guerrier '
+    Suffix: ''
+    SortPriority: -1

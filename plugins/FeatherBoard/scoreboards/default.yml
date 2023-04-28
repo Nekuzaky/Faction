@@ -1,0 +1,50 @@
+lines:
+  title:
+    text: 
+    - "&4Altcore &f| &c{onlineplayers} connectés"
+    interval: 3
+  header:
+    text: 
+    - "&7&l&m----------------"
+    interval: 100
+  player-label:
+    text: 
+    - "&4╔ &cVotre faction &f&l:"
+    interval: 100
+  player:
+    text: 
+    - "&4║ &7Leader: &f{factions1.6_faction_leadername}"
+    interval: 100
+  spacer-money:
+    text: 
+    - "&4║ &7Power: &f{factionsuuid_faction_power_rounded}/{factionsuuid_faction_maxpower_rounded}"
+    interval: 100
+  spacer-player:
+    text: 
+    - "&4╠ &cPersonnel &f&l:"
+    interval: 100
+  connectes-label:
+    text: 
+    - "&4║ &7Argent: &f{money}"
+    interval: 100
+  moneytimesplayed-label:
+    text: 
+    - "&4║ &7Kills: &f{stat_pkills}"
+    interval: 100
+  moneytimesplayed-labele:
+    text: 
+    - "&4║ &7Morts: &f{stat_deaths}"
+    interval: 100
+  connectes-label2:
+    text: 
+    - "&4╚"
+    interval: 100
+  moneytimesplayed-label2:
+    text: 
+    - "&cAlt&4core &7| &fAltcore.fr"
+    interval: 100
+  footer:
+    text: 
+    - "&7&l&m----------------"
+    interval: 100
+

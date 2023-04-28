@@ -1,0 +1,59 @@
+SCOREBOARD:
+  USE_SCOREBOARD: false
+  UPDATE_TICKS: 20
+  SCOREBOARD_TITLE: '&a&lKOTH'
+  SCOREBOARD_LINES:
+  - ' '
+  - '&6&lRunning KOTH:'
+  - '%koth%'
+  - ' '
+  - '&6&lTime Remaining:'
+  - '%timeleft%'
+  - ' '
+  - '&6&lLocation:'
+  - 'X: %x%'
+  - 'Y: %y%'
+  - 'Z: %z%'
+  - ' '
+  - '&6&lControlling:'
+  - 'Player: %player%'
+  - 'Faction: %faction%'
+REWARDS:
+  ITEM_ID: 131
+  ITEM_DISPLAY_NAME: '&aClef KoTH'
+  USE_REWARDS: true
+  REWARD_TYPE: KEY
+  MAX_LOOT_ITEMS: 30
+  MIN_LOOT_ITEMS: 8
+  ITEM_LORE: '&7Cliquez droit sur le coffre au spawn !'
+  RUN_COMMANDS:
+  - /example %player% %faction% %world% %koth%
+  CHEST_SIZE: 27
+KNOCK_DELAY: 5
+AUTOMATIC_HOSTNAME: The Console
+CURRENT_TIMEZONE: Europe/London
+RELOAD_END_KOTH_MESSAGES: true
+VIEW_COMMAND_PER_PERMISSION: false
+ANNOUNCE_KOTH_ON_JOIN: true
+AUTO_STARTS: {}
+LOOT_LOCATION:
+  '1':
+    WORLD: world
+    X: 306
+    Y: 80
+    Z: -2761
+  '2':
+    WORLD: world
+    X: 306
+    Y: 80
+    Z: -2760
+  '3':
+    WORLD: world
+    X: 306
+    Y: 81
+    Z: -2763
+  '4':
+    WORLD: world
+    X: 301
+    Y: 77
+    Z: -2807

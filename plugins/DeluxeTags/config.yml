@@ -1,0 +1,81 @@
+# DeluxeTags version: 1.7.1 Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your DeluxeChat formats config:
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+deluxe_chat: false
+format_chat:
+  enabled: true
+  format: '{deluxetags_tag} <%1$s> %2$s'
+gui:
+  name: '&6Altcore - &eTitres'
+  tag_select_item:
+    material: STAINED_GLASS_PANE
+    data: 5
+    displayname: '&b&lTITRE: &f{deluxetags_identifier}'
+    lore:
+    - '{deluxetags_description}'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: '&7'
+    lore: []
+  has_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&a&lAppliquÃ©&f: &f{deluxetags_identifier}'
+    lore:
+    - Cliques pour enlever le titre actuel
+  no_tag_item:
+    material: STAINED_GLASS_PANE
+    data: 0
+    displayname: '&c&lPas de titre appliquÃ©'
+    lore:
+    - '&7Cliquez sur un titre au dessus'
+  exit_item:
+    material: STAINED_CLAY
+    data: 14
+    displayname: '&c&lQuitter'
+    lore:
+    - '&7Fermer le menu des titres'
+deluxetags:
+  defourailleur:
+    order: 1
+    tag: ' &8[&6DÃ©fourailleur&8]&f'
+    description: '&f'
+  ez:
+    order: 2
+    tag: '&8 [&6eZ&8]&f'
+    description: '&f'
+  drogue:
+    order: 3
+    tag: '&8 [&6DroguÃ©&8]&f'
+    description: '&f'
+  fifou:
+    order: 4
+    tag: '&8 [&6Fifou&8]&f'
+    description: '&f'
+  hendek:
+    order: 5
+    tag: '&8 [&6Hendek&8]&f'
+    description: '&f'

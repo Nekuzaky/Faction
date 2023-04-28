@@ -1,0 +1,769 @@
+2017-06-05 00:29:00 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-05 00:29:00 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-05 00:29:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-05 00:29:01 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-05 00:29:02 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-05 00:29:02 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-05 00:29:02 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-05 00:29:02 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-05 05:31:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-05 05:31:13 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-05 05:31:13 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-05 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-05 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-05 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-05 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-05 05:31:14 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-07 21:39:42 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-07 21:39:42 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-07 21:39:42 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-07 21:39:42 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-07 21:39:43 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-07 21:39:43 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-07 21:39:43 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-07 21:39:43 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Multiverse-Core Version: 2.4-b527
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Bukkit Version: git-Spigot-e4d4710-e1ebe52 (MC: 1.8.8)
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Loaded Worlds: 6
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Multiverse Plugins Loaded: 0
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Economy being used: Essentials Economy
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Permissions Plugin: Bukkit Permissions (SuperPerms)
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Dumping Config Values: (version 2.9)
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  messagecooldown: 5000
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  teleportcooldown: 1000
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  worldnameprefix: false
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  enforceaccess: false
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  displaypermerrors: true
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  teleportintercept: true
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  firstspawnoverride: false
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  firstspawnworld: tropicalmcworld
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core]  debug: 0
+2017-06-10 13:03:10 [INFO] [Multiverse-Core] [Multiverse-Core] Special Code: FRN002
+2017-06-12 05:31:50 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-12 05:31:50 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-12 05:31:54 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-12 05:31:58 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-12 05:32:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-12 05:32:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-12 05:32:00 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-12 05:32:01 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-12 18:55:48 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-12 18:55:48 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-12 18:55:52 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-12 18:55:56 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-12 18:55:58 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-12 18:55:58 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-12 18:55:58 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-12 18:56:00 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-14 10:59:52 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-14 10:59:52 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-14 10:59:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-14 10:59:58 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-14 11:00:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-14 11:00:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-14 11:00:00 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-14 11:00:02 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-14 11:14:02 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-14 11:14:02 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-14 11:14:03 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-14 11:14:04 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-14 11:14:04 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-14 11:14:04 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-14 11:14:05 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-14 11:14:05 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-18 16:46:18 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-18 16:46:19 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-18 16:46:19 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-18 16:46:20 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-18 16:46:20 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-18 16:46:20 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-18 16:46:20 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-18 16:46:21 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-18 17:14:27 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-18 17:14:27 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-18 17:14:28 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-18 17:14:29 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-18 17:14:29 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-18 17:14:29 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-18 17:14:29 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-18 17:14:30 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-19 05:31:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-19 05:31:13 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-19 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-19 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-19 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-19 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-19 05:31:14 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-19 05:31:14 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-06-26 05:31:12 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-06-26 05:31:12 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-26 05:31:12 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-06-26 05:31:13 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-06-26 05:31:13 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-06-26 05:31:13 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-06-26 05:31:13 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-06-26 05:31:13 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-01 17:39:39 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-01 17:39:39 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-01 17:39:39 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-01 17:39:40 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-07-01 17:39:40 [WARNING] [Multiverse-Core] Original Location: X: 16 Y: 64 Z: 256 P: 0 Y: 0 
+2017-07-01 17:39:40 [INFO] [Multiverse-Core] New Spawn for 'tropicalmcworld' is Located at: tropicalmcworld:17.50,64.00,256.50:0.00:0.00
+2017-07-01 17:39:41 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-01 17:39:41 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: -423809748775672712
+2017-07-01 17:39:41 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-07-01 17:39:41 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-07-01 17:39:41 [INFO] [Multiverse-Core] New Spawn for 'tropicalmcworld_nether' is Located at: tropicalmcworld_nether:0.00,111.00,0.00:0.00:0.00
+2017-07-01 17:39:41 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: -423809748775672712
+2017-07-01 17:39:41 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-07-01 17:39:41 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-07-01 17:39:41 [INFO] [Multiverse-Core] New Spawn for 'tropicalmcworld_the_end' is Located at: tropicalmcworld_the_end:0.00,63.00,0.00:0.00:0.00
+2017-07-01 17:39:41 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-01 17:39:41 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-03 05:31:25 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-03 05:31:26 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-03 05:31:27 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 2076727019710399902
+2017-07-03 05:31:27 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-03 05:31:28 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-03 05:31:28 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-03 05:31:28 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-03 05:31:29 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-12 17:40:50 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-12 17:40:50 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-12 17:40:51 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 2076727019710399902
+2017-07-12 17:40:51 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-12 17:40:52 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-12 17:40:52 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-12 17:40:52 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-12 17:40:52 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-17 05:31:04 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-17 05:31:05 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-17 05:31:05 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 2076727019710399902
+2017-07-17 05:31:06 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-17 05:31:06 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-17 05:31:06 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-17 05:31:06 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-17 05:31:06 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-22 19:10:58 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-22 19:10:58 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 19:10:58 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 19:10:59 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 19:10:59 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 19:10:59 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 19:10:59 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-22 19:10:59 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-22 20:01:54 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-22 20:01:54 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:01:54 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-22 20:01:55 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:01:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:01:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:01:55 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-22 20:01:55 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-22 20:02:50 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-22 20:02:50 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:02:51 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-22 20:02:51 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:02:51 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:02:51 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:02:51 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-22 20:02:52 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-22 20:04:14 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-22 20:04:14 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:04:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-22 20:04:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:04:15 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:04:15 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:04:15 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-22 20:04:15 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-22 20:30:27 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-22 20:30:27 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:30:28 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-22 20:30:28 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-22 20:30:29 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:30:29 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-22 20:30:29 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-22 20:30:29 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 05:30:49 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 05:30:50 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 05:30:51 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 05:30:51 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 05:30:52 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 05:30:52 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 05:30:52 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 05:30:52 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 08:58:08 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 08:58:08 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 08:58:08 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 08:58:09 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 08:58:10 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 08:58:10 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 08:58:10 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 08:58:10 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 09:06:25 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 09:06:25 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:06:25 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 09:06:25 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:06:26 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:06:26 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:06:26 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 09:06:26 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 09:11:34 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 09:11:34 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:11:34 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 09:11:35 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:11:35 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:11:35 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:11:35 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 09:11:35 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 09:15:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 09:15:13 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:15:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 09:15:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:15:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:15:14 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:15:14 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 09:15:14 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 09:36:02 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 09:36:02 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:36:03 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 09:36:03 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:36:03 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:36:03 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:36:03 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 09:36:04 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 09:37:54 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 09:37:54 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:37:54 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 09:37:55 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:37:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:37:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:37:55 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 09:37:55 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-24 09:39:29 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-24 09:39:29 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:39:29 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-24 09:39:30 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-24 09:39:30 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:39:30 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-24 09:39:30 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-24 09:39:30 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-30 15:20:54 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-30 15:20:54 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-30 15:20:54 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-30 15:20:55 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-30 15:20:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-30 15:20:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-30 15:20:55 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-30 15:20:55 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-07-31 05:31:02 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-07-31 05:31:02 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-31 05:31:03 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-07-31 05:31:03 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-07-31 05:31:03 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-07-31 05:31:03 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-07-31 05:31:03 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-07-31 05:31:04 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-01 23:27:00 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-01 23:27:00 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-01 23:27:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-01 23:27:01 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-01 23:27:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-01 23:27:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-01 23:27:01 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-01 23:27:01 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-01 23:59:10 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-01 23:59:10 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-01 23:59:10 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-01 23:59:11 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-01 23:59:11 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-01 23:59:11 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-01 23:59:11 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-01 23:59:11 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-02 13:35:34 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-02 13:35:34 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-02 13:35:34 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-02 13:35:35 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-02 13:35:35 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-02 13:35:35 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-02 13:35:35 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-02 13:35:35 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-03 13:04:20 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-03 13:04:20 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-03 13:04:21 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-03 13:04:21 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-03 13:04:21 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-03 13:04:21 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-03 13:04:21 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-03 13:04:22 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-05 13:00:48 [INFO] [Multiverse-Core] Loading World & Settings - 'spawn' - Env: NORMAL - Type: FLAT
+2017-08-05 13:00:49 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-08-05 13:00:49 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-08-05 13:00:49 [INFO] [Multiverse-Core] New Spawn for 'spawn' is Located at: spawn:1.50,4.00,0.50:0.00:0.00
+2017-08-05 13:07:26 [INFO] [Multiverse-Core] World 'spawn' was unloaded from memory.
+2017-08-05 13:07:26 [INFO] [Multiverse-Core] World 'spawn' was removed from config.yml
+2017-08-05 13:07:33 [INFO] [Multiverse-Core] Loading World & Settings - 'spawn_cheat' - Env: NORMAL - Type: null
+2017-08-05 13:15:24 [INFO] [Multiverse-Core] World 'spawn_cheat' was unloaded from memory.
+2017-08-05 13:15:24 [INFO] [Multiverse-Core] World 'spawn_cheat' was removed from config.yml
+2017-08-07 05:30:58 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-07 05:30:58 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-07 05:30:58 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-07 05:30:59 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-07 05:31:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-07 05:31:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-07 05:31:00 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-07 05:31:00 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-07 15:50:05 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-07 15:50:05 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-07 15:50:06 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-07 15:50:06 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-07 15:50:06 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-07 15:50:06 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-07 15:50:06 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-07 15:50:07 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-12 08:19:07 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-12 08:19:07 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-12 08:19:08 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-12 08:19:08 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-12 08:19:09 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-12 08:19:09 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-12 08:19:09 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-12 08:19:09 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-14 05:31:18 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-14 05:31:18 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-14 05:31:19 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-14 05:31:20 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-14 05:31:21 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-14 05:31:21 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-14 05:31:21 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-14 05:31:21 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-18 11:51:35 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-18 11:51:35 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-18 11:51:35 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-18 11:51:36 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-18 11:51:36 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-18 11:51:36 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-18 11:51:36 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-18 11:51:37 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-21 05:31:47 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-21 05:31:47 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-21 05:31:48 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-21 05:31:49 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-21 05:31:49 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-21 05:31:49 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-21 05:31:50 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-21 05:31:50 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-23 05:51:04 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-23 05:51:04 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-23 05:51:05 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-23 05:51:05 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-23 05:51:06 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-23 05:51:06 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-23 05:51:06 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-23 05:51:06 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-26 12:16:40 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-26 12:16:41 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-26 12:16:42 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-26 12:16:43 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-26 12:16:43 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-26 12:16:44 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-26 12:16:44 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-26 12:16:44 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-28 05:31:15 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-28 05:31:15 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-28 05:31:16 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-28 05:31:17 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-28 05:31:17 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-28 05:31:17 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-28 05:31:17 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-28 05:31:18 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-28 13:16:56 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-28 13:16:56 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-28 13:16:57 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-28 13:16:59 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-28 13:16:59 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-28 13:16:59 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-28 13:16:59 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-28 13:17:00 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-28 21:29:21 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-28 21:29:22 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-28 21:29:22 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-28 21:29:22 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-28 21:29:23 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-28 21:29:23 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-28 21:29:23 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-28 21:29:23 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-29 20:06:00 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-29 20:06:00 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-29 20:06:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-29 20:06:01 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-29 20:06:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-29 20:06:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-29 20:06:01 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-29 20:06:01 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-29 20:49:32 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-29 20:49:32 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-29 20:49:32 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-29 20:49:33 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-29 20:49:33 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-29 20:49:33 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-29 20:49:33 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-29 20:49:33 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-30 16:06:03 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-30 16:06:04 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-30 16:06:04 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-30 16:06:04 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-30 16:06:05 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-30 16:06:05 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-30 16:06:05 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-30 16:06:05 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-08-31 11:34:35 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-08-31 11:34:35 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-31 11:34:35 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-08-31 11:34:36 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-08-31 11:34:36 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-08-31 11:34:36 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-08-31 11:34:36 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-08-31 11:34:36 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-04 05:31:33 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-04 05:31:33 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-04 05:31:34 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-04 05:31:34 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-04 05:31:34 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-04 05:31:34 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-04 05:31:34 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-04 05:31:35 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-07 11:43:44 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-07 11:43:44 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-07 11:43:44 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-07 11:43:45 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-07 11:43:45 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-07 11:43:45 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-07 11:43:45 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-07 11:43:45 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-09 11:16:29 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-09 11:16:30 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-09 11:16:30 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-09 11:16:31 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-09 11:16:31 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-09 11:16:31 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-09 11:16:31 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-09 11:16:31 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-10 07:20:39 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-10 07:20:39 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-10 07:20:40 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-10 07:20:40 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-10 07:20:40 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-10 07:20:40 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-10 07:20:40 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-10 07:20:40 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-16 09:51:41 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-16 09:51:41 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-16 09:51:41 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-16 09:51:42 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-16 09:51:42 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-16 09:51:42 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-16 09:51:42 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-16 09:51:42 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-17 10:55:19 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-17 10:55:19 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-17 10:55:19 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-17 10:55:20 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-17 10:55:20 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-17 10:55:20 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-17 10:55:20 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-17 10:55:21 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-17 14:30:35 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-17 14:30:36 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-17 14:30:36 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-17 14:30:37 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-17 14:30:37 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-17 14:30:37 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-17 14:30:37 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-17 14:30:38 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-20 08:38:31 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-20 08:38:31 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-20 08:38:31 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-20 08:38:31 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-09-20 08:38:31 [WARNING] [Multiverse-Core] Original Location: X: 35 Y: 71 Z: -2,910 P: 0 Y: 0 
+2017-09-20 08:38:31 [INFO] [Multiverse-Core] New Spawn for 'tropicalmcworld' is Located at: tropicalmcworld:33.50,71.00,-2911.50:0.00:0.00
+2017-09-20 08:38:32 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-20 08:38:32 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-20 08:38:32 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-20 08:38:32 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-20 08:38:33 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-20 08:40:42 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-20 08:40:43 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-20 08:40:43 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-20 08:40:44 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-20 08:40:44 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-20 08:40:44 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-20 08:40:44 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-20 08:40:45 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-21 06:53:17 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-21 06:53:17 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-21 06:53:17 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-21 06:53:17 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-21 06:53:18 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-21 06:53:18 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-21 06:53:18 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-21 06:53:18 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-09-25 05:31:31 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-09-25 05:31:31 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-25 05:31:32 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-09-25 05:31:32 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-09-25 05:31:32 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-09-25 05:31:32 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-09-25 05:31:32 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-09-25 05:31:33 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-02 05:31:23 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-02 05:31:23 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-02 05:31:23 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-02 05:31:23 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-02 05:31:24 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-02 05:31:24 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-02 05:31:24 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-02 05:31:24 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-09 17:37:48 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-09 17:37:48 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-09 17:37:48 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-09 17:37:48 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-10-09 17:37:48 [WARNING] [Multiverse-Core] Original Location: X: 17 Y: 64 Z: 256 P: 0 Y: 0 
+2017-10-09 17:37:48 [INFO] [Multiverse-Core] New Spawn for 'tropicalmcworld' is Located at: tropicalmcworld:18.50,64.00,256.50:0.00:0.00
+2017-10-09 17:37:49 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-09 17:37:49 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:37:49 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:37:49 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-09 17:37:50 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-09 17:39:20 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-09 17:39:21 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-09 17:39:21 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:39:22 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-09 17:39:22 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:39:22 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:39:22 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-09 17:39:22 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-09 17:49:25 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-09 17:49:25 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-09 17:49:26 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:49:26 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-09 17:49:26 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:49:26 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-09 17:49:26 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-09 17:49:26 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-11 11:51:59 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-11 11:51:59 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-11 11:52:00 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-11 11:52:00 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-11 11:52:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-11 11:52:01 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-11 11:52:01 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-11 11:52:01 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-22 09:03:47 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-22 09:03:47 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-22 09:03:48 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-22 09:03:50 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-22 09:03:50 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-22 09:03:50 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-22 09:03:50 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-22 09:03:50 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-26 02:56:08 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 02:56:08 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 02:56:09 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 02:56:09 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 02:56:10 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 02:56:10 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 02:56:10 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 02:56:10 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-26 02:56:55 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 02:56:55 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 02:56:55 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 02:56:56 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 02:56:56 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 02:56:56 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 02:56:56 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 02:56:56 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-26 03:00:08 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 03:00:08 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:00:08 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:00:08 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:00:08 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:00:08 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:00:21 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2017-10-26 03:00:21 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+2017-10-26 03:00:21 [INFO] [Multiverse-Core] New Spawn for 'tropicalmcworld' is Located at: tropicalmcworld:0.00,72.00,0.00:0.00:0.00
+2017-10-26 03:00:22 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:00:22 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:00:30 [INFO] [Multiverse-Core] Loading World & Settings - 'tropicalmcworld_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:00:33 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 03:00:33 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:00:33 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:00:33 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:00:33 [INFO] [Multiverse-Core] 9 - World(s) loaded.
+2017-10-26 03:05:10 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 03:05:10 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:05:10 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:05:11 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 03:05:11 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:05:11 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:05:11 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:05:11 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-26 03:05:11 [WARNING] [Multiverse-Core] The world specified as the spawn world (tropicalmcworld) did not exist!!
+2017-10-26 03:07:45 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 03:07:45 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:07:46 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:07:46 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 03:07:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:07:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:07:46 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:07:46 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-26 03:11:01 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 03:11:01 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:11:01 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:11:02 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 03:11:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:11:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:11:02 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:11:02 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-26 03:16:54 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 03:16:54 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:16:54 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:16:54 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 03:16:55 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:16:55 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:16:55 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:16:55 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-26 03:20:11 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-26 03:20:12 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:20:12 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-26 03:20:12 [INFO] [Multiverse-Core] Loading World & Settings - 'Labyrinthe' - Env: NORMAL - Type: FLAT & seed: 1130148703891543834
+2017-10-26 03:20:13 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-26 03:20:13 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:20:13 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-26 03:20:13 [INFO] [Multiverse-Core] 6 - World(s) loaded.
+2017-10-27 02:25:32 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-27 02:25:32 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-27 02:25:32 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-27 02:25:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-27 02:25:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-27 02:25:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-27 02:25:32 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2017-10-27 02:30:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-27 02:30:13 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-27 02:30:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-27 02:30:14 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-27 02:30:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-27 02:30:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-27 02:30:16 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2017-10-27 02:49:19 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2017-10-27 02:49:20 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-27 02:49:20 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2017-10-27 02:49:20 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2017-10-27 02:49:20 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2017-10-27 02:49:20 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2017-10-27 02:49:20 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2018-09-03 17:30:13 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-09-03 17:30:13 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:30:14 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:30:14 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2018-09-03 17:30:14 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:30:14 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:30:14 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2018-09-03 17:32:49 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-09-03 17:32:49 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:32:50 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:32:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2018-09-03 17:32:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:32:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:32:50 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2018-09-03 17:36:16 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-09-03 17:36:16 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:36:17 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:36:17 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2018-09-03 17:36:17 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:36:17 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:36:17 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2018-09-03 17:41:22 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-09-03 17:41:22 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:41:23 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:41:23 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2018-09-03 17:41:23 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:41:23 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:41:23 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2018-09-03 17:46:11 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-09-03 17:46:11 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:46:12 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:46:12 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2018-09-03 17:46:12 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:46:12 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:46:12 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2018-09-03 17:48:15 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-09-03 17:48:15 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:48:16 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:48:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2018-09-03 17:48:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:48:16 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:48:16 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2018-09-03 17:51:26 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2018-09-03 17:51:26 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:51:26 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2018-09-03 17:51:27 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2018-09-03 17:51:27 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:51:27 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2018-09-03 17:51:27 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2020-07-06 18:29:51 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-07-06 18:29:52 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2020-07-06 18:29:53 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2020-07-06 18:29:54 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2020-07-06 18:29:54 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2020-07-06 18:29:54 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2020-07-06 18:29:54 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2020-07-06 18:34:22 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-07-06 18:34:23 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2020-07-06 18:34:23 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2020-07-06 18:34:24 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2020-07-06 18:34:24 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2020-07-06 18:34:24 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2020-07-06 18:34:25 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2020-07-06 18:36:16 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2020-07-06 18:36:17 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2020-07-06 18:36:18 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2020-07-06 18:36:19 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2020-07-06 18:36:19 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2020-07-06 18:36:19 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2020-07-06 18:36:19 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2023-04-27 16:38:02 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2023-04-27 16:38:02 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 16:38:03 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 16:38:03 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2023-04-27 16:38:03 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 16:38:03 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 16:38:03 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2023-04-27 16:52:31 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2023-04-27 16:52:31 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 16:52:31 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 16:52:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2023-04-27 16:52:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 16:52:32 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 16:52:32 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2023-04-27 17:17:48 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2023-04-27 17:17:48 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 17:17:48 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 17:17:48 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2023-04-27 17:17:48 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 17:17:49 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 17:17:49 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2023-04-27 17:29:09 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2023-04-27 17:29:09 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 17:29:10 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 17:29:10 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2023-04-27 17:29:10 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 17:29:10 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 17:29:10 [INFO] [Multiverse-Core] 5 - World(s) loaded.
+2023-04-27 17:53:49 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2023-04-27 17:53:49 [INFO] [Multiverse-Core] Loading World & Settings - 'McShop' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 17:53:49 [INFO] [Multiverse-Core] Loading World & Settings - 'PvPArena' - Env: NORMAL - Type: FLAT & seed: 0
+2023-04-27 17:53:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7547084681764021964
+2023-04-27 17:53:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 17:53:50 [INFO] [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 2076727019710399902
+2023-04-27 17:53:50 [INFO] [Multiverse-Core] 5 - World(s) loaded.

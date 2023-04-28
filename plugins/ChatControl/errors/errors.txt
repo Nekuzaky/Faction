@@ -1,0 +1,15 @@
+[23.11.2016 00:13:23] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[23.11.2016 00:13:23] String checked: damn
+[23.11.2016 00:13:23] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[27.05.2017 23:06:44] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[27.05.2017 23:06:44] String checked: Altcore » pour 2€ obtenez le grade héro sur: https://Altcore.fr/shop !
+[27.05.2017 23:06:44] Regex: ^I'm sorry, but you do not have permission to perform this.*|^You do not have access to that command.
+[01.06.2017 22:52:00] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[01.06.2017 22:52:00] String checked: /msg VapeDuBled vien au warp pvp
+[01.06.2017 22:52:00] Regex: \b[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}(\.|dot|\(dot\)|-|;|:|,|(\W|\d|_)*\s)+[0-9]{1,3}\b
+[13.06.2017 20:23:24] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[13.06.2017 20:23:24] String checked: /msg jofounou_Gaudii tp t toi
+[13.06.2017 20:23:24] Regex: \b(e+(\W|\d|_)*n+(\W|\d|_)*c+(\W|\d|_)*u+(\W|\d|_)*l+(\W|\d|_)*e+(\W|\d|_)*)
+[16.06.2017 17:43:27] Regex check timed out (bad regex?) (plugin ver. 5.3.8)!
+[16.06.2017 17:43:27] String checked: fly
+[16.06.2017 17:43:27] Regex: \b(e+(\W|\d|_)*n+(\W|\d|_)*c+(\W|\d|_)*u+(\W|\d|_)*l+(\W|\d|_)*e+(\W|\d|_)*)

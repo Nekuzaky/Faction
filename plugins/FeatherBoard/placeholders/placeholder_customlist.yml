@@ -1,0 +1,31 @@
+## --------------------------------------- ##
+## Adding WPM CustomList placeholders Placeholders
+## https://www.spigotmc.org/resources/customlist.11708/
+## About: This configuration allows you to
+##        configure what certain placeholders return.
+## --------------------------------------- ##
+
+# DO NOT EDIT THE CONFIG VERSION
+config: 1
+
+# Enable/Disable the placeholder group
+# Placeholder groups will not be loaded into the memory
+# when not used.
+enabled: true
+
+# Define what the boolean placeholder {customlist_famousenabled_raw} returns
+customlist_famousenabled_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+
+# Define what the boolean placeholder {customlist_youtuberenabled_raw} returns
+customlist_youtuberenabled_raw:
+  # This will be shown when the placeholder is 'True'
+  true: "true"
+  # This will be shown when the placeholder is 'False'
+  false: "false"
+
+

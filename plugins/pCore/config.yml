@@ -1,0 +1,6 @@
+# Enable auto-update notifications ?
+# Set this option to 'true' is recommended ! If you disable this,
+# you'll not be able to get the latest updates/bug fixes notifications.
+# (but you must disable it if you're using 1.7 AND you have error on plugin load)
+
+auto-update: true

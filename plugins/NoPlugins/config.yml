@@ -1,0 +1,28 @@
+﻿# NoPlugins created by JohnCrafted.
+# Version: 3.0.0
+# Website: https://www.spigotmc.org/resources/noplugins.12965/
+# In this configuration file you will find the messages you can edit.
+# NOTE:
+# If the color codes would for some reason change to "\xa7" that is just the
+# translation for "&" or "§".
+#
+# Color & Format codes:
+# &1 &2 &3
+# &4 &5 &6
+# &7 &8 &9
+# &0 &a &b
+# &c &d &e
+# &f &r &l
+# &k &m &n
+#
+# Message for each blocked command:
+pluginsMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+plMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+iCanHasBukkitMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+aboutMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+versionMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+verMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+questionMarkMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+bukkitMessage: 'Plugins (4): &aAltcoreFaction&f, &aAltcoreCore&f, &aAltcoreBoutique&f, &aAltcoreEssentials'
+# Permission message:
+noPermissions: 'Tu n''as pas la permission !'

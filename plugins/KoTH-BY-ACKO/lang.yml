@@ -1,0 +1,18 @@
+PREFIX: '&c&lAlt&4&lcore &8&l» '
+NO_PERMISSION: '&cTu n''as pas la permission.'
+KOTH_STARTING: '&6%player% &ea lancé le KoTH &6%koth% &eaux positions: &6X:%x% Y:%y%
+  Z:%z%'
+ATTEMPTING_CAPTURE: '&6%player% &ea commencé à controler le KoTH &6%koth% &c(%time%)'
+LOST_CONTROL: '&6%player% &ea perdu le contrôle du KoTH &6%koth%'
+CAPTURED_KOTH: '&6%player% &ea capturé le KoTH &6%koth%'
+INVENTORY_FULL: '&cVotre inventaire est plein, regardez au sol !'
+NO_KEY: '&cVous devez avoir une clef KoTH !'
+KOTH_ENDED: '&6%player% &ea terminé le KoTH &6%koth%'
+TIME_LEFT: '&6%player% &econtrôle le KoTH &6%koth% &c(%time%)'
+KOTH_TIMES_TITLE: '&8========> &2Temps KoTH&8<========'
+HELP_PAGE_TITLE: '&8========> &2KOTH Aide %page%/%maxpage% &8<========'
+KOTH_TIMES_FORMAT: '&a Le KoTH %koth% commence dans %time% pour %length%'
+HELP_PAGE_FORMAT: '&a%command% &7%info%'
+ANNOUNCE_KOTH_ON_JOIN: '&eLe KoTH &6%koth% &eest actuellement actif, il reste &6%time%
+  !'
+USE_PREFIX: true

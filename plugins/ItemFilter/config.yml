@@ -1,0 +1,101 @@
+Messages:
+  Reload: '&a&l&n(!)&r &aYou just reloaded all the config files.'
+  NoPermission: '&c&l(!) &cYou do not have permission for this command.'
+  MustBePlayer: '&c&l(!) &cYou must be a player to use this command!'
+  FilterEnabled: "&f \n&a&l(!) Item Filter &nEnabled&r \n&7Use &n/filter edit&7 to\
+    \ edit the items you will pickup. \n&f"
+  FilterDisabled: "&f \n&c&l(!) Item Filter &nDisabled&r \n&f"
+  Help:
+  - ''
+  - '&d&lItem Filter Commands'
+  - '&f/filter toggle'
+  - '&7Toggle item pickup filter.'
+  - ''
+  - '&f/filter edit'
+  - '&7Edit items you pickup while the item filter is enabled.'
+  - ''
+Settings:
+  MainInventory:
+    FilteredItemsLine: '&d&lFiltered Items (&f{0}&d&l)'
+    FilteredItemsList: '&d&l* &f{1}'
+Inventories:
+  Main:
+    Name: Tropical Item Filter Categories
+    EquipmentName: '&d&lEquipment'
+    PotionSuppliesName: '&d&lPotion Supplies'
+    RaidingName: '&d&lRaiding'
+    FoodName: '&d&lFood'
+    SpecialtyName: '&d&lSpecialty'
+    OreName: '&d&lOres'
+  Equipment:
+    Name: 'Item Filter: Equipment'
+    Will:
+      ItemName: '&a{2}'
+      ItemLore:
+      - '&a&lWILL &7be picked up'
+      - '&7when item filter is &nenabled.'
+    WillNot:
+      ItemName: '&c{2}'
+      ItemLore:
+      - '&c&lWILL NOT &7be picked up'
+      - '&7when item filter is &nenabled.'
+  PotionSupplies:
+    Name: 'Item Filter: Potion Supplies'
+    Will:
+      ItemName: '&a{2}'
+      ItemLore:
+      - '&a&lWILL &7be picked up'
+      - '&7when item filter is &nenabled.'
+    WillNot:
+      ItemName: '&c{2}'
+      ItemLore:
+      - '&c&lWILL NOT &7be picked up'
+      - '&7when item filter is &nenabled.'
+  Raiding:
+    Name: 'Item Filter: Raiding'
+    Will:
+      ItemName: '&a{2}'
+      ItemLore:
+      - '&a&lWILL &7be picked up'
+      - '&7when item filter is &nenabled.'
+    WillNot:
+      ItemName: '&c{2}'
+      ItemLore:
+      - '&c&lWILL NOT &7be picked up'
+      - '&7when item filter is &nenabled.'
+  Food:
+    Name: 'Item Filter: Food'
+    Will:
+      ItemName: '&a{2}'
+      ItemLore:
+      - '&a&lWILL &7be picked up'
+      - '&7when item filter is &nenabled.'
+    WillNot:
+      ItemName: '&c{2}'
+      ItemLore:
+      - '&c&lWILL NOT &7be picked up'
+      - '&7when item filter is &nenabled.'
+  Specialty:
+    Name: 'Item Filter: Specialty'
+    Will:
+      ItemName: '&a{2}'
+      ItemLore:
+      - '&a&lWILL &7be picked up'
+      - '&7when item filter is &nenabled.'
+    WillNot:
+      ItemName: '&c{2}'
+      ItemLore:
+      - '&c&lWILL NOT &7be picked up'
+      - '&7when item filter is &nenabled.'
+  Ores:
+    Name: 'Item Filter: Ores'
+    Will:
+      ItemName: '&a{2}'
+      ItemLore:
+      - '&a&lWILL &7be picked up'
+      - '&7when item filter is &nenabled.'
+    WillNot:
+      ItemName: '&c{2}'
+      ItemLore:
+      - '&c&lWILL NOT &7be picked up'
+      - '&7when item filter is &nenabled.'

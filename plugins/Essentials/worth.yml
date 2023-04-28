@@ -1,0 +1,283 @@
+worth:
+  log:
+    '0': 2.0
+    '1': 2.0
+    '2': 2.0
+    '3': 2.0
+  wool:
+    '0': 1.25
+  leaves: 1.0
+  sapling:
+    '0': 2.0
+    '*': 2.5
+  stonebutton: 6.0
+  wood: 0.5
+  arrow:
+    '0': 2.1
+  diamondpickaxe: 650.0
+  rawfish:
+    '3': 175.0
+  minecart: 23.0
+  leatherchestplate: 85.0
+  storageminecart: 30.0
+  feather: 3.0
+  goldchestplate: 6.5
+  mushroomsoup: 4.5
+  bread: 30.0
+  stationarywater: 1.0
+  workbench: 2.5
+  stonehoe: 2.5
+  brownmushroom:
+    '0': 15.0
+  mossycobblestone: 90.0
+  diamondhoe: 400.0
+  woodsword: 1.0
+  torch: 4.0
+  grass:
+    '0': 1.0
+  poweredminecart: 32.0
+  snowball: 1.0
+  goldenapple:
+    '0': 100.0
+  leatherleggings: 75.0
+  diamondaxe: 650.0
+  slimeball:
+    '0': 31.25
+  fence: 1.0
+  stonespade: 1.5
+  claybrick: 5.0
+  noteblock: 36.0
+  ironaxe: 22.0
+  coalore: 15.0
+  clayball: 3.0
+  fishingrod: 10.0
+  ironhoe: 22.0
+  goldrecord: 100.0
+  ironpickaxe: 22.0
+  irondoor: 22.0
+  bucket: 22.0
+  redrose: 2.0
+  grilledpork: 7.0
+  gravel:
+    '0': 1.6
+  wooddoor: 3.0
+  chainmailhelmet: 40.0
+  ironchestplate: 22.0
+  diamondblock: 2000.0
+  diamondhelmet: 1000.0
+  goldhelmet: 6.0
+  redstonetorchon: 32.0
+  ironspade: 22.0
+  furnace: 8.5
+  ironsword: 22.0
+  dispenser: 58.0
+  woodaxe: 2.0
+  seeds: 2.0
+  painting: 25.0
+  woodplate: 1.0
+  redstoneore: 30.0
+  diamondspade: 210.0
+  waterbucket: 40.0
+  water: 1.0
+  bedrock: 100.0
+  irondoorblock: 15.0
+  goldhoe: 6.0
+  sand:
+    '1': 1.6
+    '0': 1.6
+  goldsword: 6.0
+  stoneaxe: 3.0
+  bookshelf:
+    '0': 12.5
+  ironblock: 190.0
+  jackolantern: 56.0
+  boat: 3.0
+  diamondchestplate: 1750.0
+  redstonewire: 30.0
+  redmushroom:
+    '0': 15.0
+  string:
+    '0': 1.8
+  stoneplate: 6.0
+  wallsign: 1.0
+  cactus:
+    '0': 3.75
+  sulphur:
+    '0': 1.6
+  rails: 22.0
+  ironore: 18.0
+  leatherhelmet: 52.0
+  stone:
+    '1': 1.6
+    '3': 1.6
+    '0': 1.4
+    '5': 1.25
+  egg: 1.0
+  diamondore: 200.0
+  woodhoe: 2.0
+  goldleggings: 6.0
+  chainmailleggings: 50.0
+  yellowflower: 2.0
+  ironhelmet: 22.0
+  obsidian:
+    '0': 14.0
+  dirt:
+    '2': 3.7
+  leather: 10.0
+  leatherboots: 42.0
+  lever: 1.0
+  cobblestone:
+    '0': 1.0
+  cake: 180.0
+  woodstairs: 1.0
+  ironingot:
+    '0': 40.0
+  goldore: 45.0
+  pumpkin:
+    '0': 1.0
+  bed: 68.0
+  watch: 6.0
+  ironleggings: 22.0
+  sign: 1.5
+  doublestep: 1.0
+  woodpickaxe: 2.0
+  stonepickaxe: 4.0
+  chainmailboots: 30.0
+  diamondleggings: 1500.0
+  cookedfish: 7.0
+  saddle: 100.0
+  cobblestonestairs: 1.5
+  tnt: 100.0
+  glowingredstoneore: 30.0
+  apple:
+    '0': 0.32
+  woodspade: 1.0
+  goldingot:
+    '0': 50.0
+  diode: 110.0
+  soil: 1.0
+  clay: 12.0
+  goldblock: 450.0
+  stick: 0.25
+  paper: 10.0
+  brick: 21.0
+  stationarylava: 1.0
+  chest: 4.0
+  sandstone: 3.0
+  goldpickaxe: 6.0
+  compass: 22.0
+  sugarcane:
+    '0': 3.1
+  diamondsword: 420.0
+  goldboots: 6.0
+  sponge: 80.0
+  stonesword: 2.5
+  coal:
+    '0': 1.875
+  goldaxe: 6.0
+  bone:
+    '0': 6.4
+  diamond:
+    '0': 100.0
+  glass:
+    '0': 1.25
+  goldspade: 6.0
+  lapisblock:
+    '0': 9.0
+  lavabucket: 40.0
+  wheat:
+    '0': 0.16
+  ladder: 0.5
+  sugarcaneblock: 15.0
+  bowl: 0.5
+  chainmailchestplate: 40.0
+  diamondboots: 850.0
+  lapisore: 100.0
+  lava: 25.0
+  milkbucket: 40.0
+  redstone:
+    '0': 3.9
+  greenrecord: 100.0
+  inksack:
+    '4': 0.32
+    '3': 0.7
+  glowstonedust:
+    '0': 1.25
+  book: 45.0
+  bow:
+    '0': 31.25
+  ironboots: 22.0
+  step: 1.5
+  sugar:
+    '0': 1.25
+  prismarine:
+    '0': 1.25
+    '1': 1.25
+    '2': 1.25
+  sealantern:
+    '0': 1.25
+  slimeblock:
+    '0': 2.5
+  fermentedspidereye:
+    '0': 15.0
+  spidereye:
+    '0': 7.5
+  ghasttear:
+    '0': 40.0
+  magmacream:
+    '0': 1.25
+  rabbitfoot:
+    '0': 18.75
+  speckledmelon:
+    '0': 6.25
+  goldencarrot:
+    '0': 12.5
+  emerald:
+    '0': 200.0
+  snowblock:
+    '0': 1.6
+  log2:
+    '0': 2.0
+    '1': 2.0
+  ice:
+    '0': 3.1
+  enderstone:
+    '0': 15.6
+  glowstone:
+    '0': 2.5
+  soulsand:
+    '0': 1.25
+  netherbrick:
+    '0': 1.25
+  netherrack:
+    '0': 0.9
+  quartzblock:
+    '0': 1.25
+  hardclay:
+    '0': 1.875
+  potatoitem:
+    '0': 1.5
+  carrotitem:
+    '0': 1.5
+  netherstalk:
+    '0': 4.0
+  melon:
+    '0': 12.0
+  enderpearl:
+    '0': 25.0
+  blazerod:
+    '0': 3.7
+  melonblock:
+    '0': 6.25
+  rottenflesh:
+    '0': 1.09
+  redstoneblock:
+    '0': 10.0
+  coalblock:
+    '0': 8.0
+  packedice:
+    '0': 3.2
+  stainedglass:
+    '0': 4.3
+  vine:
+    '0': 11.25

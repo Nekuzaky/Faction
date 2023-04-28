@@ -1,0 +1,80 @@
+Spawners:
+  '1':
+    X: 269
+    Y: 113
+    Z: 256
+    World: McShop
+    Tier: 1
+    Delay: 1
+    Amount: 1
+  '2':
+    X: 267
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '3':
+    X: 268
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '4':
+    X: 278
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '5':
+    X: 272
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '7':
+    X: 270
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '8':
+    X: 273
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '9':
+    X: 264
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '11':
+    X: 277
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+    Tier: 1
+  '12':
+    X: 276
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1
+  '14':
+    X: 263
+    Y: 113
+    Z: 256
+    World: McShop
+    Delay: 1
+    Amount: 1

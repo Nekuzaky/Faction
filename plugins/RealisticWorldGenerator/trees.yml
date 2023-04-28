@@ -1,0 +1,81 @@
+default: true
+trees:
+  oak:
+  - oaktree1
+  - oaktree2
+  - oaktree3
+  - oaktree4
+  - oaktree5
+  - oaktree6
+  - oaktree7
+  - oaktree8
+  - oaktree9
+  mesa:
+  - mesatree1
+  - mesatree2
+  - mesatree3
+  - mesatree4
+  - mesatree5
+  - mesatree6
+  - mesatree7
+  - mesatree8
+  - mesatree9
+  - mesatree10
+  pine:
+  - pinetree1
+  - pinetree2
+  - pinetree3
+  - pinetree4
+  - pinetree5
+  - pinetree6
+  - pinetree7
+  - pinetree8
+  - pinetree9
+  - pinetree10
+chances:
+  trees:
+    oak:
+      oaktree1: 3
+      oaktree2: 3
+      oaktree3: 3
+      oaktree4: 8
+      oaktree5: 9
+      oaktree6: 9
+      oaktree7: 20
+      oaktree8: 25
+      oaktree9: 20
+    mesa:
+      mesatree1: 3
+      mesatree2: 3
+      mesatree3: 3
+      mesatree4: 8
+      mesatree5: 9
+      mesatree6: 9
+      mesatree7: 15
+      mesatree8: 20
+      mesatree9: 15
+      mesatree10: 15
+    pine:
+      pinetree1: 3
+      pinetree2: 3
+      pinetree3: 3
+      pinetree4: 8
+      pinetree5: 9
+      pinetree6: 9
+      pinetree7: 15
+      pinetree8: 20
+      pinetree9: 15
+      pinetree10: 15
+      jungletree1: 3
+      jungletree2: 3
+      jungletree3: 3
+      jungletree4: 8
+      jungletree5: 9
+      jungletree6: 9
+      jungletree7: 12
+      jungletree8: 17
+      jungletree9: 12
+      jungletree10: 15
+      jungletree11: 3
+      jungletree12: 3
+      jungletree13: 3

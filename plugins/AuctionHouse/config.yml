@@ -1,0 +1,13 @@
+# 
+# Your database information should go here.# 
+auction: {}
+language:
+  menuItemText:
+    listedItem: {}
+    yourListedItems: {}
+    yourExpiredItems: {}
+    previousPage: {}
+    refreshPage: {}
+    nextPage: {}
+    howToSell: {}
+    mainWhatIsThisPage: {}

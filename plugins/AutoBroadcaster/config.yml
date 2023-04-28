@@ -1,0 +1,14 @@
+Header: '&8&m+------------------------------------------------+'
+Footer: '&8&m+------------------------------------------------+'
+Interval: 60
+
+Messages:
+  - '&c&lAlt&4&lcore &8&l» &2Sur notre boutique, tu peux payer par: &aSMS, Appel, PaySafeCard, PayPal, Carte bancaire...'
+  - '&c&lAlt&4&lcore &8&l» &eEn faisant: &6/jackpot &etu peux jouer au Jackpot avec d''autres joueurs !'
+  - '&c&lAlt&4&lcore &8&l» &cRendez-vous sur notre boutique: &c&lhttps://Altcore.fr/shop &c!'
+  - '&c&lAlt&4&lcore &8&l» &6Tapes: &e/stats &6pour voir vos statistiques McMMO !'
+  - '&c&lAlt&4&lcore &8&l» &dEffectues des échanges avec d''autres joueurs en faisant: &5/trade <joueur> &d!'
+  - '&c&lAlt&4&lcore &8&l» &3Un &bKoTH &3se lance automatiquement &3lorsqu''il y a &b25 connectés &3!'
+  - '&c&lAlt&4&lcore &8&l» &cPour &c&l2€ &cobtenez le grade &9Gladiateur &csur: &c&lhttps://Altcore.fr/shop &c!'
+  - '&c&lAlt&4&lcore &8&l» &9Tu veux plus d''informations sur les grades achetables: &b/warp grades'
+  - '&c&lAlt&4&lcore &8&l» &6Tapes: &e/f top &6pour voir le classement des factions du serveur !'

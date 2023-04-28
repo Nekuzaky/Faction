@@ -1,0 +1,282 @@
+General:
+  BackButton:
+    type: 262
+    amount: 1
+    durability: 0
+    meta: true
+    name: '&7&lPrevious Page'
+    lore:
+    - ''
+    - '&eReturn to the previous panel page.'
+  Filler:
+    type: 160
+    amount: 1
+    durability: 15
+    meta: true
+    name: '&0'
+Settings:
+  Title: '&0&lSolent Settings'
+  Component:
+    Ghost:
+      Disabled:
+        type: 351
+        amount: 1
+        durability: 8
+        meta: true
+        name: '&7&lGhost Mode: &c&lDisabled'
+        lore:
+        - ''
+        - '&eHacks will still be detected and'
+        - '&estop the hacks taking effect.'
+        - ''
+        - '&7(Click: Toggle)'
+      Enabled:
+        type: 351
+        amount: 1
+        durability: 10
+        meta: true
+        name: '&7&lGhost Mode: &a&lEnabled'
+        lore:
+        - ''
+        - '&eHacks will still be detected but'
+        - '&enot actively stopped. This could'
+        - '&emake hackers think there is no'
+        - '&enocheat, which could make them'
+        - '&ehack more.'
+        - ''
+        - '&7&o(Click: Toggle)'
+    PunishmentManagement:
+      type: 339
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&7&lManage Punishment'
+    ManageHacks:
+      type: 399
+      amount: 1
+      durability: 0
+      meta: true
+      name: '&7&lManage Hacks'
+  HackManager:
+    Categories:
+      Title: '&0&lPick a Category'
+      Combat:
+        type: 267
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lCombat Hacks'
+        lore:
+        - ''
+        - '&eHacks that enhance your combat'
+        - '&eskills.'
+      Movement:
+        type: 309
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lMovement Hacks'
+        lore:
+        - ''
+        - '&eHacks that alter your movement.'
+      World:
+        type: 2
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lWorld Hacks'
+        lore:
+        - ''
+        - '&eHacks that involve the world.'
+      Miscellaneous:
+        type: 325
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lMiscellaneous Hacks'
+        lore:
+        - ''
+        - '&eHacks that don''t fit into the'
+        - '&eother categories.'
+    Title: '&0&lHacks'
+    Component:
+      Hack:
+        LoreAddition:
+        - ''
+        - '&7(Click: Toggle Detection)'
+  PunishmentManager:
+    Title: '&0&lPunishments'
+    Component:
+      Mode:
+        None:
+          type: 7
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&7&lPunishment Mode: &c&lNone'
+          lore:
+          - ''
+          - '&eUsers found to be hacking will not be'
+          - '&epunished.'
+          - ''
+          - '&7(Click: Next Mode)'
+        AutoBan:
+          type: 56
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&7&lPunishment Mode: &a&lAuto Ban'
+          lore:
+          - ''
+          - '&eUsers found to be hacking will be auto'
+          - '&ebanned.'
+          - ''
+          - '&7(Click: Next Mode)'
+        JudgementDay:
+          type: 73
+          amount: 1
+          durability: 0
+          meta: true
+          name: '&7&lPunishment Mode: &a&lJudgement Day'
+          lore:
+          - ''
+          - '&eUsers found to be hacking will be stored'
+          - '&euntil a judgement day is called; which'
+          - '&ethey will be banned on.'
+          - ''
+          - '&7(Click: Next Mode)'
+      ActivateJudgementDay:
+        type: 76
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&4&lActivate Judgement Day'
+        lore:
+        - ''
+        - '&eBan all the users (%AMOUNT%) that were'
+        - '&edetected by solent.'
+      AnalyseUser:
+        type: 397
+        amount: 1
+        durability: 3
+        meta: true
+        name: '&7&lAnalyse User'
+        Messages:
+          Prompt: '&7Type the &bname&7 of the user you wish to analyse as a chat message:'
+          NoRecords: '&cThat user couldn''t be found / doesn''t have any reports of
+            hacking.'
+  AutoBan:
+    Component:
+      ToggleCrashing:
+        Enabled:
+          type: 351
+          amount: 1
+          durability: 10
+          meta: true
+          name: '&7&lCrashing: &a&lEnabled'
+          lore:
+          - ''
+          - '&eWhether users will have their clients crashed'
+          - '&ewhen they are detected hacking.'
+          - ''
+          - '&7(Click: Toggle)'
+        Disabled:
+          type: 351
+          amount: 1
+          durability: 8
+          meta: true
+          name: '&7&lCrashing: &4&lDisabled'
+          lore:
+          - ''
+          - '&eWhether users will have their clients crashed'
+          - '&ewhen they are detected hacking.'
+          - ''
+          - '&7(Click: Toggle)'
+  UserAnalysis:
+    Title: '&0&lAnalysing %NAME%'
+    Component:
+      Report:
+        type: 397
+        amount: 1
+        durability: 3
+        meta: true
+        name: '&7&lDate'
+        lore:
+        - '&e%DATE%'
+        - ''
+        - '&7(Click: View Timeline)'
+      Filler:
+        type: 160
+        amount: 1
+        durability: 15
+        meta: true
+        name: '&0'
+      PreviousButton:
+        type: 262
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lPrevious Page of Reports'
+      NextButton:
+        type: 262
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lNext Page of Reports'
+      UserInfo:
+        type: 388
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lName'
+        lore:
+        - '&e%NAME%'
+        - ''
+        - '&7&lUUID:'
+        - '&e%UUID%'
+  AnalysisTimeline:
+    Title: '&0&lTimeline'
+    Component:
+      Level:
+        Banned:
+          type: 160
+          amount: 1
+          durability: 14
+          meta: true
+          name: '&4&lBANNED'
+        High:
+          type: 160
+          amount: 1
+          durability: 1
+          meta: true
+          name: '&4&lHacking'
+        Medium:
+          type: 160
+          amount: 1
+          durability: 4
+          meta: true
+          name: '&6&lMedium Risk'
+        Low:
+          type: 160
+          amount: 1
+          durability: 5
+          meta: true
+          name: '&a&lLow Risk'
+        None:
+          type: 160
+          amount: 1
+          durability: 15
+          meta: true
+          name: '&0'
+      PreviousButton:
+        type: 262
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lRewind %TIMEFRAME%'
+      NextButton:
+        type: 262
+        amount: 1
+        durability: 0
+        meta: true
+        name: '&7&lFast Forward %TIMEFRAME%'

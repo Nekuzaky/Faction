@@ -1,0 +1,22 @@
+lastAccountName: Nekuzaky
+timestamps:
+  login: 1682612759340
+  logout: 1682612760331
+  lastteleport: 1682611743059
+ipAddress: 109.130.128.103
+lastlocation:
+  world: world
+  x: 306.136515471093
+  y: 85.0
+  z: -2777.4377921356945
+  yaw: 229.88528
+  pitch: 12.150113
+afk: false
+logoutlocation:
+  world: McShop
+  x: 269.59025757012773
+  y: 112.5
+  z: 284.4390698523741
+  yaw: 108.8723
+  pitch: 7.049986
+money: '0.0'

@@ -1,0 +1,3495 @@
+# ======================================================
+# 
+# CustomGUI Version: 2.2.9.3 build: 80709
+# Created by: JC_Plays_MC
+# Link: http://bit.ly/customgui
+# 
+# ======================================================
+# 
+# This is the CustomGUI configuration file where all general settings
+# and other plugin toggles will be found. If you have any questions feel free
+# to ask me preferably by PM on spigot. Also if you have any feature suggestions
+# or anything like that i'm always open to new ideas.
+# 
+# Thank you for supporting this project!
+# 
+# ======================================================
+# 
+# Settings Configuration
+# 
+# This setting toggles wether or not to use individual file based GUI's or to keep
+# them all stored in the config. Set as any value other than 'file' to store GUI's
+# in this configuration file.
+# GUIFormat: file
+# 
+# This sets a global value (in seconds) of how long before a player is allowed to click on
+# another item within any of the GUI's. Set to 0 to have no delay
+# PlayerClickDelay: 0
+# 
+# Set as true or false this determines whether or not the GUI should be closed if a player
+# clicks again before the player click delay has expired.
+# CloseWithinDelay: true
+# 
+# If set to true this will allow click items to override any item in the players hotbar if
+# an item slot is provided. If set as false it will not override items.
+# OverrideClickItems: false
+# 
+# ======================================================
+# 
+# Registered GUI's Format
+# 
+# The registered GUI section is where you toggle most settings for the general framework of each
+# GUI. Here you will set click items, commands and other various aspects related to each GUI. Every
+# single GUI must be listed below otherwise it will not be accessible by any means in-game. When creating
+# any GUI's in-game this section will automatically be created.
+# 
+# RegisteredGUI:
+#   <GUI Identifier>:
+#     Enabled: <true/false>
+#     OpenDelay: <time in seconds>
+#     Worlds:
+#     - <world name>
+#     Commands:
+#     - <open command without the slash>
+#     SignLocations:
+#     - <registered sign location>
+#     EntityLocations:
+#     - <registered sign location>
+#     ClickItems:
+#       <Click Item Identifier>:
+# 
+# Registered GUI's Index:
+# 
+# <GUI Identifier> | The unique identifier for each GUI, they must all be different
+# Enabled: <true/false> | The toggle to enable and disable the GUI in-game. true = enabled | false = disabled
+# OpenDelay: <time in seconds> | The time in seconds before a player can open the same GUI again
+# Worlds: - <world name> | A list of worlds the GUI can be opened in, if empty any world is allowed
+# Commands: - <open command> | A list of the valid commands that can be used to open the GUI
+# SignLocations: - <sign location> | All signs created in-game will be set under the defined GUI
+# EntityLocations: - <entity location> | All entities created in-game will be set under the defined GUI
+# ClickItems: <Click Item Identifier> | Visit the plugin page for more info on click items
+# 
+# ======================================================
+# 
+# GUI Format:
+# 
+# This is a description of how to format the GUI's from within the config if you choose not to do
+# so in-game. All file based GUI's are also formatted in the same way. If you want a full detailed
+# explanation of how to create a GUI be sure to check out the plugin page.
+# 
+# GUIList:
+#   <GUI Identifier>:
+#     Size: <gui size>
+#     Name: <chest name>
+#     CloseAfter: <time in seconds>
+#     OpenActions:
+#     - <action>
+#     CloseActions:
+#     - <action>
+#     Items:
+#       <Item Id>:
+#         ItemSlot: <display slot>
+#         Permission: <item permission>
+#         NoPermissionSound: <sound value>
+#         <Item Type>:
+#           Priority: <1-5>
+#           ClickDelay: <time in seconds>
+#           BalanceType: <economy type>
+#           AnimationDelay: <time in ticks>
+#           Item: <material;amount;data>
+#           Name: <item name>
+#           Lore:
+#           - <lore line>
+#           Enchants:
+#           - <enchant;level>
+#           HideEnchants: <true/false>
+#           HideAttributes: <true/false>
+#           HidePotionEffects: <true/false>
+#           ShowDelay: <true/false>
+#           UpdatePlaceholders: <true/false>
+#           ClickActions:
+#           - <click action>
+#           ClickCost: <value>
+#           RequiredItem: <material;amount;data>
+#           RequiredItemName: <item name>
+#           RequiredItemLore:
+#           - <lore line>
+#           TakeRequiredItem: <true/false>
+#           CloseOnClick: <true/false>
+#           
+# GUI Format Index:
+# 
+# <GUI Identifier> | The unqiue identifier for each GUI, they must all be different
+# Size: <gui size> | The amount of slots you would like the GUI to have (9, 18, 27, 36, 45, 54)
+# Name: <chest name> | The chest name you would like to display for the GUI. Supports (most) placeholders
+# CloseAfter: <time in seconds> | The amount of time the player can view the GUI before it will close
+# OpenActions: - <action> | The actions to perform upon a player opening the GUI
+# CloseActions: - <action> | The actions to perform upon a player closing the GUI
+# Items: | The section that stores all of your item identifiers
+# <Item Id>: | The unqiue identifier for each item in the GUI, they must all be different
+# ItemSlot: <display slot> | The slot you would like the item to display in (0-53)
+# Permission: <item permission> | The permission required to click the item in the GUI
+# NoPermissionSound: <sound value> | The sound to be played if the player doesn't have permission
+# <Item Type> | The item type specific item to display in the GUI. More info can be found on the plugin page.
+# Priority: <1-5> | The priority of the item type that will be determined first. 1 = highest, 5 = lowest
+# ClickDelay: <time in seconds> | The time in seconds before the player can click this item again
+# BalanceType: <economy type> | The economy type used for the clickcost and balance item
+# AnimationDelay: <time in ticks> | The time in ticks before updating between the animated and regular item
+# Item: <material;amount;data> | The item material and amount to be displayed in the GUI
+# Name: <item name> | The name that the item in the GUI will have displayed
+# Lore: - <lore line> | The lore that the item will have displayed in the GUI
+# Enchants: - <enchant;level> | The enchantments that the item in the GUI will have
+# HideEnchants: <true/false> | This toggle will determine whether or not to hide enchants to give a 'glow' effect
+# HideAttributes: <true/false> | This toggle will determining whether or not to hide item attributes
+# HidePotionEffects: <true/false> | This toggle will determining whether or not to hide item potion effects
+# ShowDelay: <true/false> | If true it will display an extra lore line with the remaining click delay time
+# UpdatePlaceholders: <true/false> | If true it will update the lore placeholders with the animation delay timer
+# ClickActions: - <click action> | The actions to perform upon a player clicking the item
+# ClickCost: - <value> | The required amount of currency to use the item.
+# RequiredItem: <material;amount;data> | The item the player must have in their inventory to click item
+# RequiredItemName: <item name> | The name of the item the player must have in their inventory to click item
+# RequiredItemLore: - <lore line> | The lore of the item the player must have in their inventory to click item
+# TakeRequiredItem: <true/false> | Whether or not you want to take the required item on item click
+# CloseOnClick: <true/false> | Whether or not you want the GUI to close on item click
+# 
+# ======================================================
+# 
+# Valid Actions:
+# 
+# ** Please note that all actions are case-sensitive **
+# 
+# [Right-Click] [<action>] - Will only execute the action if the item is right clicked
+# [Left-Click] [<action>] - Will only execute the action if the item is left clicked
+# [Chance=<percent>] [<action>] - Chance out of 100% that this action will be performed
+# [Delay=<time>] [<action>] - Delays the action to be performed after the delay period in seconds
+# [PlayerCommand] <command> - Executes the command as a player
+# [ConsoleCommand] <command> - Executes the command as the console
+# [OperatorCommand] <command> - Executes the command as the console
+# [Broadcast] <message> - Broadcasts the following message to the server
+# [Message] <message> - Sends the following message to the player
+# [JSONBroadcast] <message> - Sends the following json message to the server
+# [JSONMessage] <message> - Sends the following json to the player
+# [Sound] <sound value> - Plays the sound for the player
+# [OpenGUI] <gui identifier> - Opens the specified GUI for the player
+# [CloseGUI] <value not required> - Closes the GUI the player has open
+# [GiveClickItem] <clickitem identifier> - Gives the player the specified click item
+# [TakeClickItem] <clickitem identifier> - Removes the click item from the players inventory
+# [SetClickDelay] <gui identifier>;<itemtype>;<itemslot>;<newdelay> - Sets the items click delay
+# [VaultGive] <amount> - Adds the amount to the players Vault economy balance
+# [VaultTake] <amount> - Take the amount from the players Vault economy balance
+# [Teleport] <world name;x;y;z> - Teleports the player to the specified coordinates
+# [Teleport] <world name;x;y;z;yaw;pitch> - Teleports the player to the specified coordinates
+# [Title] <title> - Displays the title for the player
+# [Title] <title>;<subtitle> - Displays the title & subtitle for the player
+# [ActionBar] <message> - Displays the message in the actionbar for the player
+# [Bungee] <server> - Sends the player to the specified bungee server
+# 
+# ======================================================
+
+GUIFormat: config
+PlayerClickDelay: 1
+CloseWithinDelay: false
+OverrideClickItems: false
+RegisteredGUI:
+  Daily:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - Daily
+    SignLocations: []
+    EntityLocations:
+    - PLAYER;world;323;81;-2749
+    - VILLAGER;world;323;81;-2749
+    ClickItems: []
+  Hero:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - Hero
+    SignLocations: []
+    EntityLocations:
+    - PLAYER;world;323;81;-2751
+    - WITCH;world;323;81;-2751
+    ClickItems: []
+  Elite:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - Elite
+    SignLocations: []
+    EntityLocations: []
+    ClickItems: []
+  Titan:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - Titan
+    SignLocations: []
+    EntityLocations:
+    - PLAYER;world;319;81;-2751
+    - BLAZE;world;319;81;-2751
+    ClickItems: []
+  Legend:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - Legend
+    SignLocations: []
+    EntityLocations:
+    - PLAYER;world;315;81;-2751
+    - ZOMBIE;world;315;81;-2751
+    ClickItems: []
+  Immortal:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - Immortal
+    SignLocations: []
+    EntityLocations:
+    - PLAYER;world;311;81;-2751
+    - SKELETON;world;311;81;-2751
+    ClickItems: []
+  Donateur:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - Donateur
+    SignLocations: []
+    EntityLocations:
+    - PLAYER;world;307;81;-2751
+    - CREEPER;world;307;81;-2751
+    ClickItems: []
+  warp:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - McShop
+    - PvPArena
+    - world_nether
+    - world_the_end
+    Commands:
+    - warp
+    SignLocations: []
+    EntityLocations: []
+    ClickItems: []
+  Hotel:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - world
+    - world_nether
+    - world_the_end
+    Commands:
+    - Hotel
+    SignLocations: []
+    EntityLocations:
+    - VILLAGER;world;301;86;-2773
+    - PLAYER;McShop;279;112;281
+    - PLAYER;McShop;260;112;281
+    ClickItems: []
+  Grades:
+    Enabled: false
+    OpenDelay: 0
+    Worlds:
+    - world
+    - Labyrinthe
+    Commands:
+    - Grades
+    SignLocations: []
+    EntityLocations:
+    - PLAYER;world;312;81;-2754
+    - PLAYER;world;322;81;-2754
+    ClickItems: []
+  Labyrinthe:
+    Enabled: true
+    OpenDelay: 0
+    Worlds:
+    - Labyrinthe
+    Commands:
+    - Labyrinthe
+    SignLocations: []
+    EntityLocations: []
+    ClickItems: []
+GUIList:
+  Daily:
+    Size: 45
+    Name: §fGrade §3» &bGladiateur
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;1
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 13
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: IRON_SWORD;1;0
+          Name: §eGrade &bGladiateur
+          Lore:
+          - §7Il vous donne accès à §f»
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 1
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 2
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item5:
+        ItemSlot: 3
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 4
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 5
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item8:
+        ItemSlot: 6
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item10:
+        ItemSlot: 7
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11:
+        ItemSlot: 8
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item9:
+        ItemSlot: 9
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item13:
+        ItemSlot: 18
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1112112:
+        ItemSlot: 27
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item111211223:
+        ItemSlot: 24
+        Permission: use.use
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND_CHESTPLATE;1;0
+          Name: §7Clique ici pour voir le contenu du §6kit
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [PlayerCommand] pk gladiateur'
+          ClickCost: 0
+          CloseOnClick: true
+      Item18:
+        ItemSlot: 36
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item19:
+        ItemSlot: 37
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item20:
+        ItemSlot: 38
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item21:
+        ItemSlot: 39
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item23:
+        ItemSlot: 40
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item24:
+        ItemSlot: 41
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item25:
+        ItemSlot: 42
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item26:
+        ItemSlot: 43
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item27:
+        ItemSlot: 44
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item28:
+        ItemSlot: 17
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item29:
+        ItemSlot: 26
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item30:
+        ItemSlot: 35
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item31:
+        ItemSlot: 20
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK;1;0
+          Name: §7Liste des commandes avec ce grade §f »
+          Lore:
+          - §7
+          - §7
+          - §7
+          - §7
+          - §7
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item323:
+        ItemSlot: 31
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: SIGN;1;0
+          Name: '§6Coût : &b200 points boutique'
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+  Hero:
+    Size: 45
+    Name: §fGrade §3» &bTemplier
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;1
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 13
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: IRON_SWORD;1;0
+          Name: §eGrade &bTemplier
+          Lore:
+          - §7Il vous donne accès à §f»
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 1
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 2
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item5:
+        ItemSlot: 3
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 4
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 5
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item8:
+        ItemSlot: 6
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item10:
+        ItemSlot: 7
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11:
+        ItemSlot: 8
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item9:
+        ItemSlot: 9
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item13:
+        ItemSlot: 18
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1112112:
+        ItemSlot: 27
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11121122:
+        ItemSlot: 24
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND_CHESTPLATE;1;0
+          Name: §7Clique ici pour voir le contenu du §6kit
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [PlayerCommand] pk Templier'
+          ClickCost: 0
+          CloseOnClick: true
+      Item18:
+        ItemSlot: 36
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item19:
+        ItemSlot: 37
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item20:
+        ItemSlot: 38
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item21:
+        ItemSlot: 39
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item23:
+        ItemSlot: 40
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item24:
+        ItemSlot: 41
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item25:
+        ItemSlot: 42
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item26:
+        ItemSlot: 43
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item27:
+        ItemSlot: 44
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item28:
+        ItemSlot: 17
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item29:
+        ItemSlot: 26
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item30:
+        ItemSlot: 35
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item31:
+        ItemSlot: 20
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK;1;0
+          Name: §7Liste des commandes avec ce grade §f »
+          Lore:
+          - §7
+          - §7
+          - §7
+          - §7
+          - §7
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item323:
+        ItemSlot: 31
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: SIGN;1;0
+          Name: '§6Coût : &b400 points boutique'
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+  Titan:
+    Size: 45
+    Name: §fGrade §3» &bMonarque
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;1
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 13
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: IRON_SWORD;1;0
+          Name: §eGrade &bMonarque
+          Lore:
+          - §7Il vous donne accès à §f»
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 1
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 2
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item5:
+        ItemSlot: 3
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 4
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 5
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item8:
+        ItemSlot: 6
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item10:
+        ItemSlot: 7
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11:
+        ItemSlot: 8
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item9:
+        ItemSlot: 9
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item13:
+        ItemSlot: 18
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1112112:
+        ItemSlot: 27
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11121122:
+        ItemSlot: 24
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND_CHESTPLATE;1;0
+          Name: §7Clique ici pour voir le contenu du §6kit
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [PlayerCommand] pk Monarque'
+          ClickCost: 0
+          CloseOnClick: true
+      Item18:
+        ItemSlot: 36
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item19:
+        ItemSlot: 37
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item20:
+        ItemSlot: 38
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item21:
+        ItemSlot: 39
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item23:
+        ItemSlot: 40
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item24:
+        ItemSlot: 41
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item25:
+        ItemSlot: 42
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item26:
+        ItemSlot: 43
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item27:
+        ItemSlot: 44
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item28:
+        ItemSlot: 17
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item29:
+        ItemSlot: 26
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item30:
+        ItemSlot: 35
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item31:
+        ItemSlot: 20
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK;1;0
+          Name: §7Liste des commandes avec ce grade §f »
+          Lore:
+          - §7
+          - §7
+          - §7
+          - §7
+          - §7
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item323:
+        ItemSlot: 31
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: SIGN;1;0
+          Name: '§6Coût : &b800 points boutique'
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+  Legend:
+    Size: 45
+    Name: §fGrade §3» &bPrince
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;1
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 13
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: IRON_SWORD;1;0
+          Name: §eGrade &bPrince
+          Lore:
+          - §7Il vous donne accès à §f»
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 1
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 2
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item5:
+        ItemSlot: 3
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 4
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 5
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item8:
+        ItemSlot: 6
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item10:
+        ItemSlot: 7
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11:
+        ItemSlot: 8
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item9:
+        ItemSlot: 9
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item13:
+        ItemSlot: 18
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1112112:
+        ItemSlot: 27
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11121122:
+        ItemSlot: 24
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND_CHESTPLATE;1;0
+          Name: §7Clique ici pour voir le contenu du §6kit
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [PlayerCommand] pk Prince'
+          ClickCost: 0
+          CloseOnClick: true
+      Item18:
+        ItemSlot: 36
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item19:
+        ItemSlot: 37
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item20:
+        ItemSlot: 38
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item21:
+        ItemSlot: 39
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item23:
+        ItemSlot: 40
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item24:
+        ItemSlot: 41
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item25:
+        ItemSlot: 42
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item26:
+        ItemSlot: 43
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item27:
+        ItemSlot: 44
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item28:
+        ItemSlot: 17
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item29:
+        ItemSlot: 26
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item30:
+        ItemSlot: 35
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item31:
+        ItemSlot: 20
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK;1;0
+          Name: §7Liste des commandes avec ce grade §f »
+          Lore:
+          - §7
+          - §7
+          - §7
+          - §7
+          - §7
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item323:
+        ItemSlot: 31
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: SIGN;1;0
+          Name: '§6Coût : &b1000 points boutique'
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+  Immortal:
+    Size: 45
+    Name: §fGrade §3» &bRoi
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;1
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 13
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: IRON_SWORD;1;0
+          Name: §eGrade &bRoi
+          Lore:
+          - §7Il vous donne accès à §f»
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 1
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 2
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item5:
+        ItemSlot: 3
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 4
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 5
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item8:
+        ItemSlot: 6
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item10:
+        ItemSlot: 7
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11:
+        ItemSlot: 8
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item9:
+        ItemSlot: 9
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item13:
+        ItemSlot: 18
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1112112:
+        ItemSlot: 27
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11121122:
+        ItemSlot: 24
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND_CHESTPLATE;1;0
+          Name: §7Clique ici pour voir le contenu du §6kit
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [PlayerCommand] pk Roi'
+          ClickCost: 0
+          CloseOnClick: true
+      Item18:
+        ItemSlot: 36
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item19:
+        ItemSlot: 37
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item20:
+        ItemSlot: 38
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item21:
+        ItemSlot: 39
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item23:
+        ItemSlot: 40
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item24:
+        ItemSlot: 41
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item25:
+        ItemSlot: 42
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item26:
+        ItemSlot: 43
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item27:
+        ItemSlot: 44
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item28:
+        ItemSlot: 17
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item29:
+        ItemSlot: 26
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item30:
+        ItemSlot: 35
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item31:
+        ItemSlot: 20
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK;1;0
+          Name: §7Liste des commandes avec ce grade §f »
+          Lore:
+          - §7
+          - §7
+          - §7
+          - §7
+          - §7
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item323:
+        ItemSlot: 31
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: SIGN;1;0
+          Name: '§6Coût : &b1500 points boutique'
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+  Donateur:
+    Size: 45
+    Name: §fGrade §3» &bEmpereur
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;1
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 13
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: IRON_SWORD;1;0
+          Name: §eGrade &bEmpereur
+          Lore:
+          - §7Il vous donne accès à §f»
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 0
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 1
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 2
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item5:
+        ItemSlot: 3
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 4
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 5
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item8:
+        ItemSlot: 6
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item10:
+        ItemSlot: 7
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11:
+        ItemSlot: 8
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item9:
+        ItemSlot: 9
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item13:
+        ItemSlot: 18
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1112112:
+        ItemSlot: 27
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item11121122:
+        ItemSlot: 24
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND_CHESTPLATE;1;0
+          Name: §7Clique ici pour voir le contenu du §6kit
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [PlayerCommand] pk Empereur '
+          ClickCost: 0
+          CloseOnClick: true
+      Item18:
+        ItemSlot: 36
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item19:
+        ItemSlot: 37
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item20:
+        ItemSlot: 38
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item21:
+        ItemSlot: 39
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item23:
+        ItemSlot: 40
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item24:
+        ItemSlot: 41
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item25:
+        ItemSlot: 42
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item26:
+        ItemSlot: 43
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item27:
+        ItemSlot: 44
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;14
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item28:
+        ItemSlot: 17
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item29:
+        ItemSlot: 26
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item30:
+        ItemSlot: 35
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item31:
+        ItemSlot: 20
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK;1;0
+          Name: §7Liste des commandes avec ce grade §f »
+          Lore:
+          - §7
+          - §7
+          - §7
+          - §7
+          - §7
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+      Item323:
+        ItemSlot: 31
+        Permission: putain.putain
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: SIGN;1;0
+          Name: '§6Coût : &b3000 points boutique'
+          Enchants:
+          - DURABILITY;1
+          HideEnchants: true
+          ClickCost: 0
+          CloseOnClick: true
+  Bank:
+    Size: 9
+    Name: Bank
+    OpenActions: []
+    CloseActions: []
+    Items:
+      Item2:
+        ItemSlot: 2
+        Permission: vaults.open
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: ENDER_CHEST;1;0
+          Name: §d§lCoffre fort
+          Lore:
+          - §7
+          - §7Clique pour voir tout
+          - §7tes coffres
+          - §7
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [OpenGUI] Vaults'
+          - '[Left-Click] [Sound] BAT_TAKEOFF'
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 4
+        Permission: shard.market
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: PRISMARINE_SHARD;1;0
+          Name: §e§lMarcher
+          Lore:
+          - §7--------------
+          - §7
+          - §4&lINDISPONIBLE
+          - §7
+          - §7--------------
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 6
+        Permission: <Item Permission>
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: PAPER;1;0
+          Name: §eHotel des ventes
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [PlayerCommand] shop'
+          ClickCost: 0
+          CloseOnClick: true
+      Item9:
+        ItemSlot: 0
+        Permission: exit.exit
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_CLAY;1;14
+          Name: §c§lExit
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Left-Click] [CloseGUI]'
+          ClickCost: 0
+          CloseOnClick: true
+      Item8:
+        ItemSlot: 1
+        Permission: <Item Permission>
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 3
+        Permission: <Item Permission>
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[PlayerCommand] spawn'
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 5
+        Permission: <Item Permission>
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+          AnimationDelay: 40
+          AnimatedItem: STAINED_GLASS_PANE;1;7
+          AnimatedName: '&aItem6'
+          AnimatedLore: []
+          AnimatedEnchants: []
+      Item5:
+        ItemSlot: 7
+        Permission: <Item Permission>
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;7
+          Name: §7
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 8
+        Permission: <Item Permission>
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK;1;0
+          Name: '&aItem1'
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: true
+  warp:
+    Size: 9
+    Name: '&cAltcore NAVIGUATION'
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: wild.wild
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: GRASS;1;0
+          Name: '&a&lWilderness'
+          Lore:
+          - '&7Clique pour commencer ton aventure.'
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions:
+          - '[PlayerCommand] fbasics wilderness'
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 1
+        Permission: shop.shop
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: CHEST;1;0
+          Name: '&a&lShop'
+          Lore:
+          - '&7Achetez/Vendez vos items. Devenez riches !'
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[PlayerCommand] warp shop'
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 2
+        Permission: info.info
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: BOOK_AND_QUILL;1;0
+          Name: '&cCe qui arrive bientôt...!'
+          Lore:
+          - '&7Plus d''informations'
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[ConsoleCommand] cg open Info %player%'
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 3
+        Permission: store.store
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND;1;0
+          Name: '&a&lBoutique'
+          Lore:
+          - '&7Clique ici pour en savoir plus sur la boutique!'
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Message]'
+          - '[Message]'
+          - '[Message] &a&nClique sur le lien&7 &7&nwww.Altcore.fr/shop&f'
+          - '[Message]'
+          - '[Message]'
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 4
+        Permission: casino.casino
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: EMERALD;1;0
+          Name: '&cJackpot!'
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[PlayerCommand] jackpot'
+          ClickCost: 0
+          CloseOnClick: false
+      Item5:
+        ItemSlot: 5
+        Permission: bank.bank
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: ENDER_CHEST;1;0
+          Name: '&a&lCoffres'
+          Lore:
+          - '&7Cliques ici pour voyager à la banque.'
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[PlayerCommand] warp bank'
+          ClickCost: 0
+          CloseOnClick: true
+      Item6:
+        ItemSlot: 6
+        Permission: pvp.arena
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: DIAMOND_SWORD;1;0
+          Name: '&a&lPvP Arena'
+          Lore:
+          - '&7Cliques ici pour visiter l''arène pvp tropicale'
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[PlayerCommand] warp pvp'
+          ClickCost: 0
+          CloseOnClick: true
+      Item7:
+        ItemSlot: 7
+        Permission: glass.glass
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;0
+          Name: '&f&l???'
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: false
+      Item8:
+        ItemSlot: 8
+        Permission: glass.glass
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS_PANE;1;0
+          Name: '&f&l???'
+          Lore: []
+          Enchants: []
+          HideEnchants: true
+          ClickActions: []
+          ClickCost: 0
+          CloseOnClick: false
+  Hotel:
+    Size: 9
+    Name: '&eHotel'
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 4
+        Permission: gui.hotel
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: CHEST;1;0
+          Name: '&eHotel des ventes'
+          Lore:
+          - '&7Cliques pour mettre en vente des objets'
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions:
+          - '[PlayerCommand] ah'
+          ClickCost: 0
+          CloseOnClick: true
+  Grades:
+    Size: 9
+    Name: '&cChoisis ton grade'
+    OpenActions: []
+    CloseActions: []
+    Items:
+      <ItemId>:
+        ItemSlot: 0
+        Permission: vault.one
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          Priority: 5
+          BalanceType: vault
+          Item: STAINED_GLASS;1;5
+          Name: §2§lGrade Héro
+          Lore:
+          - §3Accès au /see
+          - §3Accès au /ptime
+          - §3Accès au /sell
+          - §34 homes
+          - §3Accès au kit Héro
+          - §33Coffres personnels au /vaults
+          - §3Permission Silktouch
+          - §aPermission d'écrire en couleur
+          - §335000$ à l'achat
+          - §7
+          - §c200 points boutique
+          - §7
+          - §aCliques-gauche pour accéder à  la boutique
+          Enchants: []
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions:
+          - '[Message] §7'
+          - '[Message] §7'
+          - '[Message] §a§nCliques sur le lien§f §7§nhttps://Altcore.fr/shop/c/12§f'
+          - '[Message] §a'
+          - '[Message] §a'
+          ClickCost: 0
+          CloseOnClick: true
+      Item1:
+        ItemSlot: 1
+        Permission: vault.deny
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS;1;10
+          Name: §5§lGrade Elite
+          Lore:
+          - §3Accès au /see
+          - §3Accès au /ptime
+          - §3Accès au /sell
+          - §3Accès au /near
+          - §3Accès au /feed
+          - §3Accès au /fix
+          - §3Accès au /hat
+          - §35 Coffres personnels au /vaults
+          - §3MCmmo double Xp
+          - §36 homes
+          - §32x plus d'xp a vie
+          - §3Permission Silktouch
+          - §dPermission d'écrire en couleur
+          - §3Accès au kit à‰lite
+          - §375000$ à  l'achat
+          - §7
+          - §c400 points boutique
+          - §7
+          - §aCliques-gauche pour accà©der à  la boutique
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Message] §7'
+          - '[Message] §7'
+          - '[Message] §a§nCliques sur le lien§f §7§nhttps://Altcore.fr/shop/c/12§f'
+          - '[Message] §a'
+          - '[Message] §a'
+          ClickCost: 0
+          CloseOnClick: true
+      Item2:
+        ItemSlot: 2
+        Permission: vault.deny
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS;1;14
+          Name: §c§lGrade Titan
+          Lore:
+          - §3Accès au /see
+          - §3Accès au /ptime
+          - §3Accès au /sell
+          - §3Accès au /near
+          - §3Accès au /feed
+          - §3Accès au /fix
+          - §3Accès au /hat
+          - §3Accès au /lightning
+          - §37 Coffres personnels au /vaults
+          - §38 homes
+          - §3MCmmo double xp
+          - §33x plus d'xp a vie
+          - §cPermission d'à©crire en couleur
+          - §3§l150000§3à  l'achat
+          - §3Accès au kit Titan
+          - §3Permission Silktouch
+          - §7
+          - §c800 points boutique
+          - §7
+          - §aCliques-gauche pour accà©der à  la boutique
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Message] §7'
+          - '[Message] §7'
+          - '[Message] §a§nCliques sur le lien§f §7§nhttps://Altcore.fr/shop/c/12§f'
+          - '[Message] §a'
+          - '[Message] §a'
+          ClickCost: 0
+          CloseOnClick: true
+      Item3:
+        ItemSlot: 3
+        Permission: vault.deny
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS;1;1
+          Name: §6§lGrade Legend
+          Lore:
+          - §3Accès au /see
+          - §3Accès au /ptime
+          - §3Accès au /sell
+          - §3Accès au /feed
+          - §3Accès au /near
+          - §3Accès au /hat
+          - §3Accès au /fix
+          - §3Accès au /lightning
+          - §3Accès au /heal
+          - §3Accès au /nick
+          - §3Accès au /ec
+          - §39 Coffres au /vaults
+          - §3MCmmo double xp
+          - §312 homes
+          - §33.5x plus d'xp a vie
+          - §aPermission d'à©crire en couleur
+          - §3§l225000$ à  l'achat
+          - §3Accès au kit Legend
+          - §3Permission Silktouch
+          - §3
+          - §c1000 points boutique
+          - §7
+          - §aCliques-gauche pour accà©der à  la boutique
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Message] §7'
+          - '[Message] §7'
+          - '[Message] §a§nCliques sur le lien§f §7§nhttps://Altcore.fr/shop/c/12§f'
+          - '[Message] §a'
+          - '[Message] §a'
+          ClickCost: 0
+          CloseOnClick: true
+      Item4:
+        ItemSlot: 4
+        Permission: vault.deny
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS;1;9
+          Name: §3§lGrade God
+          Lore:
+          - §3Accès au /fly
+          - §3Accès au /skin
+          - §3Accès au /see
+          - §3Accès au /ptime
+          - §3Accès au /sell
+          - §3Accès au /feed
+          - §3Accès au /near
+          - §3Accès au /fixall
+          - §3Accès au /hat
+          - §3Accès au /lightning
+          - §3Accès au /heal
+          - §3Accès au /nick
+          - §3Accès au /ec
+          - §39 Coffres Vaults
+          - §3MCmmo triple xp$
+          - §316 homes
+          - §34.5x plus d'xp à  vie
+          - §bPermission d'à©crire en couleur
+          - §3§l400000$ à  l'achat
+          - §3Accès au kit God
+          - §3Permission Silktouch
+          - §3
+          - §c1500 points boutique
+          - §7
+          - §aCliques-gauche pour accà©der à  la boutique
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Message] §7'
+          - '[Message] §7'
+          - '[Message] §a§nCliques sur le lien§f §7§nhttps://Altcore.fr/shop/c/12§f'
+          - '[Message] §a'
+          - '[Message] §a'
+          ClickCost: 0
+          CloseOnClick: true
+      Item5:
+        ItemSlot: 5
+        Permission: vault.deny
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: STAINED_GLASS;1;11
+          Name: §1§lGrade Donateur
+          Lore:
+          - §3Accès au /back
+          - §3Accès au /spawner
+          - §3Accès au /fly
+          - §3Accès au /powertool
+          - §3Accès au /ci
+          - §3Accès au /skin
+          - §3Accès au /see
+          - §3Accès au /ptime
+          - §3Accès au /sell
+          - §3Accès au /feed
+          - §3Accès au /near
+          - §3Accès au /fixall
+          - §3Accès au /hat
+          - §3Accès au /lightning
+          - §3Accès au /heal
+          - §3Accès au /nick
+          - §3Accès au /ec
+          - §39 Coffres Vaults
+          - §3MCmmo triple xp
+          - §3Homes illimità©s
+          - §36x plus d'xp à  vie
+          - §9Permission d'à©crire en couleur
+          - §3§l800000$ à  l'achat
+          - §3Accès au kit Donateur
+          - §3Permission Silktouch
+          - §3
+          - §c3000 points boutique
+          - §7
+          - §aCliques-gauche pour accà©der à  la boutique
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[Message] §7'
+          - '[Message] §7'
+          - '[Message] §a§nCliques sur le lien§f §7§nhttps://Altcore.fr/shop/c/12§f'
+          - '[Message] §a'
+          - '[Message] §a'
+          ClickCost: 0
+          CloseOnClick: true
+  Labyrinthe:
+    Size: 9
+    Name: §3Labyrinthe
+    OpenActions: []
+    CloseActions: []
+    Items:
+      Item1:
+        ItemSlot: 3
+        Permission: sugar.lab
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: SUGAR;1;0
+          Name: §b§lSpeed
+          Lore:
+          - §3Cliques ici pour avoir du speed
+          HideEnchants: true
+          HideAttributes: false
+          HidePotionEffects: false
+          ClickActions:
+          - '[ConsoleCommand] effect %player% 1 210 3'
+          - '[Message] Tu es sous speed 3 pendant 30 minutes !'
+          ClickCost: 0
+          CloseOnClick: false
+      Item2:
+        ItemSlot: 5
+        Permission: sugar.labs
+        NoPermissionSound: ITEM_PICKUP
+        DefaultItem:
+          BalanceType: vault
+          Item: COOKED_BEEF;1;0
+          Name: §6§lNourriture
+          Lore:
+          - §3Cliques ici pour recevoir de la nourriture
+          Enchants: []
+          HideEnchants: true
+          ClickActions:
+          - '[ConsoleCommand] give %player% steak'
+          ClickCost: 0
+          CloseOnClick: false

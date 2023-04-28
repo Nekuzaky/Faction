@@ -1,0 +1,600 @@
+Vouchers:
+  #Please use These Arguments
+  #For the Player who uses the Voucher %Player%
+  #Use %Arg% for your Arguments
+  #%Arg% is the First Line on the Voucher
+  #Command /Voucher <Type> <Argument>
+  #Money would be the <Type>
+  #So if you do /Voucher &a&lMoney &6$1000
+  #Money is the Type and $1000 is the %Arg%
+  Money:
+    VoucherName: '&7&l>>&a&lMoney Voucher&7&l<<' #The Custom name of the Voucher Item
+    Lore: #Have a custom lore for your Vouchers
+      - '&3You have won &6$%Arg%&3.'
+      - '&6P.S. &eDont spend it all in one place'
+    #Command will be the Command Fired to the Player.
+    Commands:
+      - 'Eco give %Player% %Arg%'
+      - 'broadcast &4%player% &3has just won &6$%arg%'
+    #Message is the Message sent to the player when they Use the Voucher.
+    Message: '&3You have Won &6$%Arg%'
+    #The type of Item the Voucher Will Be.
+    VoucherType: '339'
+    #If the it checks if the Player has permission to use the Voucher.
+    VoucherPermOn/Off: true
+    #The Voucher's Perm Voucher.<VoucherPerm>
+    VoucherPerm: Money
+    #Turn on an off the Limiter.
+    VoucherLimitToggle: false
+    #The Limit of how many times a player can use it.
+    VoucherLimit: 10
+    #Turn on and off the sound when the voucher is used.
+    SoundToggle: true
+    #1.8 sounds are found here: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+    #1.9 sounds are found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+    Sound: 'UI_BUTTON_CLICK' #This is a 1.9 sound. Make sure to change it to CLICK if you are on 1.8
+  RankUp:
+    VoucherName: '&a&lRANK "&fHero&a&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the'
+      - '&7Hero rank on this server'
+    Commands:
+      - 'broadcast &d&l%Player% &b&lUNLOCKED the &a&lHero &b&lRank!'
+      - 'Pex user %Player% group set Hero'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Elite:
+    VoucherName: '&d&lRANK "&fElite&d&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the'
+      - '&7Elite rank on this server'
+    Commands:
+      - 'Pex user %Player% group set Elite'
+      - 'broadcast &d&l%Player% &b&lUNLOCKED the &d&lElite &b&lRank!'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Titan:
+    VoucherName: '&c&lRANK "&fTitan&c&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the'
+      - '&7Titan rank on this server'
+    Commands:
+      - 'Pex user %Player% group set Titan'
+      - 'broadcast &d&l%Player% &b&lUNLOCKED the &c&lTitan &b&lRank!'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Legend:
+    VoucherName: '&6&lRANK "&fLegend&6&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the'
+      - '&7Legend rank on this server'
+    Commands:
+      - 'Pex user %Player% group set Legend'
+      - 'broadcast &d&l%Player% &b&lUNLOCKED the &6&lLegend &b&lRank!'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  God:
+    VoucherName: '&b&lRANK "&fGod&b&l" &7(Cliquez droit)'
+    Lore:
+      - '&7Right-click to redeem the'
+      - '&7God rank on this server'
+    Commands:
+      - 'Pex user %Player% group set God'
+      - 'broadcast &d&l%Player% &b&lUNLOCKED the &3&lGod &b&lRank!'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  KitHero:
+    VoucherName: '&a&lKIT "&fHero&a&l" &7(Cliquez droit)'
+    Lore:
+      - '&7Cliquez droit pour obtenir le kit Hero'
+      - ''
+      - '&c&l(!) &7Assurez vous d''avoir de la place dans votre inventaire!'
+    Commands:
+      - 'kit hero %Player%'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  KitElite:
+    VoucherName: '&d&lKIT "&fElite&d&l" &7(Cliquez droit)'
+    Lore:
+      - '&7Cliquez droit pour obtenir le kit Elite'
+      - ''
+      - '&c&l(!) &7Assurez vous d''avoir de la place dans votre inventaire!'
+    Commands:
+      - 'kit elite %Player%'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  KitTitan:
+    VoucherName: '&c&lKIT "&fTitan&c&l" &7(Cliquez droit)'
+    Lore:
+      - '&7Cliquez droit pour obtenir le kit Titan'
+      - ''
+      - '&c&l(!) &7Assurez vous d''avoir de la place dans votre inventaire!'
+    Commands:
+      - 'kit titan %Player%'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  FlyCommand:
+    VoucherName: '&d&lCOMMAND "&b&l/FLY&d&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the /fly'
+      - '&7command on this server'
+    Commands:
+      - 'pex user %Player% add essentials.fly'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  2Fast4U:
+    VoucherName: '&b&lTITLE "&f2Fast4U&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&f2Fast4U &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.2Fast4U'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Grinder:
+    VoucherName: '&b&lTITLE "&fGrinder&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fGrinder &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Grinder'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Banker:
+    VoucherName: '&b&lTITLE "&fBanker&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fBanker &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Banker'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Ez:
+    VoucherName: '&b&lTITLE "&fEz&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fEz &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Ez'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  PvPGod:
+    VoucherName: '&b&lTITLE "&fPvPGod&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fPvPGod &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.PvPGod'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Undying:
+    VoucherName: '&b&lTITLE "&fUndying&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fUndying &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Undying'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Christmas:
+    VoucherName: '&b&lTITLE "&fChristmas&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fChristmas &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Christmas'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  CantStrafe:
+    VoucherName: '&b&lTITLE "&fCantStrafe&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fCantStrafe &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.CantStrafe'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Boosted:
+    VoucherName: '&b&lTITLE "&fBoosted&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fBoosted &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Boosted'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  2LazyToFight:
+    VoucherName: '&b&lTITLE "&f2LayZ2Fite&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&f2LayZ2Fite &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.2LayZ2Fite'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Random:
+    VoucherName: '&b&lTITLE "&fRandom&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fRandom &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Random'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Divine:
+    VoucherName: '&b&lTITLE "&fDivine&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fDivine &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Divine'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Nerd:
+    VoucherName: '&b&lTITLE "&fNerd&b&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to redeem the title'
+      - '&fNerd &7on this server'
+    Commands:
+      - 'pex user %Player% add deluxetags.tag.Nerd'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '339'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Jungler:
+    VoucherName: '&2&lGKIT "&fJungler&2&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to unlock the'
+      - '&fJungler Kit &7on this server'
+    Commands:
+      - 'pex user %Player% add essentials.kit.Jungler'
+    Message: ''
+    VoucherType: '378'
+    VoucherPermOn/Off: false
+    VoucherPerm: RankUp
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'ENDERDRAGON_GROWL'
+  Butcher:
+    VoucherName: '&4&lGKIT "&fButcher&4&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to unlock the'
+      - '&fButcher Kit &7on this server'
+    Commands:
+      - 'pex user %Player% add essentials.kit.Butcher.'
+    Message: ''
+    VoucherType: '378'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'ENDERDRAGON_GROWL'
+  Marksman:
+    VoucherName: '&e&lGKIT "&fMarksman&e&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to unlock the'
+      - '&fMarksman Kit &7on this server'
+    Commands:
+      - 'pex user %Player% add essentials.kit.Marksman.'
+    Message: ''
+    VoucherType: '378'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'ENDERDRAGON_GROWL'
+  Christmaskit:
+    VoucherName: '&a&lGKIT "&fChristmas&a&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to unlock the'
+      - '&fChirstmas Kit &7on this server'
+    Commands:
+      - 'pex user %Player% add essentials.kit.Christmas.'
+    Message: ''
+    VoucherType: '378'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'ENDERDRAGON_GROWL'
+  Enchanter:
+    VoucherName: '&d&lGKIT "&fEnchanter&d&l" &7(Right Click)'
+    Lore:
+      - '&7Right-click to unlock the'
+      - '&fEnchanter Kit &7on this server'
+    Commands:
+      - 'pex user %Player% add essentials.kit.Enchanter.'
+    Message: ''
+    VoucherType: '378'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'ENDERDRAGON_GROWL'
+  DustOne:
+    VoucherName: '&dTreasure Dust &7(Right-Click)'
+    Lore:
+      - '&7Right-click to obtain'
+      - '&d&lTreasure Dust'
+      - ''
+      - '&f&lUse: &7Treasure Dust can be'
+      - '&7used to craft Treasure Boxes.'
+      - '&7Awesome gear can be obtained'
+      - '&7in treasure boxes.'
+      - ''
+      - '&d&l+ 1 Treasure Dust'
+    Commands:
+      - 'mb addmysterydust %Player% 1'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '348'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  DustFive:
+    VoucherName: '&dTreasure Dust &7(Right-Click)'
+    Lore:
+      - '&7Right-click to obtain'
+      - '&d&lTreasure Dust'
+      - ''
+      - '&f&lUse: &7Treasure Dust can be'
+      - '&7used to craft Treasure Boxes.'
+      - '&7Awesome gear can be obtained'
+      - '&7in treasure boxes.'
+      - ''
+      - '&d&l+ 5 Treasure Dust'
+    Commands:
+      - 'mb addmysterydust %Player% 5'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '348'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  DustTen:
+    VoucherName: '&dTreasure Dust &7(Right-Click)'
+    Lore:
+      - '&7Right-click to obtain'
+      - '&d&lTreasure Dust'
+      - ''
+      - '&f&lUse: &7Treasure Dust can be'
+      - '&7used to craft Treasure Boxes.'
+      - '&7Awesome gear can be obtained'
+      - '&7in treasure boxes.'
+      - ''
+      - '&d&l+ 10 Treasure Dust'
+    Commands:
+      - 'mb addmysterydust %Player% 10'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '348'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Dust50:
+    VoucherName: '&dTreasure Dust &7(Right-Click)'
+    Lore:
+      - '&7Right-click to obtain'
+      - '&d&lTreasure Dust'
+      - ''
+      - '&f&lUse: &7Treasure Dust can be'
+      - '&7used to craft Treasure Boxes.'
+      - '&7Awesome gear can be obtained'
+      - '&7in treasure boxes.'
+      - ''
+      - '&d&l+ 50 Treasure Dust'
+    Commands:
+      - 'mb addmysterydust %Player% 50'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '348'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  Dust100:
+    VoucherName: '&dTreasure Dust &7(Right-Click)'
+    Lore:
+      - '&7Right-click to obtain'
+      - '&d&lTreasure Dust'
+      - ''
+      - '&f&lUse: &7Treasure Dust can be'
+      - '&7used to craft Treasure Boxes.'
+      - '&7Awesome gear can be obtained'
+      - '&7in treasure boxes.'
+      - ''
+      - '&d&l+ 100 Treasure Dust'
+    Commands:
+      - 'mb addmysterydust %Player% 100'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '348'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'LEVEL_UP'
+  10:
+    VoucherName: '&a&l&nXP&a&l BOOSTER'
+    Lore:
+      - '&7Multiplies XP gained from'
+      - '&7killing mobs while active'
+      - ''
+      - '&7Right-Click to activate'
+      - ''
+      - '&d&lMULTIPLIER'
+      - '&72.0x'
+      - ''
+      - '&d&lTIME'
+      - '&710m'
+    Commands:
+      - 'xpboost give %Player% 1 600'
+      - 'execute %player% ~ ~ ~ /particle spell ~ ~1 ~ 0.5 1 0.5 1 100 10'
+    Message: ''
+    VoucherType: '348'
+    VoucherPermOn/Off: false
+    VoucherPerm:
+    VoucherLimitToggle: false
+    VoucherLimit: 1
+    SoundToggle: true
+    Sound: 'ENDERDRAGON_GROWL'

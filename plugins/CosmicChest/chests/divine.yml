@@ -1,0 +1,813 @@
+chestItem:
+   name: "&6&lLegendary Tropical Chest &7(Right click!)"
+   item: "CHEST"
+   enchanted: false
+   lore:
+      - "&7Open to recieve a random"
+      - "&7cache of &6&nLegendary&7 equipment"
+
+permissionRequired: true
+chestSize: 3
+quickOpen: false
+noDuplicates: false
+
+selectionMenu:
+   name: "Legendary Chest"
+   selectCount: 4
+   icons:
+      notSelected:
+         name: "&6&l???"
+         display: "CHEST"
+         enchanted: false
+         lore:
+            - "&7Choose 4 mystery chests, and"
+            - "&7your loot will be revealed."
+      selected:
+         name: "&6&l???"
+         display: "THIN_GLASS"
+         enchanted: false
+         lore:
+            - "&7You have selected this mystery chest."
+   sounds:
+      select:
+         sound: "ORB_PICKUP"
+         volume: 2.0
+         pitch: 2.0
+
+shufflingMenu:
+   name: "Shuffling..."
+   animation: "DEFAULT"
+   settings:
+      keepRewardsPositions: true
+      animationSpeed: 2
+   sounds:
+      shuffle1:
+         sound: "ORB_PICKUP"
+         volume: 1
+         pitch: 1.0
+      shuffle2:
+         sound: "CLICK"
+         volume: 1
+         pitch: 0.5
+
+rewardsMenu:
+   name: "Rewards"
+   sounds:
+      takereward:
+         sound: "BAT_TAKEOFF"
+         volume: 1
+         pitch: 2.0
+   closeCommands: 
+      - "fw shoot %p"
+
+tiers:
+   basic:
+      name: "&bBasic"
+      display: "STAINED_GLASS_PANE 3"
+      enchanted: false
+      chance: 75
+   rare:
+      name: "&aRare"
+      display: "STAINED_GLASS_PANE 5"
+      enchanted: false
+      chance: 30
+   legendary:
+      name: "&6legendary"
+      display: "STAINED_GLASS_PANE 1"
+      enchanted: false
+      chance: 20
+   divine:
+      name: "&cDivine"
+      display: "STAINED_GLASS_PANE 14"
+      enchanted: false
+      chance: 15
+
+rewards:
+   Crystal:
+      tier: "basic"
+      chance: 25
+      name: "&eShiny Crystal &7(Right Click)"
+      display: "NETHER_STAR 1"
+      enchanted: false
+      lore:
+         - "&7Prevents an item from being destroyed"
+         - "&7due to failed enchantment book"
+      rewards:
+         consolecommands:
+            - "crystal give %p 1"
+   Crystal1:
+      tier: "rare"
+      chance: 25
+      name: "&eShiny Crystal &7(Right Click)"
+      display: "NETHER_STAR 1"
+      enchanted: false
+      lore:
+         - "&7Prevents an item from being destroyed"
+         - "&7due to failed enchantment book"
+         - "&ePlace Crystal on item to apply"
+      rewards:
+         consolecommands:
+            - "crystal give %p 1"
+   Crystal2:
+      tier: "legendary"
+      chance: 25
+      name: "&eShiny Crystal &7(Right Click)"
+      display: "NETHER_STAR 1"
+      enchanted: false
+      lore:
+         - "&7Prevents an item from being destroyed"
+         - "&7due to failed enchantment book"
+         - "&ePlace Crystal on item to apply"
+      rewards:
+         consolecommands:
+            - "crystal give %p 1"
+   Crystal4:
+      tier: "divine"
+      chance: 25
+      name: "&eShiny Crystal &7(Right Click)"
+      display: "NETHER_STAR 1"
+      enchanted: false
+      lore:
+         - "&7Prevents an item from being destroyed"
+         - "&7due to failed enchantment book"
+         - "&ePlace Crystal on item to apply"
+      rewards:
+         consolecommands:
+            - "crystal give %p 1"
+   Crystal:
+      tier: "basic"
+      chance: 25
+      name: "&eShiny Crystal &7(Right Click)"
+      display: "NETHER_STAR 1"
+      enchanted: false
+      lore:
+         - "&7Prevents an item from being destroyed"
+         - "&7due to failed enchantment book"
+         - "&ePlace Crystal on item to apply"
+      rewards:
+         consolecommands:
+            - "crystal give %p 1"
+   Crystasdfgfhhsfdhhsfgjl:
+      tier: "basic"
+      chance: 25
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$250000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 250000"
+   Crystasdsfgfdhsdfhsdhfgfhhsfdhhsfgjl:
+      tier: "rare"
+      chance: 25
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$250000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 250000"
+   Crystasdfgdgfhhsfhfgfhgflgjhkhhhsfdhhsfgjl:
+      tier: "legendary"
+      chance: 25
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$250000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 250000"
+   Crystasdfgfhhsdfgdsgsadggfdsgagfdgshsdhsfdhhsfgjl:
+      tier: "Divine"
+      chance: 25
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$250000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 250000"
+   Crystasdfgfhhsfdhtdhthsrgfhfgjgsdfgsiusyearghfdbgdfsgdrghsfgjl:
+      tier: "basic"
+      chance: 10
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$500000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 500000"
+   Crystasdfgfhhsfdhtdhthtyyurgtsdbgsj;dffdxgfhdfghsrgfhfgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 15
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$500000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 500000"
+   Crystasdfgfhhsfdhtdhthsrgfpsfdgoidrgjgbdyhfgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 20
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$500000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 500000"
+   Crystasdfgfhhsfdhtdhthsyrtiuyadsbfuasydbglifgfgrgfhfgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 25
+      name: "&d&lTropical Note &7(Right Click)"
+      display: "PAPER 1"
+      enchanted: false
+      lore:
+         - "&aValue &f$500000"
+         - "&aSigner &7TropicalMC"
+      rewards:
+         consolecommands:
+            - "banknotes give %p 500000"
+   Crystasdfgfhhsfdhtdhthsrgfhfqhjbsekaurgkiyarbtjagdfsgsbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&b&lExperience Bottle &7(Throw)"
+      display: "EXP_BOTTLE 1"
+      enchanted: false
+      lore:
+         - "&dValue &f100000"
+         - "&dEnchanter &7Arcane"
+      rewards:
+         consolecommands:
+            - "xpbottle 100000 %p"
+   Crystasdfgfhhsfdhtdhthsrgfqygaesfalsdfbjsdgghhfqhjbsekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 20
+      name: "&b&lExperience Bottle &7(Throw)"
+      display: "EXP_BOTTLE 1"
+      enchanted: false
+      lore:
+         - "&dValue &f100000"
+         - "&dEnchanter &7Arcane"
+      rewards:
+         consolecommands:
+            - "xpbottle 100000 %p"
+   Crystasdfgfhhsfdhtdhthsrgfhfqhjblsdjfgiurdhgrdbdfgsdjgblisgagsekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 25
+      name: "&b&lExperience Bottle &7(Throw)"
+      display: "EXP_BOTTLE 1"
+      enchanted: false
+      lore:
+         - "&dValue &f100000"
+         - "&dEnchanter &7Arcane"
+      rewards:
+         consolecommands:
+            - "xpbottle 100000 %p"
+   Crystasdfgfhhsfdhtdhthsrgfhfquyirstgbgfdbglsdfghdhjbsekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 25
+      name: "&b&lExperience Bottle &7(Throw)"
+      display: "EXP_BOTTLE 1"
+      enchanted: false
+      lore:
+         - "&dValue &f100000"
+         - "&dEnchanter &7Arcane"
+      rewards:
+         consolecommands:
+            - "xpbottle 100000 %p"
+   Crystasdfgfhhsfdhtdhthsrgfhfqhjbsiuyrtgodbgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 20
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 1"
+   Crystasdfgfhhsfdhtdhqhkvkesrfkhsdltdrgthsrgfhfqhjbsiuyrtgodbgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 25
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 1"
+   Crystasdfgfhhsfdhtdhthsrgfhfqhjbsiuyrtgodbgdfbjgdsjfg;dfshysrtrdbuygbdfhjgbsldfgsdfhekaurgksudsfhghrgblsdrgbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 20
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 1"
+   Crystasdfgfhhsfdhtdhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 25
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 1"
+   Crystasdfgfhhsfdhfgdfhdhgfghtdhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 17
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 2"
+   Crystasdfgfhhsfdhfgdfhdhgfghtdhthsrfggfjddfgjsfgjhgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 20
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 2"
+   Crystasdfgfhhsfdhfgdfhdhgfghtdhthsrgfgfhfgjdfgjfgjjfgjhfqhjbsiuyrtgghfjfgjhsgfhshgfhodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 25
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 2"
+   Crystasdfgfhhsfdhfgdfhdhgfdhfdgjdfgjghjgfghtdhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 25
+      name: "&6&lBlaze &7Spawner"
+      display: "MOB_SPAWNER 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p blaze 2"
+   Crystasdfgfhhsfdhfgdfhdhgfhjsdfbgdfgjkdfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&6&lIron Golem &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p irongolem 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjsdfbkhjfdgdfhgfjhdjbgshdfgshfsdfhgdfgjkdfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 17
+      name: "&6&lIron Golem &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p irongolem 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjsdfbgdfgjkdfgsdfgghtdhqubwyqgeqyugrsdjfsadgdfgjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 20
+      name: "&6&lIron Golem &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p irongolem 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 25
+      name: "&6&lIron Golem &7Spawner"
+      display: "MOB_SPAWNER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "ss give %p irongolem 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjhjsdfgkjsdfkghjsdfhsddfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 25
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdgjhsgbkhjsfdbgjhsdfhshhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 25
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfhrtiyusrghfbgkhsdfgsdhdgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 25
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdgjhbskjhsfdbgkbfsgnsfgbdfbgkbgkhsdvgbksbhdfhgsdfvjgdfvgsdjfghvsfgfdgdsfhsfhsdfhkhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 25
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 20
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 2"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhshjsdfgurdghfdbgkhjgshfgbfdyrtgkxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 20
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 2"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkxfgbhfbghfdgbskjdhfgsdyuirdgsbghasdgfsdfhlgjksdhfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 20
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 2"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkbrygbsbffdbghjdfkhhkdsfgsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 20
+      name: "&6&lLegendary Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &6&nLegendary&7 enchantment book"
+      display: "BOOK 2"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p Legendary 2"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&c&lDivine Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &c&nDivine&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p divine 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfgfhgjdjdyrtgkjdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 20
+      name: "&c&lDivine Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &c&nDivine&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p divine 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkghdghgjjdfsyrtrbgfbghksdfhgsdfgsdhgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 25
+      name: "&c&lDivine Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &c&nDivine&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p divine 1"
+   Crystasdfgfhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 25
+      name: "&c&lDivine Enchant Book &7(Right Click)"
+      lore:
+         - "&7Open to recieve a random &c&nDivine&7 enchantment book"
+      display: "BOOK 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "givebook %p divine 1"
+   Crystasdfgfusfdgnjdfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&c&lTier IV Money Egg &7(Right Click)"
+      lore:
+         - "&7This money egg has been mined from the"
+         - "&7mountain of middle earth. It has great"
+         - "&7power and stores great wealth."
+      display: "DRAGON_EGG 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "mp 4 %p"
+   Crystasdfgfusfdgnjdfgjhfgsrtrestrgfdhsfdhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 17
+      name: "&c&lTier IV Money Egg &7(Right Click)"
+      lore:
+         - "&7This money egg has been mined from the"
+         - "&7mountain of middle earth. It has great"
+         - "&7power and stores great wealth."
+      display: "DRAGON_EGG 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "mp 4 %p"
+   Crystasdfgfusfdgnjdfgjhsfdndfsjlglhhjrsbgkbdsfjgkljfdshdfhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 17
+      name: "&c&lTier IV Money Egg &7(Right Click)"
+      lore:
+         - "&7This money egg has been mined from the"
+         - "&7mountain of middle earth. It has great"
+         - "&7power and stores great wealth."
+      display: "DRAGON_EGG 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "mp 4 %p"
+   Crystasdfgfusfdgnjdfkljsfdngkjfdghbsdfhjgjsdfhsdfghsdfghsddsfggjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 20
+      name: "&c&lTier IV Money Egg &7(Right Click)"
+      lore:
+         - "&7This money egg has been mined from the"
+         - "&7mountain of middle earth. It has great"
+         - "&7power and stores great wealth."
+      display: "DRAGON_EGG 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "mp 4 %p"
+   Crystasdfgfusfdgnjdhfdsgbhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&fCreeper Egg"
+      display: "MONSTER_EGG 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p creeperegg 16"
+   Crystasdfgfusfdgnjdhfdsgbhjdfbsjghsfdhjgbsdjkfdngkjfdygdsafvjgdsfdsgsdfghkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 17
+      name: "&fCreeper Egg"
+      display: "MONSTER_EGG 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p creeperegg 16"
+   Crystasdfgfusfdgnjdhfdsgbhjdfbsnjfdgbfdbghbdshgksadtbhjsdfhsdfhjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 17
+      name: "&fCreeper Egg"
+      display: "MONSTER_EGG 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p creeperegg 16"
+   Crystasdfgfusfdgnjdhfdsgbhjdfbsjghsfdhjgbsdhkhdfgsreyutjhsfdgbjydfbgkjhsdfgsdfghsdfhdfghdsfgtysdfhsdjghfbkdsfghfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 20
+      name: "&fCreeper Egg"
+      display: "MONSTER_EGG 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p creeperegg 16"
+   Crystasdfgfusfdgnjdhfdsgbhsrdgtrdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 17
+      name: "&fHopper"
+      display: "HOPPER 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 16"
+   Crystasdfgfusfdgnjdhfdsgbhsrdgtrdbffgdghffghgfdjdfgjgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 17
+      name: "&fHopper"
+      display: "HOPPER 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 16"
+   Crystasdfgfusfdgnjdhfdsgbhsrgfhfgjhgjsdfhfghdgtrdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 20
+      name: "&fHopper"
+      display: "HOPPER 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 16"
+   Crystasdfgfusfdgnjdhfdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 20
+      name: "&fHopper"
+      display: "HOPPER 16"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "give %p hopper 16"
+   Crystasdfgfusfdfgdhgdfjfgfdsghfdgssdfggnjdhfdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&6&lLegendary Tropical Chest &7(Right click!)"
+      lore:
+         - "&7Open to recieve a random"
+         - "&7cache of &6&nLegendary&7 equipment"
+      display: "CHEST 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "cosmicchest give %p divine 1"
+   Crystasdfgfusfdfgdhgdfjfgfdsghfdgssdfggnjdhfdsgbgfdhgjdfjhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 17
+      name: "&6&lLegendary Tropical Chest &7(Right click!)"
+      lore:
+         - "&7Open to recieve a random"
+         - "&7cache of &6&nLegendary&7 equipment"
+      display: "CHEST 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "cosmicchest give %p divine 1"
+   Crystasdfgfusfdfgdhgdfjfgfdsghfdgssdfggnjdhfdsgbhsrdghfhjgfdjfjhjgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 17
+      name: "&6&lLegendary Tropical Chest &7(Right click!)"
+      lore:
+         - "&7Open to recieve a random"
+         - "&7cache of &6&nLegendary&7 equipment"
+      display: "CHEST 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "cosmicchest give %p divine 1"
+   Crystasdfgfusfdfgdhgdfjfgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 15
+      name: "&6&lLegendary Tropical Chest &7(Right click!)"
+      lore:
+         - "&7Open to recieve a random"
+         - "&7cache of &6&nLegendary&7 equipment"
+      display: "CHEST 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "cosmicchest give %p divine 1"
+   Crystasdfgfusfdfgdhgdfjffggfhghsggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&b&lTITLE '&fDivine&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fDivine &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give Divine 1 %p"
+   Crystasdfgfusfdfgfgghfggfjdhgdfjffggfhghghghsggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 15
+      name: "&b&lTITLE '&fDivine&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fDivine &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give Divine 1 %p"
+   Crystasdfgfusfdfgdhgdfjffggfhghsggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 15
+      name: "&b&lTITLE '&fDivine&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fDivine &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give Divine 1 %p"
+   Crystasdfgfusfdfgdfgghhgghfjhgdfjffggfhghsggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 15
+      name: "&b&lTITLE '&fDivine&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fDivine &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give Divine 1 %p"
+   Crystasdfgfusfdfgdfgghhgghfjhgdfjffggfhghshdfgfdgjhdjfhgvsdjghfsdfhhfgdhfgjgfggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 15
+      name: "&b&lTITLE '&fCantStr4fe&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fCantStr4fe &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give cantstrafe 1 %p"
+   Crystasdfgfusfdfgdfgghhgghfjhgdfjffggfhghshdgfhhgjfgjgfhdgfhfghghfjfgfdgjhdjfhgvsdjghfsdfhhfgdhfgjgfggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "basic"
+      chance: 15
+      name: "&b&lTITLE '&fCantStr4fe&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fCantStr4fe &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give cantstrafe 1 %p"
+   Crystasdfgfusfdfgdfgghhgghfjhgdfjffggfhghshdfgffgfgdhghklhjgkfghjgfvhfdghdghfdgjhdjfhgvsdjghfsdfhhfgdhfgjgfggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "legendary"
+      chance: 15
+      name: "&b&lTITLE '&fCantStr4fe&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fCantStr4fe &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give cantstrafe 1 %p"
+   Crystasdfgfusfdfgdfgghhgghfjdffdgfgjghkjkllghfjgfhsghfdgsdfgsdahgdfjffggfhghshdfgfdgjhdjfhgvsdjghfsdfhhfgdhfgjgfggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "rare"
+      chance: 15
+      name: "&b&lTITLE '&fCantStr4fe&b&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the title'
+         - '&fCantStr4fe &7on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give cantstrafe 1 %p"
+   Crystasdfgfusfdfgdfgghhgghfjhgdfjffggfhfghhjgghgdfhdfghjghjdfgfgdghdhddghshdfgfdgjhdfdgdfgjbsdjhfbgshjdfbgkdfhfghsdfgfdggfhssdfsfdgjfhgvsdjghfsdfhhfgdhfgjgfggfhjhjgfdsghfdgssdfggnjdhffgfgjhhgsdfghgfdhggfdshjfshdsgbhsrdgtryurdthisdfghvdbghdjfjhdfhghdbfgjdfhgbkdsgsdhgsfdhjdfbsjghsfdhjgbsdhkfhsdfhfgjhsfdndfsjlglhdfjshshhhsfdhfgdfhdhgfhjjhsfgbfdyrtgkjfdhdgfjdhfjgshdfhsdhfsdhadfhsdfhdfsgbksfgsdfhjsdfhxfgbhfbghfdgbskjdhfgsdfhfhdfhgfhgjhbskhjfgsfdhsdfsdfbgdfgjkdhsjdfgjhdfbgklnhljsdflsjdhdfhsfdhgshgfgsdfgghtdhjdsfgsdfhgjskdfgsdhfhthsrgfhfqhjbsiuyrtgodbitearsfdgbliufdhgfgsbdglsuygsegbsglhdsfgasgdgdfbjgdsjfg;dfshsdfhekaurgksbfjsdkfsagdgjgsdfgsdrghsfgjl:
+      tier: "divine"
+      chance: 2
+      name: "&6&lRANK '&fLegend&6&l' &7(Right CLick)"
+      lore:
+         - '&7Right-click to redeem the'
+         - '&7Legend rank on this server'
+      display: "PAPER 1"
+      enchanted: false
+      rewards:
+         consolecommands:
+            - "voucher give Legend 1 %p"

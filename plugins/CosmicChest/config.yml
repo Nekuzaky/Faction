@@ -1,0 +1,18 @@
+# You can enable or disable the update notifications here.
+# Updater just notifies OPs if your plugin is outdated.
+updater: true
+
+# Here you can configure different messages from the plugin.
+# already_opening <- When a player try to open a CosmicChest while shuffling
+# no_permission   <- When a player try to execute a CosmicChest command without having access to it
+# no_permission_openchest <- When a player try to open a chest without having access to it
+messages:
+   already_opening: "&cYou are already opening a Chest."
+   no_permission: "&fUnkown command. Typle '/help' for help."
+   no_permission_openchest: "&c&l(!) &7Vous n'avez pas la permission d'ouvrir ce coffre !"
+
+# Use legacy items rewards. enable it only if the developer ask you to.
+useLegacyItemsRewards: false
+
+# Debug mode, enable it only if the developer ask you to.
+debug: false

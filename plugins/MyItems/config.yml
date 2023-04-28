@@ -1,0 +1,216 @@
+#-----=====[ Language ]=====-----#
+
+locale: en
+#Available Language: {en}
+
+#-----=====[ Holder ]=====-----#
+
+enable_Vanilla_Modifier: true
+#If false, vanilla damage will not working
+
+enable_Vanilla_Formula_Armor: false 
+#If false, vanilla protection will not working
+
+enable_CustomLore_Modifier: true    
+#Enable feature attribute from this plugin
+
+enable_Balancing_System: true       
+#Damage will set to balance
+
+enable_Balancing_MobDamage: true    
+#Mob receive damage will set to balance based on vanilla
+
+enable_Particle_Potion: false
+#Show default particle when using buff/ability that implement vanilla potion
+
+enable_OffHand_Ability: true
+#if false, ability from offhand will not working
+
+enable_Item_Broken: false
+#if true, item will broken when lore durability reach zero
+
+custom_Critical: true               
+#Custom critical effect
+
+custom_Critical_Vanilla: true       
+#Allow vanilla item to cast custom critical
+
+custom_Mob_Modifier: true
+#If you're server using plugin that modify damage mob (Great Damage), enable this.
+#Enable this state to allow mob using custom items.
+#Note: If Mob Modifier is false, Custom Lore Stats defense from victims will not affected, but buffs & ability still work,
+#~~~~~ this is to avoid overpowered armor for pure vanilla mob!.
+                            
+#-----=====[ Set-up ]=====-----#    
+
+critical_Attack: "Effect"
+#Available: Effect, Messages. (Only work when custom_Critical: true)
+#- Effect: Critical with particle and sound explosion
+#- Messages: Send message to attacker when critical is casted
+
+Interval: 100 
+#in ticks, higher value will reduce lag but less accurate
+
+max_Level_Value: 20        
+#Max level for item
+
+Effect_Range: 50
+#Max distance to play sound and particle effect
+
+modus_Value: 20
+#Normal damage value in your server
+
+                    #Ex. You want to create server with most of your weapon damage value range around 50,
+                    #so put the value in modus_Value to 50.   
+
+                    #This is very important because this value will towards a balanced server.
+                    #If you change too small or too high depends on your server, your server will be unbalanced
+                    #because this value used as formula damage for vanilla & custom modifier!
+
+                    #Formula: "Damage / (1+Math.log10(1+(10*defense/modus_Value))"
+                    #Balancing: "Damage * 10 / modus_Value"
+
+#-----=====[ Modifier ]=====-----#
+
+scale_Damage_Vanilla: 1.0  
+#Damage from vanilla that will affect   
+
+scale_Damage_Custom: 1.0   
+#Damage from custom stats
+
+scale_Damage_Overall: 1.0  
+#Final damage
+
+scale_Defense_Overall: 0.5 
+#Damage reduction based on defense
+
+scale_OffHand_Value: 0.5   
+#Damage will added from offhand
+
+scale_Absorb_Effect: 0.5   
+#Damage will transfer to absorb point. ex: 0.8 mean 20% damage to health and 80% to absorb point
+
+scale_Stats_Up: 0.05       
+#Stats will increase every item is level up
+
+scale_Mob_Damage_Receive: 1.0
+#Mobs damage receive
+
+scale_Exp_OffHand: 0.5     
+#Exp will gain for OffHand scaled on base exp
+
+scale_Exp_Armor: 0.2       
+#Exp will gain for Armor scaled on base exp
+
+#-----=====[ Format ]=====-----#
+
+Stats_Format: "&7<stats>: <value>"
+# PlaceHolder Stats_Format:
+  # <stats> = Key Stats
+  # <value> = Value Stats
+  
+Stats_Exp_Format: "&7[&d<exp>&7/&d<up>&7]"
+# PlaceHolder Format Exp:
+  # <exp> = Current Exp
+  # <up> = Exp to level up
+
+Buffs_Format: "&dGrants <buffs>"
+# PlaceHolder Buffs_Format:
+  # <buffs> = Key Buffs
+  
+Ability_Format: "&aChance of <chance> to apply <ability>"
+# PlaceHolder Ability:
+  # <chance> = Chance to activate ability
+  # <ability> = Key ability
+  
+Power_Format: "&6<click>&f&l: &7<type> &8&l[&c<cooldown> Seconds&8&l]"
+# PlaceHolder Power:
+  # <click> : Type of interact click
+  # <type> : Type key of power
+  # <cooldown> : Cooldown of power
+
+#Note: All PlaceHolder must be placed because used for keysearching value!  
+
+#-----=====[ Code ]=====-----#
+
+Positive_Value: "&a"
+Negative_Value: "&c"
+Range_Symbol: " &7➨ "
+Divider_Symbol: "&7/"
+Multiplier_Symbol: "&7x"
+
+#-----=====[ Exp Drops ]=====-----#
+
+exp_Player: 3
+exp_Mobs: 1
+
+#-----=====[ Click ]=====-----#
+
+Left_Click: "Left Click"
+Right_Click: "Right Click"
+Shift_Left_Click: "S-Left Click"
+Shift_Right_Click: "S-Right Click"
+
+#-----=====[ Stats ]=====-----#
+
+Damage: "Damage"
+Defense: "Defense"
+Critical_Chance: "Crit.Chance"
+Critical_Damage: "Crit.Damage"
+Durability : "Durability"
+Level : "Level"
+
+#-----=====[ Buff ]=====-----#
+
+Strength: "Strength"
+Protection: "Protection"
+Vision: "Vision"
+Jump: "Jump"
+Absorb: "Absorb"
+Fire_Resist: "Fire Resistance"
+Health_Boost: "Health"
+Invisibility: "Invisibility"
+Luck: "Luck"
+Regeneration: "Regeneration"
+Saturation: "Saturation"
+Speed: "Movement"
+Water_Breathing: "Water Breathing"
+Haste: "Haste"
+
+#-----=====[ Ability Weapon ]=====-----#
+
+Poison: "Poison"
+Wither: "Wither"
+Lightning: "Lightning"
+Cannibalism: "Cannibalism"
+Vampirism: "Vampirism"
+Freeze: "Freeze"
+Roots: "Roots"
+Curse: "Curse"
+Slowness: "Slowness"
+Fatigue: "Tired"
+Nausea: "Confuse"
+Weakness: "Weakness"
+Blind: "Blindness"
+Hungry: "Hunger"
+Levitation: "Levitation"
+Bad_Luck: "Bad Luck"
+Harm: "Harm"
+Flame_Wheel: "Flame Wheel" 
+Air_Shock: "Air Shock"
+Dark_Flame: "Dark Flame"
+Venom_Spread: "Venom Spread"
+Bubble_Deflector: "Bubble Deflector"
+
+#-----=====[ Projectile ]=====-----#
+
+Projectile_Arrow: "Arrow"
+Projectile_SnowBall: "SnowBall"
+Projectile_WitherSkull: "Wither Skull"
+Projectile_Small_Fireball: "Small Fireball"
+Projectile_Large_Fireball: "Large Fireball"
+
+#-----=====[ Contact ]=====-----#
+
+#Please Contact me if you found any bug, or you want to get more features, Or you can give me a suggestion.
+#Contact FB: https://www.facebook.com/praya.pitasa

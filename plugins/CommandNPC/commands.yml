@@ -1,0 +1,73 @@
+NPCS:
+  '5':
+    Commands: []
+  '6':
+    Commands: []
+  '7':
+    Commands: []
+  '9':
+    Commands: []
+  '10':
+    Commands: []
+  '12':
+    Commands: []
+  '13':
+    Commands: []
+  '57':
+    Commands: []
+  '58':
+    Commands: []
+  '59':
+    Commands: []
+  '62':
+    Commands: []
+  '63':
+    Commands: []
+  '64':
+    Commands: []
+  '65':
+    Commands: []
+  '66':
+    Commands: []
+  '67':
+    Commands: []
+  '60':
+    Commands: []
+  '84':
+    Commands: []
+  '86':
+    Commands: []
+  '130':
+    Commands:
+    - 1~~~warp~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '132':
+    Commands:
+    - 1~~~xpboost~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '135':
+    Commands:
+    - 1~~~hotel~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '142':
+    Commands:
+    - 1~~~grades~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '146':
+    Commands:
+    - 1~~~kits~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '147':
+    Commands:
+    - 1~~~daily~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '148':
+    Commands:
+    - 1~~~hero~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '149':
+    Commands:
+    - 1~~~elite~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+    - 2~~~titan~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '151':
+    Commands:
+    - 1~~~legend~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '152':
+    Commands:
+    - 1~~~immortal~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false
+  '150':
+    Commands:
+    - 1~~~donateur~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~true~~~false

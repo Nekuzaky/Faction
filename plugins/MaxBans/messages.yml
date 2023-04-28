@@ -1,0 +1,53 @@
+disconnection:
+    you-were-kicked: "&cKick par &7{banner}&c - Raison: \n&7'{reason}'&c"
+    you-are-banned: "&eVous êtes banni !\n Raison: &6'{reason}'&e\nPar &6{banner}&a.\n{Vous pouvez acheter un unban sur Altcore.fr}"
+    you-are-ipbanned: "&eVous êtes banniip!\n Raison: &6'{reason}'&e\nPar &6{banner}&a.\n{Vous pouvez acheter un unban sur Altcore.fr}"
+    you-are-temp-banned: "&eVous êtes temporairement ban\n Raison: &6'{reason}'&e\nPar &6{banner}&e.\nExpire dans: &6{time}&a.\n{Vous pouvez acheter un unban sur Altcore.fr}"
+    you-are-temp-ipbanned: "&cTu es temporairement &4&lBanIP &c!\n Raison: &7'{reason}'&c\nPar &7{banner}&c.\nExpire dans : &7{time}&c.\n{appeal-message}"
+    
+    you-are-rangebanned: "&fYour IP Address (&c{range}&f) is RangeBanned.\nReason: &a{reason}&f\nBy: &a{banner}&f.\n{appeal-message}"
+    you-are-temp-rangebanned: "&fYour IP Address (&c{range}&f) is RangeBanned.\nThe ban expires in &a{time}&f.\nReason: &a{reason}&f\nBy: &a{banner}&f.\n{appeal-message}"
+    
+    you-are-proxied: "Kicked by Maxbans:\n Your IP ({ip}) is listed as a proxy."
+    
+    lockdown-active: "&fServer is in lockdown mode. Try again shortly. Reason: \n{reason}"
+    invalid-letters: "&fKicked by MaxBans.\nYour name contains invalid characters:\n&c'{letters}'&f"
+    invalid-name: "&fKicked by MaxBans.\nYour name is invalid!"
+    
+    
+announcement:
+    player-was-kicked: "&6[&c&lWARNING&6] &7{banner}&c a kick &7{name}&c Raison :  &7'{reason}'&c."
+    player-was-banned: "&6[&c&lWARNING&6] &7{banner}&c a &4&lBanni &7{name}&c Raison : &7'{reason}'&c."
+    player-was-ip-banned: "&6[&c&lWARNING&6] &7{banner}&c a &4&lBanIp &7{name}&c ('&7{ip}&c') &cRaison :  &7'{reason}'&c."
+    player-was-muted: "&6[&c&lWARNING&6] &7{banner}&c a mute &7{name}&c Raison :  &7{reason}&c."
+    player-was-tempbanned: "&6[&c&lWARNING&6] &7{banner}&c a temporairement &4&lBanni &7{name}&c Pendant &7{time} &cRaison :  &7'{reason}'&c."
+    player-was-tempipbanned: "&6[&c&lWARNING&6] &7{banner}&c a temporairement &4&lBanIp &7{name}&c ('&7{ip}&c') &cPendant &7{time} &cRaison &7'{reason}'&c."
+    player-was-temp-muted: "&6[&c&lWARNING&6] &7{banner}&c a temporairement mute &7{name}&c Raison :  &7{reason} &cPendant : &7{time}&c."
+    player-was-unbanned: "&6[&c&lWARNING&6] &7{banner}&c a debanni &7{name}&c."
+    player-was-unmuted: "&6[&c&lWARNING&6] &7{banner}&c a demute &7{name}&c."
+    player-was-warned: "&6[&c&lWARNING&6] &7{banner}&c a avertis &7{name}&c Raison: &7'{reason}&c."
+    ip-was-unbanned: "&6[&c&lWARNING&6] &c&a{ip}&c a etais debanni par &7{banner}&c."
+    player-warnings-cleared: "&6[&c&lWARNING&6] &a{banner}&f cleared &a{name}&f's warnings."
+    unwarn-success: "&6[&c&lWARNING&6] &7{banner}&c a retire l'avertissement de &7{name}."
+    
+error:
+    no-player-given: "&cAucun joueur trouvee."
+    no-permission: "&cHepHepHep! Tu n'as pas le droit ! "
+    no-ip-known: "&cThat player has no IP history!"
+    no-ipban-found: "&cCould not find a ban for &a{ip}&f."
+    no-ban-found: "&cCould not find a ban for &a{name}&f."
+    no-mute-found: "&7{name}&c n'est pas muter."
+    no-dupeip-duplicates: "&fNo duplicates!"
+    no-history: "&fNo history."
+    no-warnings: "&a{name}&c has no warnings to their name."
+    
+    unknown-player: "&cNo player found: &a{name}&f"
+    player-already-banned: "&cCe joueur est deja banni."
+    ip-already-banned: "&cCette Adresse IP est deja banni."
+    
+    
+    tempban-shorter-than-last: "&cThat player has a tempban which will last longer than the one you supplied!"
+    tempipban-shorter-than-last: "&cThat IP has a tempban which will last longer than the one you supplied!"
+    tempmute-shorter-than-last: "&cThat player already has a mute which lasts longer than the one you tried to give."
+
+    

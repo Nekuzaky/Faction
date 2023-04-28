@@ -1,0 +1,9 @@
+# 
+#  					BukkitDev Help page : http://dev.bukkit.org/server-mods/mycommand/    					#
+72467405-d828-4e52-a6b9-2d6a444c7dd2:
+  lotteryprize: APPLE
+  amount_lotteryprize: 1
+339e6a70-4ff9-3cbd-bd71-a3d251728513:
+  lotteryprize: BREAD
+  amount_lotteryprize: 3
+  DailyBonus: 9 4 2017

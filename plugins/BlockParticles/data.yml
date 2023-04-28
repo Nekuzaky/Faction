@@ -1,0 +1,19 @@
+Locations:
+  spawn:
+    World: world
+    X: 296
+    Y: 92
+    Z: -2746
+    Particle: halo
+  cofre:
+    World: world
+    X: 301
+    Y: 77
+    Z: -2807
+    Particle: Spiral
+  grade:
+    World: world
+    X: 317
+    Y: 81
+    Z: -2758
+    Particle: Spiral

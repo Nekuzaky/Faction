@@ -1,0 +1,21 @@
+invName: '&6&lAltcore - &e&lJackPot'
+enterMsg: '&6&lJackpot &f- &eVous Ãªtes entrÃ© dans le jackpot avec &a$%amount%'
+maxTime: 60
+MAXsecondMsg: '&6&lJackpot &f- &7Le gagnant sera tirÃ© au sort dans 60 secondes !'
+30secondMsg: '&6&lJackpot &f- &7Le gagnant sera tirÃ© au sort dans 30 secondes !'
+10secondMsg: '&6&lJackpot &f- &7Le gagnant sera tirÃ© au sort dans 10 secondes !'
+3secondMsg: '&6&lJackpot &f- &7Le gagnant sera tirÃ© au sort dans 3 secondes !'
+2secondMsg: '&6&lJackpot &f- &7Le gagnant sera tirÃ© au sort dans 2 secondes !'
+1secondMsg: '&6&lJackpot &f- &7Le gagnant sera tirÃ© au sort dans 1 seconde !'
+lowbalMsg: '&6&lJackpot &f- &7Vous n''avez pas assez d''argent!'
+injackpotMsg: '&6&lJackpot &f- &cVous participez dÃ©jÃ  au jackpot!'
+winjackpotMsg: '&6&lJackpot &f- &a&l%player% &aa remportÃ© le jackpot de &a&l%total%
+  &aavec &a&l%chance%% &ade chance!'
+price1: 1000
+price2: 10000
+price3: 20000
+price4: 50000
+price5: 75000
+price6: 110000
+price7: 175000
+price8: 235000

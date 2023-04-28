@@ -1,0 +1,21 @@
+# ------------------------------------------------------------ #
+# Configuration file for PyrCore
+# The changes you make here will affect all plugins
+# ------------------------------------------------------------ #
+
+# Enable auto-update notifications ?
+# Set this option to 'true' is recommended ! If you disable this,
+# you'll not be able to get the latest updates/bug fixes notifications.
+
+auto-update: true
+
+# Multilingual mode
+# Players can switch language by using /pyr lang [lang]
+# Please note that languages must be uppercase and in one word
+
+multilingual:
+  enable: true
+  default: 'ENG' # Even if 'enabled' is set to 'false', this must be the default value for all the plugins
+  languages:
+    - 'ENG'
+    - 'FRA'

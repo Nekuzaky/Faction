@@ -1,0 +1,25 @@
+sentrequest: '&6&l(!) &r&6Vous avez envoyé une demande d''échange à &e%PLAYER%'
+receivedrequest: '&6&l(!) &r&6Vous avez reçu une demande d''échange de &e%PLAYER%%NEWLINE%&6&l(!)
+  &r&6Tapes &e/trade %PLAYER% &6pour commencer l''échange'
+receivedrequesthover: '&6&lCliquez ici pour échanger avec &e&l%PLAYER%'
+withinrange: '&4&l(!) &r&4Vous devez être à %AMOUNT% blocs du joueur pour échanger
+  avec'
+withinrangecrossworld: '&4&l(!) &r&4Vous devez être à %AMOUNT% blocs d''un joueur%NEWLINE%&4&l(!)
+  &r&4dans un différent monde pour échanger'
+nocrossworld: '&4&l(!) &r&4Vous devez être dans le même monde que le joueur pour échanger!'
+senderaccept: '&6&l(!) &r&e%PLAYER% &6a accepté votre demande d''échange'
+receiveraccept: '&6&l(!) &r&6Vous avez accepté la demande d''échange de &e%PLAYER%'
+cancelled: '&4&l(!) &r&4Echange annulé!'
+expired: '&4&l(!) &r&4Votre dernière demande d''échange a expiré'
+waitforexpire: '&4&l(!) &r&4Vous avez déjà invité quelqu''un il y a peu de temps%NEWLINE%&4&l(!)
+  &r&4L''invitation va expirée prochainement...'
+playernotfound: '&4&l(!) &r&4Ce joueur est introuvable'
+tradewithself: '&4&l(!) &r&4Tu ne peux pas échanger avec toi mÃªme'
+invalidusage: '&4&l(!) &r&4Invalide. Utilisez: %NEWLINE%    &c- /trade <joueur>%NEWLINE%    &c/trade
+  deny'
+noperms: '&4&l(!) &r&4Tu n''as pas la permission d''échanger'
+nopermsreceiver: '&4&l(!) &r&4Ce joueur n''a pas la permission d''échanger'
+tradecomplete: '&6&l(!) &r&6Echange réussi!'
+forcedtrade: '&6&l(!) &r&6Vous avez été forcé à faire un échange avec &e%PLAYER%'
+denied-them: '&4&l(!) &r&4Votre demande d''échange à &c%PLAYER% &4a été refusée !'
+denied-you: '&4&l(!) &r&4Les demandes que vous avez reçu ont été annulées'

@@ -1,0 +1,128 @@
+comingsoon:
+  location: Akira, 585.522, 50.075, -24.492
+  lines:
+  - '&c&lComing Soon!'
+tropicalmc:
+  location: world, 296.321, 95.231, -2748.993
+  lines:
+  - '&d&lBienvenue à toi sur &d&lAlt&a&lcore &d&l!'
+  - '&7Commences l''aventure en tapant'
+  - '&a&n/wild'
+pvp:
+  location: PvPArena, -387.572, 115.321, -428.546
+  lines:
+  - '&7Arêne PvP &d&lAlt&a&lcore'
+  - '&8(&7Vous perdez votre inventaire lors de votre mort !&8)'
+warzone:
+  location: world, 261.591, 77.227, -2779.432
+  lines:
+  - '&c&lWARZONE'
+  - '&7'
+  - '&7Fais attention! Le PvP est activé'
+  - '&7derrière cette ligne !'
+  - '&7'
+  - '&7Si tu engages le combat, tu ne pourras pas'
+  - '&7revenir dans le spawn jusqu''a'
+  - '&7l''expiration de ton combat !'
+spawn:
+  location: PvPArena, -397.096, 117.624, -437.700
+  lines:
+  - '&aVers le spawn !'
+grades:
+  location: world, 317.513, 83.235, -2757.223
+  lines:
+  - '&u&l*-*-*-*-*-*'
+  - '&cUn des grades vous intèresse ?'
+  - '&eRendez-vous sur: &6https://Altcore.fr/shop'
+  - '&u&l*-*-*-*-*-*'
+gradin1:
+  location: PvPArena, 434.522, 2.004, -589.737
+  lines:
+  - '&6Vers les gradins !'
+gradin2:
+  location: PvPArena, 434.503, 2.044, -594.650
+  lines:
+  - '&6Vers les gradins !'
+bienvenuealarenepvp:
+  location: PvPArena, 435.726, 3.158, -592.017
+  lines:
+  - '&6Bienvenue à l''arène PvP de Altcore !'
+koth:
+  location: world, 301.292, 79.550, -2806.540
+  lines:
+  - '&c&l*-*-*-*-*-*'
+  - '&eCoffre &e&lKoTH'
+  - '&6Il vous faut une Clef KoTH pour l''ouvrir !'
+  - '&c&l*-*-*-*-*-*'
+jump1:
+  location: PvPArena, 1322.498, 10.200, -1186.452
+  lines:
+  - '&6Bonne chance :)'
+jump2:
+  location: PvPArena, 1322.493, 10.200, -1176.492
+  lines:
+  - '&6Si tu tombes , il y a des échelles :)'
+jump3:
+  location: PvPArena, 1322.426, 19.200, -1153.483
+  lines:
+  - '&6Si tu tombes , il y a des échelles :)'
+jump4:
+  location: PvPArena, 1322.424, 19.200, -1137.553
+  lines:
+  - '&4Bah , comment on fais pour aller sur le verre blanc ? :O'
+jump5:
+  location: PvPArena, 1322.404, 19.200, -1133.675
+  lines:
+  - '&6Si tu tombes , il y a ( encore ) des échelles :)'
+jump6:
+  location: PvPArena, 1318.532, 18.200, -1097.300
+  lines:
+  - Droite ou gauche ? :o
+jump7:
+  location: PvPArena, 1322.312, 18.200, -1097.299
+  lines:
+  - Respire un peu
+jump8:
+  location: PvPArena, 1314.300, 18.200, -1097.700
+  lines:
+  - Respire un peu
+jump9:
+  location: PvPArena, 1328.301, 5.200, -1204.582
+  lines:
+  - '&6&o&nPar ici :)'
+jump10:
+  location: PvPArena, 1337.380, 5.200, -1196.778
+  lines:
+  - '&6&o&nPar ici :)'
+jump11:
+  location: PvPArena, 1326.797, 8.200, -1192.610
+  lines:
+  - '&6&o&nPar ici :)'
+jump15:
+  location: PvPArena, 1321.339, 6.924, -1204.861
+  lines:
+  - '&6Bienvenue'
+jump16:
+  location: PvPArena, 1321.029, 5.486, -1204.811
+  lines:
+  - '&6Nous ne sommes pas responsables des pertes de stuffs'
+labyrintheporte:
+  location: Labyrinthe, 1013.204, 29.043, 1262.464
+  lines:
+  - '&6Comment je passe de l''autre côté ?'
+labyrintheporte2:
+  location: Labyrinthe, 1013.204, 27.927, 1262.464
+  lines:
+  - '&6Peut-être un levier ou un passage secret :o'
+leveir:
+  location: Labyrinthe, 1053.089, 29.143, 1267.142
+  lines:
+  - '&6Quel levier dois-je actionner ? :o'
+warpkoth2:
+  location: world, -151.828, 76.734, -2507.096
+  lines:
+  - '&cLe &lPVP&c est &lACTIF&c, capture le &lKOTH&c et tue les joueurs !'
+warpkoth:
+  location: world, -152.134, 77.669, -2504.301
+  lines:
+  - '&cATTENTION, tu arrives dans la &lZONE&c du &lKOTH&c !'

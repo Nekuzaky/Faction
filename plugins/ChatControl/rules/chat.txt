@@ -1,0 +1,42 @@
+# -------------------------------------------------------------------------------
+# This file manages rules in chat (not commands) and includes rules from rules.txt.
+#
+# File by default contain examples that you can safely remove or change.
+#
+# For help, see notes in rules.txt file.
+# -------------------------------------------------------------------------------
+
+# -------- Basic grammar corrections
+
+# -------- Prevent asking for a rank
+# -------- Prevent people saying bad things about your server
+# Notice the id, it can be a string and can used multiple times.
+match serveur (de (merde|fdp|chien)|tamere)
+id ServerHate
+then notify chatcontrol.notify.rulesalert &8[&7ID %ruleID&8] &7%player: &f%message
+then console kick %player &cInsulte le serveur. \nBye!
+
+# -------- Example usage of unicode characters - making smileys
+match :\)
+then replace ☺
+
+match :-\)
+then replace ☺
+
+match :\(
+then replace ☹
+
+match :-\(
+then replace ☹
+
+match ;\)
+then replace ㋡
+
+match ;-\)
+then replace ㋡
+
+match \:star\:
+then replace ★
+
+match <3\b
+then replace ❤

@@ -1,0 +1,43 @@
+jails: 
+  1: 
+    world: tropicalmcworld
+    x: 300.4128231221452
+    y: 79.0
+    z: -2772.70191407751
+    yaw: -333.56326
+    pitch: 3.0829241
+  jail1: 
+    world: tropicalmcworld
+    x: 296.55061707353923
+    y: 94.0
+    z: -2737.741350260422
+    yaw: -181.87793
+    pitch: 5.63626
+  jail2: 
+    world: tropicalmcworld
+    x: 296.55061707353923
+    y: 94.0
+    z: -2737.741350260422
+    yaw: -181.87793
+    pitch: 5.63626
+  jail3: 
+    world: tropicalmcworld
+    x: 296.55061707353923
+    y: 94.0
+    z: -2737.741350260422
+    yaw: -181.87793
+    pitch: 5.63626
+  jail4: 
+    world: tropicalmcworld
+    x: 296.55061707353923
+    y: 94.0
+    z: -2737.741350260422
+    yaw: -181.87793
+    pitch: 5.63626
+  jail5: 
+    world: tropicalmcworld
+    x: 296.55061707353923
+    y: 94.0
+    z: -2737.741350260422
+    yaw: -181.87793
+    pitch: 5.63626

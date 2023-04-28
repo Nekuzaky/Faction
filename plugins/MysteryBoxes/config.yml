@@ -1,0 +1,400 @@
+global:
+  unlimited-mystery-boxes: false
+  open-confirmation: false
+  mystery-box-facing-player: true
+  fill-mystery-vault-with-empty-slots: true
+inventory:
+  mystery-vault-rows: 6
+  confirmation-rows: 3
+  confirmation-open-one-item-slot: 11
+  confirmation-open-more-item-slot: 15
+  confirmation-return-item-slot: 13
+mysql:
+  enabled: false
+  host: host
+  datebase: datebase
+  username: username
+  password: password
+mystery-boxes:
+  one_star:
+    item-name: '&bBoÃ®te Basique'
+    item-lore:
+    - '&7Ouvrez cette boÃ®te mystÃ¨re'
+    - '&7a &bBasique &7!'
+    - ''
+    - '&7Gains possibles:'
+    - '&bArmures basique'
+    - '&bArmes basiques'
+    - '&aArmures rare'
+    - '&aArmes rares'
+    - ''
+    - '&e&lCliquez pour l''ouvrir!'
+    item-type: CHEST
+    item-amount: 1
+    item-data: 0
+    falling-mystery-box-name: '{PLAYER} &7ouvre une &bBoÃ®te Basique &7!'
+    falling-mystery-box-name2: '{PLAYER} &7a lootÃ© {LOOT_NAME}'
+    falling-mystery-box-type: ENDER_CHEST
+    falling2-mystery-box-type: IRON_BLOCK
+    falling-mystery-box-data: 0
+    falling2-mystery-box-data: 0
+    falling-mystery-box-head-name: xeRicker
+    falling2-mystery-box-head-name: Eselyx
+    permission: mysteryboxes.open.one_star
+    permission-message: '&cYou don''t have permission!'
+    can-be-transferred: false
+    can-be-crafted: false
+    crafting-cost: 100
+    particles:
+      mystery-vault:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      mystery-box:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      charge:
+        '1': ENCHANTMENT_TABLE;0;0;0;1;60
+      explosion:
+        '1': LAVA;0;0;0;1;15
+        '2': SMOKE_NORMAL;0;0;0;1;40
+        '3': FLAME;0;0;0;1;40
+      end:
+        '1': EXPLOSION_NORMAL;1;0.5;1;0;1
+        '2': CRIT_MAGIC;0.3;0.3;0.3;0;1
+    loots:
+      '50':
+        '1':
+          loot-name: '&7Iron Ingots'
+          one-time-loot: true
+          broadcast-to-player: false
+          broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          already-had-broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r!'
+          already-had-messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r! Since you already had
+            this loot before, you only receive &e2 &rof them and &d10 Mystery Dust&r!'
+          commands:
+          - give {PLAYER} minecraft:iron_ingot 5
+          already-had-commands:
+          - give {PLAYER} minecraft:iron_ingot 2
+          - mysteryboxes addmysterydust {PLAYER} 10
+          sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          already-had-sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          fireworks:
+            '1':
+              type: BALL
+              flicker: false
+              trail: false
+              colors:
+              - GRAY
+              fade-colors:
+              - WHITE
+          already-had-fireworks:
+            '1':
+              type: BALL
+              flicker: false
+              trail: false
+              colors:
+              - GRAY
+              fade-colors:
+              - WHITE
+  two_star:
+    item-name: '&9BoÃ®te Rare'
+    item-lore:
+    - '&7Open the &bMystery Box &7to'
+    - '&7get various items!'
+    - ''
+    - '&7The rarity of this Mystery Box'
+    - '&7is clasified as &9Rare&7.'
+    - ''
+    - '&7Quality: &eÃ¢Å“Â¬Ã¢Å“Â¬&7Ã¢Å“Â¬Ã¢Å“Â¬'
+    - '&eClick to open!'
+    item-type: ENDER_CHEST
+    item-amount: 1
+    item-data: 0
+    falling-mystery-box-name: '{PLAYER}''s &9Mystery Box'
+    falling-mystery-box-name2: '{PLAYER}''s loot: {LOOT_NAME}'
+    falling-mystery-box-type: ENDER_CHEST
+    falling2-mystery-box-type: GOLD_BLOCK
+    falling-mystery-box-data: 0
+    falling2-mystery-box-data: 0
+    falling-mystery-box-head-name: xeRicker
+    falling2-mystery-box-head-name: Eselyx
+    permission: mysteryboxes.open.two_star
+    permission-message: '&cYou don''t have permission!'
+    can-be-transferred: true
+    can-be-crafted: true
+    crafting-cost: 100
+    particles:
+      mystery-vault:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      mystery-box:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      charge:
+        '1': ENCHANTMENT_TABLE;0;0;0;1;60
+      explosion:
+        '1': LAVA;0;0;0;1;15
+        '2': SMOKE_NORMAL;0;0;0;1;40
+        '3': FLAME;0;0;0;1;40
+      end:
+        '1': EXPLOSION_NORMAL;1;0.5;1;0;1
+        '2': CRIT_MAGIC;0.3;0.3;0.3;0;1
+    loots:
+      '50':
+        '1':
+          loot-name: '&eGold Ingots'
+          one-time-loot: true
+          broadcast-to-player: false
+          broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          already-had-broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r!'
+          already-had-messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r! Since you already had
+            this loot before, you only receive &e2 &rof them and &d10 Mystery Dust&r!'
+          commands:
+          - give {PLAYER} minecraft:gold_ingot 5
+          already-had-commands:
+          - give {PLAYER} minecraft:gold_ingot 2
+          - mysteryboxes addmysterydust {PLAYER} 10
+          sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          already-had-sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          fireworks:
+            '1':
+              type: STAR
+              flicker: false
+              trail: false
+              colors:
+              - YELLOW
+              fade-colors:
+              - WHITE
+          already-had-fireworks:
+            '1':
+              type: STAR
+              flicker: false
+              trail: false
+              colors:
+              - YELLOW
+              fade-colors:
+              - WHITE
+  three_star:
+    item-name: '&5BoÃ®te Epique'
+    item-lore:
+    - '&7Open the &bMystery Box &7to'
+    - '&7get various items!'
+    - ''
+    - '&7The rarity of this Mystery Box'
+    - '&7is clasified as &5Epic&7.'
+    - ''
+    - '&7Quality: &eÃ¢Å“Â¬Ã¢Å“Â¬Ã¢Å“Â¬&7Ã¢Å“Â¬'
+    - '&eClick to open!'
+    item-type: ENDER_CHEST
+    item-amount: 1
+    item-data: 0
+    falling-mystery-box-name: '{PLAYER}''s &5Mystery Box'
+    falling-mystery-box-name2: '{PLAYER}''s loot: {LOOT_NAME}'
+    falling-mystery-box-type: ENDER_CHEST
+    falling2-mystery-box-type: EMERALD_BLOCK
+    falling-mystery-box-data: 0
+    falling2-mystery-box-data: 0
+    falling-mystery-box-head-name: xeRicker
+    falling2-mystery-box-head-name: Eselyx
+    permission: mysteryboxes.open.three_star
+    permission-message: '&cYou don''t have permission!'
+    can-be-transferred: true
+    can-be-crafted: true
+    crafting-cost: 100
+    particles:
+      mystery-vault:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      mystery-box:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      charge:
+        '1': ENCHANTMENT_TABLE;0;0;0;1;60
+      explosion:
+        '1': LAVA;0;0;0;1;15
+        '2': SMOKE_NORMAL;0;0;0;1;40
+        '3': FLAME;0;0;0;1;40
+      end:
+        '1': EXPLOSION_NORMAL;1;0.5;1;0;1
+        '2': CRIT_MAGIC;0.3;0.3;0.3;0;1
+    loots:
+      '50':
+        '1':
+          loot-name: '&aEmeralds'
+          one-time-loot: false
+          broadcast-to-player: false
+          broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          already-had-broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r!'
+          already-had-messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r! Since you already had
+            this loot before, you only receive &e2 &rof them and &d10 Mystery Dust&r!'
+          commands:
+          - give {PLAYER} minecraft:emerald 5
+          already-had-commands:
+          - give {PLAYER} minecraft:emerald 2
+          - mysteryboxes addmysterydust {PLAYER} 10
+          sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          already-had-sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          fireworks:
+            '1':
+              type: BURST
+              flicker: false
+              trail: false
+              colors:
+              - LIME
+              fade-colors:
+              - WHITE
+          already-had-fireworks:
+            '1':
+              type: BURST
+              flicker: false
+              trail: false
+              colors:
+              - LIME
+              fade-colors:
+              - WHITE
+  four_star:
+    item-name: '&6BoÃ®te LÃ©gendaire'
+    item-lore:
+    - '&7Open the &bMystery Box &7to'
+    - '&7get various items!'
+    - ''
+    - '&7The rarity of this Mystery Box'
+    - '&7is clasified as &6Legendary&7.'
+    - ''
+    - '&7Quality: &eÃ¢Å“Â¬Ã¢Å“Â¬Ã¢Å“Â¬Ã¢Å“Â¬'
+    - '&eClick to open!'
+    item-type: ENDER_CHEST
+    item-amount: 1
+    item-data: 0
+    falling-mystery-box-name: '{PLAYER}''s &6Mystery Box'
+    falling-mystery-box-name2: '{PLAYER}''s loot: {LOOT_NAME}'
+    falling-mystery-box-type: ENDER_CHEST
+    falling2-mystery-box-type: DIAMOND_BLOCK
+    falling-mystery-box-data: 0
+    falling2-mystery-box-data: 0
+    falling-mystery-box-head-name: xeRicker
+    falling2-mystery-box-head-name: Eselyx
+    permission: mysteryboxes.open.four_star
+    permission-message: '&cYou don''t have permission!'
+    can-be-transferred: true
+    can-be-crafted: true
+    crafting-cost: 100
+    particles:
+      mystery-vault:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      mystery-box:
+        '1': FIREWORKS_SPARK;0;0;0;0;1
+        '2': REDSTONE;0;0;0;10;1
+      charge:
+        '1': ENCHANTMENT_TABLE;0;0;0;1;60
+      explosion:
+        '1': LAVA;0;0;0;1;15
+        '2': SMOKE_NORMAL;0;0;0;1;40
+        '3': FLAME;0;0;0;1;40
+      end:
+        '1': EXPLOSION_NORMAL;1;0.5;1;0;1
+        '2': CRIT_MAGIC;0.3;0.3;0.3;0;1
+    loots:
+      '50':
+        '1':
+          loot-name: '&bDiamonds'
+          one-time-loot: false
+          broadcast-to-player: false
+          broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          already-had-broadcasts:
+          - '&bMystery Box: &e{PLAYER} &rhas found {LOOT_NAME}&r!'
+          messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r!'
+          already-had-messages:
+          - '&bMystery Box: &rYou have found {LOOT_NAME}&r! Since you already had
+            this loot before, you only receive &e2 &rof them and &d10 Mystery Dust&r!'
+          commands:
+          - give {PLAYER} minecraft:diamond 5
+          already-had-commands:
+          - give {PLAYER} minecraft:diamond 2
+          - mysteryboxes addmysterydust {PLAYER} 10
+          sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          already-had-sounds:
+            CHICKEN_EGG_POP:
+              volume: 1.0
+              pitch: 1.0
+            ORB_PICKUP:
+              volume: 1.0
+              pitch: 1.0
+          fireworks:
+            '1':
+              type: BALL_LARGE
+              flicker: false
+              trail: false
+              colors:
+              - AQUA
+              fade-colors:
+              - WHITE
+          already-had-fireworks:
+            '1':
+              type: BALL_LARGE
+              flicker: false
+              trail: false
+              colors:
+              - AQUA
+              fade-colors:
+              - WHITE

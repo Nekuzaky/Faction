@@ -1,0 +1,20 @@
+#Note: Please use [Space] instead of [Tab]
+
+#-----=====[ Command Option ]=====-----#
+
+#keylore: "Identifier in lore item"
+#command: "Command that will be executed"
+
+#-----=====[ PlaceHolder ]=====-----#
+
+# <player> : "Player that hold the item"
+
+#-----=====[ Command List ]=====-----#
+
+suicide:
+  keylore: "Suicide"
+  command: "suicide"
+  
+speed:
+  keylore: "Give speed III for 15 seconds"
+  command: "effect <player> 1 15 2"

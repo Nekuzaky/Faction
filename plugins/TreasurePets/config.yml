@@ -1,0 +1,53 @@
+Merchant:
+  Spawners:
+    SilverfishShardAmount: 1
+    CowShardAmount: 1
+    IronGolemShardAmount: 1
+    ZombiePigmanShardAmount: 1
+    WitchShardAmount: 1
+    SlimeShardAmount: 1
+    GuardianShardAmount: 1
+    EndermanShardAmount: 1
+    CreeperShardAmount: 1
+    MagmaCubeShardAmount: 1
+    SquidShardAmount: 1
+    BlazeShardAmount: 1
+    RabbitShardAmount: 1
+    VillagerShardAmount: 1
+    EndermiteShardAmount: 1
+    SkeletonShardAmount: 1
+    CaveSpiderAmount: 1
+    HorseShardAmount: 1
+    SpiderShardAmount: 1
+    BatShardAmount: 1
+    WolfShardAmount: 1
+    MooshroomShardAmount: 1
+    OcelotShardAmount: 1
+    SheepShardAmount: 1
+    PigShardAmount: 1
+    SilverfishDisplayName: Silverfish Spawner
+    CowDisplayName: Cow Spawner
+    IronGolemDisplayName: IronGolem Spawner
+    ZombiePigmanDisplayName: Zombie Pigman Spawner
+    ZombieDisplayName: Zombie Spawner
+    WitchDisplayName: Witch Spawner
+    SlimeDisplayName: Slime Spawner
+    GuardianDisplayName: Guardian Spawner
+    EndermanDisplayName: Enderman Spawner
+    CreeperDisplayName: Creeper Spawner
+    MagmaCubeDisplayName: Magma Cube Spawner
+    SquidDisplayName: Squid Spawner
+    BlazeDisplayName: Blaze Spawner
+    RabbitDisplayName: Rabbit Spawner
+    VillagerDisplayName: Villager Spawner
+    EndermiteDisplayName: Endermite Spawner
+    SkeletonDisplayName: Skeleton Spawner
+    CaveSpiderDisplayName: Cave Spider Spawner
+    HorseDisplayName: Horse Spawner
+    SpiderDisplayName: Spider Spawner
+    BatDisplayName: Bat Spawner
+    WolfDisplayName: Wolf Spawner
+    MooshroomDisplayName: Mooshroom Spawner
+    OcelotDisplayName: Ocelot Spawner
+    SheepDisplayName: Sheep Spawner
+    PigDisplayName: Pig Spawner

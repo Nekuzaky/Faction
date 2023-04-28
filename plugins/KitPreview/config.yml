@@ -1,0 +1,26 @@
+EnableSound: true
+Sound: BAT_TAKEOFF
+Lock-KP-Commands: false
+All-Kits-Icon: DIAMOND_HELMET
+Sale-Kits-Icon: DOUBLE_PLANT
+Unlocked-Kits-Icon: IRON_HELMET
+Yes-no-gui: true
+data:
+  block:
+    w:tropicalmcworldx:320y:81z:-2750: titan
+    w:tropicalmcworldx:316y:81z:-2750: legend
+    w:tropicalmcworldx:315y:81z:-2750: legendpvp
+    w:tropicalmcworldx:314y:81z:-2750: legendbuild
+    w:tropicalmcworldx:312y:81z:-2750: god
+    w:tropicalmcworldx:311y:81z:-2750: godpvp
+    w:tropicalmcworldx:310y:81z:-2750: godbuild
+    w:tropicalmcworldx:308y:81z:-2750: donateur
+    w:tropicalmcworldx:307y:81z:-2750: donateurpvp
+    w:tropicalmcworldx:306y:81z:-2750: donateurbuild
+    w:tropicalmcworldx:309y:81z:-2750: decor
+  holo: {}
+  particles: {}
+  displayitems: {}
+  particlesettings:
+    ammount: 25
+    type: WITCH_MAGIC

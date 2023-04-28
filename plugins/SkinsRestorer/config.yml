@@ -1,0 +1,31 @@
+# 
+# MySQL database for large servers
+# or just to boost the performance
+DisableOnJoinSkins: false
+SkinChangeCooldown: 30
+DefaultSkins:
+  Enabled: false
+  Names:
+  - Steve
+  ApplyForPremium: false
+DisabledSkins:
+  Enabled: false
+  Names:
+  - Steve
+MultiBungee:
+  Enabled: false
+MySQL:
+  Enabled: false
+  Host: localhost
+  Port: 3306
+  Database: db
+  SkinTable: Skins
+  PlayerTable: Players
+  Username: root
+  Password: pass
+Updater:
+  Enabled: true
+SkinWithoutPerm: false
+SkinExpiresAfter: 1
+Proxies:
+  Enabled: false

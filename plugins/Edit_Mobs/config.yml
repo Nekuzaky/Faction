@@ -1,0 +1,137 @@
+Version: 1.9.4
+Bat:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+Ghast:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+  grief: true
+  dropamount: 1
+  itemdrops:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+      droprate: 100
+Mushroom Cow:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+  dropamount: 1
+  itemdrops:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+      droprate: 100
+Ender Dragon:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+Zombie:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+  burn: true
+Creeper:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+  grief: false
+Skeleton:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+  burn: true
+em:
+  settings:
+    dropdefault: true
+Giant:
+  spawnrate: 5
+  DoneSpawnRateBefore: true
+  spawn: false
+  xp: 10
+  dropamount: 4
+  itemdrops:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b§lBasic Enchant Book §7(Right Click)
+          lore:
+          - §7Open to receive a random §b§nBasic§7 enchantment book.
+      droprate: 40.0
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §a§lRare Enchant Book §7(Right Click)
+          lore:
+          - §7Open to receive a random §a§nRare§7 enchantment book.
+      droprate: 30.0
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6§lLegendary Enchant Book §7(Right Click)
+          lore:
+          - §7Open to receive a random §6§nLegendary§7 enchantment book.
+      droprate: 25.0
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lDivine Enchant Book §7(Right Click)
+          lore:
+          - §7Open to receive a random §c§nDivine§7 enchantment book.
+      droprate: 20.0
+  burn: true
+  health: 100.0
+Blaze:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+Villager:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+  spawn: true
+Wither:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+Magma Cube:
+  spawnrate: 100
+  DoneSpawnRateBefore: true
+  dropamount: 5
+  itemdrops:
+    '1':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GLASS_BOTTLE
+      droprate: 100
+    '2':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GHAST_TEAR
+      droprate: 100
+    '3':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: SUGAR
+      droprate: 100
+    '4':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16453
+      droprate: 100
+    '5':
+      item:
+        ==: org.bukkit.inventory.ItemStack
+        type: GLOWSTONE_DUST
+      droprate: 100

@@ -1,0 +1,10 @@
+JudgementDay:
+  Began: '&7Beginning &4Judgement Day&7...'
+  Finished: '&7Finished &4Judgement Day&7. &a%AMOUNT%&7 hackers were banned.'
+Command:
+  Help:
+    Format: '&b%EXAMPLE% &f - %DESCRIPTION%'
+    Header: '&e------------------- Page %PAGE% of %PAGES% -------------------'
+Error:
+  NoPermission: '&cYou do not have permission to do this.'
+  MustBeInGame: '&cYou must be in game to do this.'

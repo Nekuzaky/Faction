@@ -1,0 +1,13 @@
+KOTH:
+  DESERT:
+    taskID: 0
+    WORLD: world
+    '1':
+      X: -198.0
+      Y: 0.0
+      Z: -2667.0
+    '2':
+      X: -124.0
+      Y: 255.0
+      Z: -2741.0
+    ACTIVE: false

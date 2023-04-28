@@ -1,0 +1,82 @@
+# BetterMcmmoStats
+# https://www.spigotmc.org/resources/bettermcmmostats-mcmmostatsgui.7526/
+# Modes: CHAT and GUI
+
+Settings:
+  Mode: GUI
+  ChatModeSettings:
+    SkillLevelColor: '&6'
+    SkillNameColor: '&e'
+    SplitterColor: '&8'
+    PowerLevel: '                   &4Power level: &c%PowerLevel%'
+    OnHover:
+      SkillName: '     &9&l%SkillName%     '
+      LevelTextColor: '&f'
+      LevelLevelColor: '&6'
+      ExpTextColor: '&f'
+      ExpLevelColor: '&e'
+      NextLevelText: '&f'
+      NextLevelColor: '&b'
+      Footer: '&7&oClick for skill info'
+      TopLine: '&8&m--------------------------------------'
+      BottomLine: '&8&m--------------------------------------'
+  GuiTitle: '&6Altcore - &eStats McMMO'
+  Gui:
+    ItemNames:
+      Mining: '&bMinage'
+      Woodcutting: '&6Coupe de bois'
+      Herbalism: '&aCulture'
+      Fishing: '&9PÃªche'
+      Excavation: '&7Ramassage'
+      Unarmed: '&fDÃ©sarmÃ©'
+      Archery: '&eArcher'
+      Swords: '&cEpÃ©es'
+      Axes: '&4HÃ¢ches'
+      Taming: '&3Dressage'
+      Repair: '&2RÃ©paration'
+      Acrobatics: '&5Acrobaties'
+      Alchemy: '&dAlchimie'
+      Smelting: '&dFonte'
+      PowerLevel: '&7Niveau Power: &6%PowerLevel%'
+    ItemLores:
+      Mining:
+      - '&7Niveau: &b%MiningLevel%'
+      - '&7Prochain niveau: &b%MiningLevel_XpToLevel%'
+      Woodcutting:
+      - '&7Niveau: &6%WoodcuttingLevel%'
+      - '&7Prochain niveau: &6%WoodcuttingLevel_XpToLevel%'
+      Herbalism:
+      - '&7Niveau: &a%HerbalismLevel%'
+      - '&7Prochain niveau: &a%HerbalismLevel_XpToLevel%'
+      Fishing:
+      - '&7Niveau: &9%FishingLevel%'
+      - '&7Prochain niveau: &9%FishingLevel_XpToLevel%'
+      Excavation:
+      - '&7Niveau: &7%ExcavationLevel%'
+      - '&7Prochain niveau: &7%ExcavationLevel_XpToLevel%'
+      Unarmed:
+      - '&7Niveau: &f%UnarmedLevel%'
+      - '&7Prochain niveau: &f%UnarmedLevel_XpToLevel%'
+      Archery:
+      - '&7Niveau: &e%ArcheryLevel%'
+      - '&7Prochain niveau: &e%ArcheryLevel_XpToLevel%'
+      Swords:
+      - '&7Niveau: &c%SwordsLevel%'
+      - '&7Prochain niveau: &c%SwordsLevel_XpToLevel%'
+      Axes:
+      - '&7Niveau: &4%AxesLevel%'
+      - '&7Prochain niveau: &4%AxesLevel_XpToLevel%'
+      Taming:
+      - '&7Niveau: &3%TamingLevel%'
+      - '&7Prochain niveau: &3%TamingLevel_XpToLevel%'
+      Repair:
+      - '&7Niveau: &2%RepairLevel%'
+      - '&7Prochain niveau: &2%RepairLevel_XpToLevel%'
+      Acrobatics:
+      - '&7Niveau: &5%AcrobaticsLevel%'
+      - '&7Prochain niveau: &5%AcrobaticsLevel_XpToLevel%'
+      Alchemy:
+      - '&7Niveau: &d%AlchemyLevel%'
+      - '&7Prochain niveau: &d%AlchemyLevel_XpToLevel%'
+      Smelting:
+      - '&7Niveau: &d%SmeltingLevel%'

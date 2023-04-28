@@ -1,0 +1,56 @@
+on command "/more":
+    if player has permissions "more.guerrier":
+        if player is holding 17 or 4 or 322 or 5 or 364 or 416 or 49 or 54 or 262 or 364 or 297 or 96 or 323:
+            message "<light red>More réussi !"
+        else:
+            cancel event
+            message "<light red>Tu n'as pas la permission sur cet objet! Tu peux le faire sur: de la cobblestone, du bois, des planches, de l'obsidienne, un support d'armure, des coffres, des flèches, des steaks, du pain, des trappes, des panneaux !"
+    else if player has permissions "more.gladiateur":
+        if player is holding 322 or 260 or 334 or 17 or 4 or 322 or 5 or 364 or 416 or 49 or 54 or 262 or 364 or 297 or 96 or 323:
+            message "<light red>More réussi !"
+        else:
+            cancel event
+            message "<light red>Tu n'as pas la permission sur cet objet! Tu peux le faire sur: de la cobblestone, du bois, des planches, de l'obsidienne, un support d'armure, des coffres, des flèches, des steaks, du pain, des trappes, des panneaux, des pommes dorées, des pommes, du cuir !"
+    else if player has permissions "more.templier":
+        if player is holding 326 or 379 or 145 or 322 or 260 or 334 or 17 or 4 or 322 or 5 or 364 or 416 or 49 or 54 or 262 or 364 or 297 or 96 or 323:
+            message "<light red>More réussi !"
+        else:
+            cancel event
+            message "<light red>Tu n'as pas la permission sur cet objet! Tu peux le faire sur: de la cobblestone, du bois, des planches, de l'obsidienne, un support d'armure, des coffres, des flèches, des steaks, du pain, des trappes, des panneaux, des pommes dorées, des pommes, du cuir, des seaux d'eau, alambics, enclumes !"
+    else if player has permissions "more.monarque":
+        if player is holding 327 or 116 or 326 or 379 or 145 or 322 or 260 or 334 or 17 or 4 or 322 or 5 or 364 or 416 or 49 or 54 or 262 or 364 or 297 or 96 or 323:
+            message "<light red>More réussi !"
+        else:
+            cancel event
+            message "<light red>Tu n'as pas la permission sur cet objet! Tu peux le faire sur: de la cobblestone, du bois, des planches, de l'obsidienne, un support d'armure, des coffres, des flèches, des steaks, du pain, des trappes, des panneaux, des pommes dorées, des pommes, du cuir, des seaux d'eau, alambics, enclumes, des seaux de lave, tables d'enchantements !"
+    else if player has permissions "more.prince":
+        if player is holding 19 or 318 or 29 or 327 or 116 or 326 or 379 or 145 or 322 or 260 or 334 or 17 or 4 or 322 or 5 or 364 or 416 or 49 or 54 or 262 or 364 or 297 or 96 or 323:
+            message "<light red>More réussi !"
+        else:
+            cancel event
+            message "<light red>Tu n'as pas la permission sur cet objet! Tu peux le faire sur: de la cobblestone, du bois, des planches, de l'obsidienne, un support d'armure, des coffres, des flèches, des steaks, du pain, des trappes, des panneaux, des pommes dorées, des pommes, du cuir, des seaux d'eau, alambics, enclumes, des seaux de lave, tables d'enchantements, des éponges, des silex, des pistons collants !"
+    else if player has permissions "more.roi":
+        if player is holding 130 or 154 or 374 or 19 or 318 or 29 or 327 or 116 or 326 or 379 or 145 or 322 or 260 or 334 or 17 or 4 or 322 or 5 or 364 or 416 or 49 or 54 or 262 or 364 or 297 or 96 or 323:
+            message "<light red>More réussi !"
+        else:
+            cancel event
+            message "<light red>Tu n'as pas la permission sur cet objet! Tu peux le faire sur: de la cobblestone, du bois, des planches, de l'obsidienne, un support d'armure, des coffres, des flèches, des steaks, du pain, des trappes, des panneaux, des pommes dorées, des pommes, du cuir, des seaux d'eau, alambics, enclumes, des seaux de lave, tables d'enchantements, des éponges, des silex, des pistons collants, enderchest, entonnoirs, fioles vides !"
+    else if player has permissions "more.empereur":
+        if player is holding 130 or 154 or 374 or 19 or 318 or 29 or 327 or 116 or 326 or 379 or 145 or 322 or 260 or 334 or 17 or 4 or 322 or 5 or 364 or 416 or 49 or 54 or 262 or 364 or 297 or 96 or 323 or 46 or 368 or 373:
+            message "<light red>More réussi !"
+        else:
+            cancel event
+            message "<light red>Tu n'as pas la permission sur cet objet! Tu peux le faire sur: de la cobblestone, du bois, des planches, de l'obsidienne, un support d'armure, des coffres, des flèches, des steaks, du pain, des trappes, des panneaux, des pommes dorées, des pommes, du cuir, des seaux d'eau, alambics, enclumes, des seaux de lave, tables d'enchantements, des éponges, des silex, des pistons collants, enderchest, entonnoirs, fioles vides, tnt, enderpearl, fioles d'eau !"
+    else:
+        cancel event
+
+on command "/emore":
+    cancel event
+on command "/essentials:more":
+    cancel event
+on command "/essentials:emore":
+    cancel event
+	
+	
+on command "/pt":
+    cancel event

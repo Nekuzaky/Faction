@@ -1,0 +1,4 @@
+Vous pouvez allumer le serveur avec le .bat
+Ou le .sh (./start.sh) = script de redémarrage automatique
+
+MERCI D'AVOIR SOUTENU MINESTIA ET DE SOUTENIR LE PROCHAIN PROJET !

@@ -1,0 +1,33 @@
+MySQL:
+  Enabled: false
+  URI: mysql://host/database
+  Username: username
+  Password: password
+  SyncDelay: 15minutes
+OnJoinPrompt:
+  MessageDelay: 20
+Vote:
+  Messages:
+    Format:
+    - ''
+    - '&3&l» &f&l%QUESTION%'
+    - ''
+    - '&2- &a&l%CHOICES%'
+    - ''
+  Hover:
+    Format:
+    - '&c&oEs-tu sûr ?'
+    - ''
+    - '&c&lNOTE &7Ce sondage ne vous autorise pas'
+    - '&7a changer votre vote!'
+  Voted:
+    Format:
+    - '&3&l» &f&lMerci'
+    - ''
+    - '&2- &7Vous avez voté pour: &a%CHOICE%'
+    - '&2- &7Tu as le droit à ton &ediamant &7pour avoir voter !'
+    Reward:
+      Enabled: true
+      Commands:
+      - /give %player% diamond 1
+  RemindDelay: 5minutes

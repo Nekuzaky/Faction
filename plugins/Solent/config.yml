@@ -1,0 +1,28 @@
+Violation:
+  AntiSpam:
+    Enabled: true
+    Delay: 1500
+  Message: '&7[&3Solent&7] &3%USER%&7 has been detected with &3%HACK_TYPE%&7! &7(&3%SEVERITY%!&7)
+    &7(&3%PING%&7)'
+Punishment:
+  Mode: AUTOBAN
+  CrashHackers: true
+  BanCommand: /ban <player> &7[&3Solent&7]&f Unfair Advantage
+  AutoBan:
+    Messages:
+    - '&7[&3Solent&7] &3%USER%&7 was eaten by &3Solent'
+    - '&7[&3Solent&7] &3%USER%&7 was eaten alive by &3Solent'
+    - '&7[&3Solent&7] &3%USER%&7 was slain by &3Solent'
+    - '&7[&3Solent&7] &3%USER%&7 was no match for &3Solent'
+    - '&7[&3Solent&7] &3%USER%&7 was trying to be sneaky, but failed'
+    - '&7[&3Solent&7] &3%USER%&7 has been detected cheating'
+    - '&7[&3Solent&7] &3%USER%&7 has been detected hacking'
+    - '&7[&3Solent&7] &3%USER%&7 got busted'
+    - '&7[&3Solent&7] &3%USER%&7 failed to bypass &3Solent'
+    - '&7[&3Solent&7] &3%USER%&7 just got doo-diddly-detecterino''d'
+    - '&7[&3Solent&7] &3Solent&7 sent &3%USER%&7 to the grave'
+    - '&7[&3Solent&7] &3Solent&7 cut &3%USER%&7 to pieces'
+    - '&7[&3Solent&7] &3Solent&7 swept the floor with &3%USER%'
+    - '&7[&3Solent&7] ''&oHow not to hack&7'' - written by &3%USER%'
+GhostMode:
+  Enabled: false

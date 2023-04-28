@@ -1,0 +1,5 @@
+# Made by RandomHashTags
+# When a player kills a mob, you get items automatically
+auto-item-pickup: false
+# When a player kills a mob, you get the XP automatically
+auto-XP-obtain: true

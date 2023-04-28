@@ -1,0 +1,11 @@
+&7&n                                                  
+&7
+  &fBienvenue &e&l{USERNAME} &fsur &b&lAltcore
+                    
+
+  &3&lBOUTIQUE &f&nhttps://Altcore.fr/shop&f
+  &3&lFORUM &f&nhttps://Altcore.fr/forum&f
+
+&7
+&7&n                                                  
+&7
